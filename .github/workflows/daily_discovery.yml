@@ -4,9 +4,9 @@ on:
   push:
     branches: [ master, main ]
   schedule:
-    # Runs every morning at 03:00 UTC (08:30 AM IST) completely in the cloud!
+    # Runs every morning at 03:00 UTC (08:30 AM IST) in the cloud
     - cron: '0 3 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub web/mobile UI anytime
+  workflow_dispatch: # Allows 1-click manual trigger anytime
 
 permissions:
   contents: write
@@ -34,13 +34,12 @@ jobs:
       - name: Run Daily Cloud Discovery & Matching Pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER || 'heuristic' }}
           DATABASE_URL: sqlite:///data/job_agent.db
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
-          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO || 'naga.teja.are@gmail.com' }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
         run: |
           python backend/run_daily.py
 
@@ -61,9 +60,13 @@ jobs:
           git diff --staged --quiet || (git commit -m "Automated daily cloud job discovery: $(date +'%Y-%m-%d')" && git push)
 
       - name: Deploy Dashboard to Firebase Hosting (Optional)
-        if: ${{ secrets.FIREBASE_TOKEN != '' }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
-          npm install -g firebase-tools
-          firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+          if [ -n "$FIREBASE_TOKEN" ]; then
+            echo "Deploying dashboard to Firebase Hosting..."
+            npm install -g firebase-tools
+            firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+          else
+            echo "FIREBASE_TOKEN not set, skipping Firebase deployment."
+          fi

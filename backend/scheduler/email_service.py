@@ -93,10 +93,12 @@ def send_email_alert(
     SMTP_USER
     SMTP_PASS
     """
-    smtp_user = os.getenv("SMTP_USER", "").strip()
-    smtp_pass = os.getenv("SMTP_PASS", "").strip()
-    smtp_host = os.getenv("SMTP_HOST", "smtp.gmail.com").strip()
-    smtp_port = int(os.getenv("SMTP_PORT", "587"))
+    smtp_user = (os.getenv("SMTP_USER") or "").strip()
+    smtp_pass = (os.getenv("SMTP_PASS") or "").strip()
+    smtp_host = (os.getenv("SMTP_HOST") or "smtp.gmail.com").strip()
+    smtp_port_raw = os.getenv("SMTP_PORT") or "587"
+    smtp_port = int(smtp_port_raw) if smtp_port_raw.isdigit() else 587
+    recipient_email = (recipient_email or os.getenv("ALERT_EMAIL_TO") or "naga.teja.are@gmail.com").strip()
     
     if not smtp_user or not smtp_pass:
         print("[EmailService] SMTP credentials not configured (SMTP_USER or SMTP_PASS missing). Skipping email.")
