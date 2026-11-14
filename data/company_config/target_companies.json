@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "SAP Labs",
+    "career_url": "https://jobs.sap.com",
+    "category": "Enterprise ERP",
+    "ats_provider": "sap",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Oracle",
+    "career_url": "https://www.oracle.com/corporate/careers/",
+    "category": "Enterprise ERP",
+    "ats_provider": "oracle",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Oracle NetSuite",
+    "career_url": "https://www.netsuite.com/portal/company/careers.shtml",
+    "category": "Enterprise ERP",
+    "ats_provider": "oracle",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Microsoft",
+    "career_url": "https://careers.microsoft.com/v2/global/en/home.html",
+    "category": "Cloud & Big Tech",
+    "ats_provider": "microsoft",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Workday",
+    "career_url": "https://workday.wd5.myworkdayjobs.com/Workday",
+    "category": "Enterprise ERP",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Coupa",
+    "career_url": "https://www.coupa.com/careers",
+    "category": "Enterprise ERP",
+    "ats_provider": "coupa",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Blue Yonder",
+    "career_url": "https://blueyonder.com/careers",
+    "category": "Enterprise ERP",
+    "ats_provider": "blueyonder",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Manhattan Associates",
+    "career_url": "https://www.manh.com/about-us/careers",
+    "category": "Enterprise ERP",
+    "ats_provider": "manh",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Epicor",
+    "career_url": "https://www.epicor.com/en-us/company/careers/",
+    "category": "Enterprise ERP",
+    "ats_provider": "epicor",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "IFS",
+    "career_url": "https://www.ifs.com/about/careers",
+    "category": "Enterprise ERP",
+    "ats_provider": "ifs",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Kinaxis",
+    "career_url": "https://www.kinaxis.com/en/careers",
+    "category": "Enterprise ERP",
+    "ats_provider": "kinaxis",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Ramco Systems",
+    "career_url": "https://www.ramco.com/careers/",
+    "category": "Enterprise ERP",
+    "ats_provider": "ramco",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Focus Softnet",
+    "career_url": "https://www.focussoftnet.com/careers",
+    "category": "Enterprise ERP",
+    "ats_provider": "focussoftnet",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Tech Cloud ERP",
+    "career_url": "https://techclouderp.com/careers.html",
+    "category": "Enterprise ERP",
+    "ats_provider": "techclouderp",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zoho",
+    "career_url": "https://www.zoho.com/careers/",
+    "category": "SaaS & Cloud",
+    "ats_provider": "zoho",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Odoo",
+    "career_url": "https://www.odoo.com/jobs",
+    "category": "SaaS & Cloud",
+    "ats_provider": "odoo",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Treebo Hospitality Ventures",
+    "career_url": "https://www.treebo.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "treebo",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Cleartrip",
+    "career_url": "https://careers.cleartrip.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "cleartrip",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "IDS Next",
+    "career_url": "https://idsnext.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "idsnext",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "AxisRooms",
+    "career_url": "https://axisrooms.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "axisrooms",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "StayVista",
+    "career_url": "https://www.stayvista.com/careers",
+    "category": "Travel & Hospitality",
+    "ats_provider": "stayvista",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zostel",
+    "career_url": "https://www.zostel.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "zostel",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "MyTravaly",
+    "career_url": "https://mytravaly.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "mytravaly",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "GoKhana",
+    "career_url": "https://gokhana.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "gokhana",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "MakeMyTrip",
+    "career_url": "https://careers.makemytrip.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "makemytrip",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Goibibo",
+    "career_url": "https://careers.makemytrip.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "goibibo",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "redBus",
+    "career_url": "https://www.redbus.in/careers",
+    "category": "Travel & Hospitality",
+    "ats_provider": "redbus",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zenoti",
+    "career_url": "https://www.zenoti.com/careers",
+    "category": "SaaS & Wellness",
+    "ats_provider": "zenoti",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "SpotPilot",
+    "career_url": "https://spotpilot.com/careers",
+    "category": "Travel & Hospitality",
+    "ats_provider": "spotpilot",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Marriott International",
+    "career_url": "https://careers.marriott.com",
+    "category": "Travel & Hospitality",
+    "ats_provider": "marriott",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Sabre",
+    "career_url": "https://www.sabre.com/about/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "sabre",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Amadeus",
+    "career_url": "https://jobs.amadeus.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "amadeus",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Expedia Group",
+    "career_url": "https://careers.expediagroup.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "expedia",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Booking.com",
+    "career_url": "https://careers.booking.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "booking",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Agoda",
+    "career_url": "https://careersatagoda.com/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "agoda",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Airbnb",
+    "career_url": "https://careers.airbnb.com/positions/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "airbnb",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Toast",
+    "career_url": "https://careers.toasttab.com/",
+    "category": "SaaS & Hospitality",
+    "ats_provider": "toast",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Navan",
+    "career_url": "https://navan.com/careers",
+    "category": "Travel & Hospitality",
+    "ats_provider": "navan",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "RateGain",
+    "career_url": "https://rategain.com/careers/",
+    "category": "Travel & Hospitality",
+    "ats_provider": "rategain",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Flipkart",
+    "career_url": "https://www.flipkartcareers.com/",
+    "category": "E-commerce",
+    "ats_provider": "flipkart",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Swiggy",
+    "career_url": "https://careers.swiggy.com/",
+    "category": "Quick Commerce & FoodTech",
+    "ats_provider": "swiggy",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Meesho",
+    "career_url": "https://meesho.io/jobs",
+    "category": "E-commerce",
+    "ats_provider": "meesho",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Udaan",
+    "career_url": "https://careers.udaan.com/",
+    "category": "E-commerce B2B",
+    "ats_provider": "udaan",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Lenskart",
+    "career_url": "https://lenskart.darwinbox.in/ms/candidate/careers",
+    "category": "Retail Tech",
+    "ats_provider": "lenskart",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zepto",
+    "career_url": "https://jobs.ashbyhq.com/zepto",
+    "category": "Quick Commerce",
+    "ats_provider": "ashby",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Dailyhunt (VerSe Innovation)",
+    "career_url": "https://verse.in/careers",
+    "category": "Media & Content",
+    "ats_provider": "verse",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Razorpay",
+    "career_url": "https://job-boards.greenhouse.io/razorpay",
+    "category": "Fintech & Payments",
+    "ats_provider": "greenhouse",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "PhonePe",
+    "career_url": "https://www.phonepe.com/careers/",
+    "category": "Fintech & Payments",
+    "ats_provider": "phonepe",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "CRED",
+    "career_url": "https://careers.cred.club/",
+    "category": "Fintech & Lifestyle",
+    "ats_provider": "cred",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Juspay",
+    "career_url": "https://juspay.in/careers",
+    "category": "Fintech & Payments",
+    "ats_provider": "juspay",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Groww",
+    "career_url": "https://groww.in/careers",
+    "category": "Fintech & Wealth",
+    "ats_provider": "groww",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zerodha",
+    "career_url": "https://zerodha.com/careers",
+    "category": "Fintech & Trading",
+    "ats_provider": "zerodha",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Slice",
+    "career_url": "https://www.sliceit.com/careers",
+    "category": "Fintech & Credit",
+    "ats_provider": "slice",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Jupiter",
+    "career_url": "https://jupiter.money/careers/",
+    "category": "Fintech & NeoBank",
+    "ats_provider": "jupiter",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Khatabook",
+    "career_url": "https://khatabook.com/careers/",
+    "category": "Fintech & SME",
+    "ats_provider": "khatabook",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "FinBox",
+    "career_url": "https://finbox.in/careers/",
+    "category": "Fintech Infrastructure",
+    "ats_provider": "finbox",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Acko",
+    "career_url": "https://www.acko.com/careers/",
+    "category": "Insurtech",
+    "ats_provider": "acko",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Digit Insurance",
+    "career_url": "https://www.godigit.com/careers",
+    "category": "Insurtech",
+    "ats_provider": "digit",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "BrowserStack",
+    "career_url": "https://boards.greenhouse.io/browserstack",
+    "category": "DevTools & Testing",
+    "ats_provider": "greenhouse",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Postman",
+    "career_url": "https://boards.greenhouse.io/postman",
+    "category": "DevTools & Testing",
+    "ats_provider": "greenhouse",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Tekion",
+    "career_url": "https://tekion.com/careers",
+    "category": "Automotive SaaS",
+    "ats_provider": "tekion",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Sprinklr",
+    "career_url": "https://www.sprinklr.com/careers/",
+    "category": "Enterprise CX SaaS",
+    "ats_provider": "sprinklr",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "MoEngage",
+    "career_url": "https://www.moengage.com/company/careers/",
+    "category": "Marketing Automation",
+    "ats_provider": "moengage",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "WebEngage",
+    "career_url": "https://webengage.com/careers/",
+    "category": "Marketing Automation",
+    "ats_provider": "webengage",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Whatfix",
+    "career_url": "https://whatfix.com/careers/",
+    "category": "Digital Adoption SaaS",
+    "ats_provider": "whatfix",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Amagi",
+    "career_url": "https://www.amagi.com/careers",
+    "category": "MediaTech & Cloud",
+    "ats_provider": "amagi",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "LeadSquared",
+    "career_url": "https://www.leadsquared.com/careers/",
+    "category": "CRM & Automation",
+    "ats_provider": "leadsquared",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Hasura",
+    "career_url": "https://hasura.io/careers/",
+    "category": "Developer Tools & GraphQL",
+    "ats_provider": "hasura",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Tessell",
+    "career_url": "https://tessell.com/careers",
+    "category": "Database as a Service",
+    "ats_provider": "tessell",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Signzy",
+    "career_url": "https://signzy.com/careers/",
+    "category": "RegTech & AI",
+    "ats_provider": "signzy",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "QMetry",
+    "career_url": "https://www.qmetry.com/careers/",
+    "category": "QA & Testing Tools",
+    "ats_provider": "qmetry",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "LambdaTest",
+    "career_url": "https://boards.greenhouse.io/lambdatest",
+    "category": "QA & Testing Cloud",
+    "ats_provider": "greenhouse",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Clari",
+    "career_url": "https://www.clari.com/careers/",
+    "category": "Revenue Platform",
+    "ats_provider": "clari",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Samsara",
+    "career_url": "https://www.samsara.com/company/careers/",
+    "category": "IoT & Cloud Operations",
+    "ats_provider": "samsara",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Ola",
+    "career_url": "https://www.olacabs.com/careers",
+    "category": "Mobility & Tech",
+    "ats_provider": "ola",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Ather Energy",
+    "career_url": "https://www.atherenergy.com/careers",
+    "category": "EV & Mobility",
+    "ats_provider": "ather",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Rapido",
+    "career_url": "https://www.rapido.bike/Careers",
+    "category": "Mobility & Tech",
+    "ats_provider": "rapido",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Scaler",
+    "career_url": "https://www.scaler.com/careers/",
+    "category": "EdTech",
+    "ats_provider": "scaler",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Unacademy",
+    "career_url": "https://unacademy.com/careers",
+    "category": "EdTech",
+    "ats_provider": "unacademy",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Darwinbox",
+    "career_url": "https://darwinbox.com/careers.php",
+    "category": "HRTech & SaaS",
+    "ats_provider": "darwinbox",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "HighRadius",
+    "career_url": "https://www.highradius.com/careers/",
+    "category": "FinTech SaaS",
+    "ats_provider": "highradius",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Phenom",
+    "career_url": "https://careers.phenom.com/",
+    "category": "HRTech & AI",
+    "ats_provider": "phenom",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Keka HR",
+    "career_url": "https://www.keka.com/careers",
+    "category": "HRTech & SaaS",
+    "ats_provider": "keka",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zaggle",
+    "career_url": "https://www.zaggle.in/careers",
+    "category": "Spend Management",
+    "ats_provider": "zaggle",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Kore.ai",
+    "career_url": "https://kore.ai/careers/",
+    "category": "Conversational AI",
+    "ats_provider": "koreai",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "SumTotal Systems",
+    "career_url": "https://www.sumtotalsystems.com/company/careers/",
+    "category": "HCM & Learning",
+    "ats_provider": "sumtotal",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "ValueMomentum",
+    "career_url": "https://www.valuemomentum.com/careers/",
+    "category": "IT Solutions",
+    "ats_provider": "valuemomentum",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "RealPage",
+    "career_url": "https://www.realpage.com/careers/",
+    "category": "Real Estate Tech",
+    "ats_provider": "realpage",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Invesco",
+    "career_url": "https://www.invesco.com/corporate/en/careers.html",
+    "category": "Investment Management",
+    "ats_provider": "invesco",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Pramati Technologies",
+    "career_url": "https://www.pramati.com/careers/",
+    "category": "Enterprise Software",
+    "ats_provider": "pramati",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Icertis",
+    "career_url": "https://www.icertis.com/company/careers/",
+    "category": "Contract Lifecycle SaaS",
+    "ats_provider": "icertis",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Gainsight",
+    "career_url": "https://www.gainsight.com/careers/",
+    "category": "Customer Success SaaS",
+    "ats_provider": "gainsight",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Amazon",
+    "career_url": "https://www.amazon.jobs/en/search?base_query=SDET",
+    "category": "Cloud & Big Tech",
+    "ats_provider": "amazon",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Google",
+    "career_url": "https://www.google.com/about/careers/applications/jobs/results?q=SDET",
+    "category": "Cloud & Big Tech",
+    "ats_provider": "google",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "IBM",
+    "career_url": "https://www.ibm.com/careers",
+    "category": "Enterprise Tech",
+    "ats_provider": "ibm",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Hewlett Packard Enterprise (HPE)",
+    "career_url": "https://careers.hpe.com/",
+    "category": "Cloud & Infrastructure",
+    "ats_provider": "hpe",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "ServiceNow",
+    "career_url": "https://careers.servicenow.com/",
+    "category": "Cloud & Workflow",
+    "ats_provider": "servicenow",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Salesforce",
+    "career_url": "https://salesforce.wd1.myworkdayjobs.com/External_Career_Site",
+    "category": "Enterprise Cloud",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Adobe",
+    "career_url": "https://adobe.wd5.myworkdayjobs.com/external_experienced",
+    "category": "Creative & Digital SaaS",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Atlassian",
+    "career_url": "https://www.atlassian.com/company/careers",
+    "category": "Enterprise Collaboration",
+    "ats_provider": "atlassian",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Intuit",
+    "career_url": "https://jobs.intuit.com/",
+    "category": "Financial Software",
+    "ats_provider": "intuit",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "DocuSign",
+    "career_url": "https://careers.docusign.com/",
+    "category": "Agreement Cloud SaaS",
+    "ats_provider": "docusign",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Okta",
+    "career_url": "https://www.okta.com/company/careers/",
+    "category": "Identity & Security",
+    "ats_provider": "okta",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "CrowdStrike",
+    "career_url": "https://www.crowdstrike.com/careers/",
+    "category": "Cybersecurity",
+    "ats_provider": "crowdstrike",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Palo Alto Networks",
+    "career_url": "https://jobs.paloaltonetworks.com/",
+    "category": "Cybersecurity",
+    "ats_provider": "paloaltonetworks",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Zscaler",
+    "career_url": "https://www.zscaler.com/careers",
+    "category": "Cloud Security",
+    "ats_provider": "zscaler",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "COFORGE",
+    "career_url": "https://www.coforge.com/careers",
+    "category": "IT Services & Consulting",
+    "ats_provider": "coforge",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Rubrik",
+    "career_url": "https://www.rubrik.com/company/careers",
+    "category": "Zero Trust Data Security",
+    "ats_provider": "rubrik",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Pure Storage",
+    "career_url": "https://www.purestorage.com/company/careers.html",
+    "category": "Data Storage & Cloud",
+    "ats_provider": "purestorage",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Commvault",
+    "career_url": "https://careers.commvault.com/",
+    "category": "Data Protection SaaS",
+    "ats_provider": "commvault",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Datadog",
+    "career_url": "https://boards.greenhouse.io/datadog",
+    "category": "Observability & Cloud",
+    "ats_provider": "greenhouse",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "PayPal",
+    "career_url": "https://paypal.wd1.myworkdayjobs.com/jobs",
+    "category": "Fintech & Payments",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Visa",
+    "career_url": "https://corporate.visa.com/en/careers.html",
+    "category": "Payments Technology",
+    "ats_provider": "visa",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Mastercard",
+    "career_url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers",
+    "category": "Payments Technology",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "American Express",
+    "career_url": "https://aexp.wd3.myworkdayjobs.com/AmexCareers",
+    "category": "Financial Services",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Wells Fargo",
+    "career_url": "https://www.wellsfargojobs.com/",
+    "category": "Financial Services",
+    "ats_provider": "wellsfargo",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "JPMorgan Chase",
+    "career_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001",
+    "category": "Financial Services",
+    "ats_provider": "jpmc",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Goldman Sachs",
+    "career_url": "https://www.goldmansachs.com/careers",
+    "category": "Investment Banking",
+    "ats_provider": "goldmansachs",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "DBS Bank",
+    "career_url": "https://www.dbs.com/careers/default.page",
+    "category": "Banking & Tech",
+    "ats_provider": "dbs",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Fidelity Investments",
+    "career_url": "https://jobs.fidelity.com/",
+    "category": "Financial Services",
+    "ats_provider": "fidelity",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Walmart Global Tech",
+    "career_url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal",
+    "category": "Retail Tech",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Target in India",
+    "career_url": "https://target.wd5.myworkdayjobs.com/targetcareers",
+    "category": "Retail Tech",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Lowe's India",
+    "career_url": "https://talent.lowes.com/",
+    "category": "Retail Tech",
+    "ats_provider": "lowes",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Uber",
+    "career_url": "https://www.uber.com/us/en/careers/list/",
+    "category": "Mobility & Delivery",
+    "ats_provider": "uber",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "LinkedIn",
+    "career_url": "https://careers.linkedin.com/",
+    "category": "Professional Social Network",
+    "ats_provider": "linkedin",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Electronic Arts (EA)",
+    "career_url": "https://www.ea.com/careers",
+    "category": "Gaming & Entertainment",
+    "ats_provider": "ea",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Roku",
+    "career_url": "https://www.roku.com/jobs",
+    "category": "Streaming & Hardware",
+    "ats_provider": "roku",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Cisco",
+    "career_url": "https://jobs.cisco.com/",
+    "category": "Networking & Cloud",
+    "ats_provider": "cisco",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Qualcomm",
+    "career_url": "https://qualcomm.wd5.myworkdayjobs.com/External",
+    "category": "Semiconductors & Wireless",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "NVIDIA",
+    "career_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+    "category": "AI & Semiconductors",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Intel",
+    "career_url": "https://jobs.intel.com/",
+    "category": "Semiconductors",
+    "ats_provider": "intel",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "AMD",
+    "career_url": "https://careers.amd.com/",
+    "category": "Semiconductors",
+    "ats_provider": "amd",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Broadcom",
+    "career_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career",
+    "category": "Semiconductors & Software",
+    "ats_provider": "workday",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Juniper Networks",
+    "career_url": "https://www.juniper.net/us/en/company/careers.html",
+    "category": "Networking & Cloud",
+    "ats_provider": "juniper",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "EY",
+    "career_url": "https://www.ey.com/en_in/careers",
+    "category": "Professional Services & Consulting",
+    "ats_provider": "ey",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Arista Networks",
+    "career_url": "https://www.arista.com/en/careers",
+    "category": "Cloud Networking",
+    "ats_provider": "arista",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "PWC",
+    "career_url": "https://www.pwc.in/careers.html",
+    "category": "Professional Services & Consulting",
+    "ats_provider": "pwc",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Dell Technologies",
+    "career_url": "https://jobs.dell.com/",
+    "category": "Enterprise Hardware & Cloud",
+    "ats_provider": "dell",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "KPMG",
+    "career_url": "https://kpmg.com/in/en/home/careers.html",
+    "category": "Professional Services & Consulting",
+    "ats_provider": "kpmg",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "VMware",
+    "career_url": "https://careers.vmware.com/",
+    "category": "Cloud & Virtualization",
+    "ats_provider": "vmware",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "COGNIZANT",
+    "career_url": "https://careers.cognizant.com/global/en",
+    "category": "IT Services & Consulting",
+    "ats_provider": "cognizant",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Freshworks",
+    "career_url": "https://careers.freshworks.com/",
+    "category": "Customer Engagement SaaS",
+    "ats_provider": "freshworks",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "DELOITTE",
+    "career_url": "https://jobsindia.deloitte.com/",
+    "category": "Professional Services & Consulting",
+    "ats_provider": "deloitte",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Druva",
+    "career_url": "https://www.druva.com/about/careers/",
+    "category": "Cloud Data Protection",
+    "ats_provider": "druva",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "CAPGEMINI",
+    "career_url": "https://www.capgemini.com/in-en/careers/",
+    "category": "IT Services & Consulting",
+    "ats_provider": "capgemini",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "Chargebee",
+    "career_url": "https://careers.chargebee.com/",
+    "category": "Subscription Billing SaaS",
+    "ats_provider": "chargebee",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "WIPRO",
+    "career_url": "https://careers.wipro.com/",
+    "category": "IT Services & Consulting",
+    "ats_provider": "wipro",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  },
+  {
+    "name": "CleverTap",
+    "career_url": "https://clevertap.com/careers/",
+    "category": "Customer Engagement SaaS",
+    "ats_provider": "clevertap",
+    "keywords": "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer",
+    "location_preference": "Bangalore, Hyderabad, Chennai, India / Remote",
+    "active": true
+  }
+]

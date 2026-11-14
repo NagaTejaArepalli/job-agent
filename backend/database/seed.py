@@ -39,53 +39,31 @@ def create_master_resume_docx(output_path: str, data: dict):
     doc.save(output_path)
 
 def seed_initial_data(db: Session):
-    # 1. Seed Company Configurations if empty
-    if db.query(Company).count() == 0:
-        companies = [
-            Company(
-                name="Infor",
-                career_url="https://careers.infor.com",
-                ats_provider="generic",
-                board_token="infor",
-                keywords="Quality Engineer, SDET, Automation, Playwright, Java",
-                location_preference="Bangalore"
-            ),
-            Company(
-                name="Stripe",
-                career_url="https://boards.greenhouse.io/stripe",
-                ats_provider="greenhouse",
-                board_token="stripe",
-                keywords="SDET, QA, Test Automation, Software Engineer in Test, Quality",
-                location_preference="Remote"
-            ),
-            Company(
-                name="Netflix",
-                career_url="https://jobs.lever.co/netflix",
-                ats_provider="lever",
-                board_token="netflix",
-                keywords="Test, Quality, Automation, SDET, Engineer",
-                location_preference="Remote"
-            ),
-            Company(
-                name="OpenAI",
-                career_url="https://jobs.ashbyhq.com/openai",
-                ats_provider="ashby",
-                board_token="openai",
-                keywords="Quality, Test, Systems, Infrastructure, Automation",
-                location_preference="Remote"
-            ),
-            Company(
-                name="Spotify",
-                career_url="https://jobs.smartrecruiters.com/Spotify",
-                ats_provider="smartrecruiters",
-                board_token="Spotify",
-                keywords="Quality, Test, SDET, Automation, Backend",
-                location_preference="Remote"
-            )
-        ]
-        db.add_all(companies)
+    # 1. Seed Company Configurations from target_companies.json (148 official company career sites)
+    import json
+    from backend.career_connectors.registry import detect_ats_provider
+    
+    target_file = settings.COMPANY_CONFIG_DIR / "target_companies.json"
+    if target_file.exists():
+        with open(target_file, "r", encoding="utf-8") as f:
+            comps_data = json.load(f)
+            
+        for item in comps_data:
+            existing = db.query(Company).filter(Company.name == item["name"]).first()
+            if not existing:
+                ats = item.get("ats_provider") or detect_ats_provider(item["career_url"])
+                db.add(Company(
+                    name=item["name"],
+                    career_url=item["career_url"],
+                    ats_provider=ats,
+                    keywords=item.get("keywords", "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer"),
+                    location_preference=item.get("location_preference", "Bangalore, Hyderabad, Chennai, India / Remote"),
+                    active=True
+                ))
+            else:
+                existing.career_url = item["career_url"]
         db.commit()
-        print("[Seed] Seeded initial companies.")
+        print(f"[Seed] Successfully synced {len(comps_data)} official target company career portals.")
 
     # 2. Master Resume: Naga Teja Arepalli
     naga_resume_data = {

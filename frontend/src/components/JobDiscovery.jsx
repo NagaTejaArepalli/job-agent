@@ -14,6 +14,8 @@ import {
 
 export default function JobDiscovery({ companies, jobs, onAddCompany, onDeleteCompany, onDiscoverCompany, onDiscoverAll, onSelectJob, setActiveTab }) {
   const [searchTerm, setSearchTerm] = useState('');
+  const [companySearch, setCompanySearch] = useState('');
+  const [showAllCompanies, setShowAllCompanies] = useState(false);
   const [selectedATS, setSelectedATS] = useState('all');
   const [showAddModal, setShowAddModal] = useState(false);
   const [loadingCompanyId, setLoadingCompanyId] = useState(null);
@@ -106,19 +108,45 @@ export default function JobDiscovery({ companies, jobs, onAddCompany, onDeleteCo
 
       {/* Configured Companies Shelf */}
       <div className="p-4 rounded-xl bg-slate-900 border border-slate-800 space-y-3">
-        <span className="text-xs font-bold uppercase tracking-wider text-slate-400 block">
-          Configured Company Career Sites ({companies?.length || 0})
-        </span>
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+          <div className="flex items-center space-x-2">
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-300 block">
+              Official Target Company Career Sites ({companies?.length || 0})
+            </span>
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">
+              Direct Portals
+            </span>
+          </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-          {companies?.map((comp) => (
-            <div key={comp.id} className="p-3.5 rounded-lg bg-slate-950/80 border border-slate-800/80 flex items-center justify-between gap-3">
-              <div className="min-w-0">
-                <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2">
+            <div className="relative">
+              <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2 pointer-events-none" />
+              <input
+                type="text"
+                placeholder="Search target company..."
+                value={companySearch}
+                onChange={(e) => setCompanySearch(e.target.value)}
+                className="pl-8 pr-3 py-1 bg-slate-950 border border-slate-800 rounded-lg text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500 w-48"
+              />
+            </div>
+            <button
+              onClick={() => setShowAllCompanies(!showAllCompanies)}
+              className="text-xs text-blue-400 hover:text-blue-300 px-2 py-1 rounded bg-slate-800 border border-slate-700 whitespace-nowrap"
+            >
+              {showAllCompanies ? 'Show Less' : `View All (${companies?.length || 0})`}
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2.5 max-h-[380px] overflow-y-auto pr-1">
+          {companies
+            ?.filter(c => !companySearch || c.name.toLowerCase().includes(companySearch.toLowerCase()))
+            .slice(0, showAllCompanies || companySearch ? 1000 : 9)
+            .map((comp) => (
+            <div key={comp.id} className="p-3 rounded-lg bg-slate-950/80 border border-slate-800/80 flex items-center justify-between gap-2 hover:border-slate-700 transition-all">
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center space-x-1.5">
                   <span className="text-xs font-bold text-white truncate">{comp.name}</span>
-                  <span className="text-[10px] font-mono uppercase px-1.5 py-0.2 rounded bg-slate-800 text-slate-300 border border-slate-700">
-                    {comp.ats_provider}
-                  </span>
                 </div>
                 <a 
                   href={comp.career_url} 
@@ -129,23 +157,20 @@ export default function JobDiscovery({ companies, jobs, onAddCompany, onDeleteCo
                   <Globe className="w-3 h-3 shrink-0" />
                   <span className="truncate">{comp.career_url}</span>
                 </a>
-                <span className="text-[10px] text-slate-500 block mt-1 font-mono">
-                  {comp.job_count} active postings
-                </span>
               </div>
 
               <div className="flex items-center space-x-1 shrink-0">
                 <button
                   onClick={() => handleDiscoverSingle(comp.id)}
                   disabled={loadingCompanyId === comp.id}
-                  title="Discover jobs for this company"
+                  title={`Discover jobs on ${comp.name} career page`}
                   className="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all cursor-pointer"
                 >
                   <RefreshCw className={`w-3.5 h-3.5 ${loadingCompanyId === comp.id ? 'animate-spin text-blue-400' : ''}`} />
                 </button>
                 <button
                   onClick={() => onDeleteCompany(comp.id)}
-                  title="Delete company"
+                  title="Remove company"
                   className="p-1.5 rounded-lg bg-slate-800 hover:bg-red-500/20 text-slate-400 hover:text-red-400 transition-all cursor-pointer"
                 >
                   <Trash2 className="w-3.5 h-3.5" />

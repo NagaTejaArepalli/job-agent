@@ -4,6 +4,7 @@ from backend.career_connectors.greenhouse import GreenhouseConnector
 from backend.career_connectors.lever import LeverConnector
 from backend.career_connectors.ashby import AshbyConnector
 from backend.career_connectors.smartrecruiters import SmartRecruitersConnector
+from backend.career_connectors.workday import WorkdayConnector
 from backend.career_connectors.generic_scraper import GenericCareerScraper
 
 def detect_ats_provider(url: str) -> str:
@@ -33,5 +34,7 @@ def get_connector(company_name: str, career_url: str, ats_provider: Optional[str
         return AshbyConnector(company_name, career_url, board_token)
     elif provider == "smartrecruiters":
         return SmartRecruitersConnector(company_name, career_url, board_token)
+    elif provider == "workday":
+        return WorkdayConnector(company_name, career_url, board_token)
     else:
         return GenericCareerScraper(company_name, career_url, board_token)
