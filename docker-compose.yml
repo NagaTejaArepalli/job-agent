@@ -1,0 +1,14 @@
+services:
+  ai-job-agent:
+    build: .
+    container_name: ai_job_search_agent
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - LLM_PROVIDER=heuristic
+      - DAILY_RUN_HOUR=8
+      - DAILY_RUN_MINUTE=0
+      - SCHEDULER_ENABLED=True
+    volumes:
+      - ./data:/app/data

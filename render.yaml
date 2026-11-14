@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ai-job-search-agent
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: SCHEDULER_ENABLED
+        value: "True"
+      - key: DAILY_RUN_HOUR
+        value: "3"
+      - key: DAILY_RUN_MINUTE
+        value: "0"
+      - key: LLM_PROVIDER
+        value: "heuristic"
+      - key: GEMINI_API_KEY
+        sync: false
+    disk:
+      name: job-data
+      mountPath: /app/data
+      sizeGB: 1
