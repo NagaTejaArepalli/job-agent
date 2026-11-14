@@ -1,0 +1,82 @@
+import asyncio
+import sys
+import os
+from datetime import datetime
+from backend.database.session import SessionLocal, init_db
+from backend.database.models import SchedulerRun
+from backend.agents.discovery_agent.discovery_service import DiscoveryAgent
+from backend.agents.matching_agent.matching_service import MatchingAgent
+from backend.scheduler.reporting_service import ReportingService
+
+def run_daily_pipeline_standalone():
+    """
+    Executes the complete everyday job discovery and matching pipeline.
+    Can be run:
+    1. By APScheduler while the backend is running.
+    2. Directly via Windows Task Scheduler every morning at a scheduled time.
+    3. Manually via 'python backend/run_daily.py'.
+    
+    Operates 100% locally on your machine with NO cloud publishing or external site needed.
+    """
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting local daily job pipeline...")
+    init_db()
+    db = SessionLocal()
+    
+    run_record = SchedulerRun(
+        run_time=datetime.utcnow(),
+        status="running"
+    )
+    db.add(run_record)
+    db.commit()
+    
+    try:
+        # 1. Discover jobs across all 148 target companies
+        print("-> Step 1: Discovering new jobs from official career portals (India only)...")
+        discovery_agent = DiscoveryAgent(db)
+        discovery_res = asyncio.run(discovery_agent.run_discovery_all())
+        print(f"   Found {discovery_res.get('total_jobs_found', 0)} total, {discovery_res.get('new_jobs_added', 0)} new jobs.")
+        
+        # 2. Verify active job links
+        print("-> Step 2: Verifying active links and expiring closed postings...")
+        verify_res = asyncio.run(discovery_agent.verify_active_jobs(limit=100))
+        print(f"   Checked: {verify_res.get('checked', 0)}, Deactivated: {verify_res.get('deactivated', 0)}.")
+        
+        # 3. Match new jobs against Naga Teja Arepalli's Master Resume
+        print("-> Step 3: Running relevance matching against Master Resume...")
+        matching_agent = MatchingAgent(db)
+        matching_res = matching_agent.match_all_unmatched_jobs()
+        print(f"   Evaluated: {matching_res.get('evaluated_jobs', 0)} jobs.")
+        
+        # 4. Generate daily summary Excel report
+        print("-> Step 4: Generating daily summary Excel report...")
+        from backend.api.reports import get_job_report_payload
+        report_data = get_job_report_payload(db)
+        if report_data:
+            report_path = ReportingService.generate_excel_report(report_data)
+            print(f"   Daily report saved locally to: {report_path}")
+            
+        # Update Scheduler log
+        run_record.status = "completed"
+        run_record.jobs_discovered = discovery_res.get("new_jobs_added", 0)
+        run_record.jobs_matched = matching_res.get("evaluated_jobs", 0)
+        run_record.summary = (
+            f"Discovered: {discovery_res.get('new_jobs_added', 0)} new. "
+            f"Matched: {matching_res.get('evaluated_jobs', 0)}. "
+            f"Active: {len(report_data) if report_data else 0} India postings."
+        )
+        db.commit()
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Daily pipeline completed successfully!\n")
+        return run_record.summary
+        
+    except Exception as e:
+        db.rollback()
+        run_record.status = "failed"
+        run_record.errors = [str(e)]
+        db.commit()
+        print(f"Pipeline error: {e}")
+        return str(e)
+    finally:
+        db.close()
+
+if __name__ == "__main__":
+    run_daily_pipeline_standalone()
