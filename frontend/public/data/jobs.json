@@ -1,0 +1,232 @@
+[
+  {
+    "id": 4,
+    "company_name": "Flipkart",
+    "company": {
+      "name": "Flipkart"
+    },
+    "ats_provider": "flipkart",
+    "title": "Software Development Engineer in Test - Enterprise Workflows",
+    "location": "Bangalore, India",
+    "department": "Supply Chain Quality",
+    "employment_type": "Full-time",
+    "url": "https://www.flipkartcareers.com/jobs/sdet-supply-chain",
+    "description": "Join Flipkart Bangalore to automate end-to-end booking, financial calculations, and inventory planning using Java, Cucumber BDD, and REST APIs.",
+    "salary_range": "\u20b917,00,000 - \u20b924,00,000",
+    "status": "active",
+    "first_seen": "2026-11-14T16:45:33.668329",
+    "match_score": 94.0,
+    "technical_score": 100.0,
+    "experience_score": 95.0,
+    "reasoning": "Strong overlap on key technologies: bdd, cucumber, java. Estimated required experience: ~3 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "bdd",
+        "cucumber",
+        "java"
+      ],
+      "missing_skills": []
+    },
+    "key_matches": [
+      "bdd",
+      "cucumber",
+      "java"
+    ],
+    "missing_skills": [],
+    "application_status": null
+  },
+  {
+    "id": 1,
+    "company_name": "CRED",
+    "company": {
+      "name": "CRED"
+    },
+    "ats_provider": "lever",
+    "title": "Senior SDET - Automation Architecture & Backend Quality",
+    "location": "Bangalore, Karnataka, India",
+    "department": "Core Infrastructure Quality",
+    "employment_type": "Full-time",
+    "url": "https://careers.cred.club/jobs/sdet-blr",
+    "description": "CRED Bangalore is seeking a Senior SDET with deep expertise in Java/TypeScript, Playwright/Selenium, thread-safe parallel test execution, and REST Assured API automation.",
+    "salary_range": "\u20b918,00,000 - \u20b926,00,000",
+    "status": "active",
+    "first_seen": "2026-11-14T16:45:33.668301",
+    "match_score": 87.3,
+    "technical_score": 83.3,
+    "experience_score": 95.0,
+    "reasoning": "Strong overlap on key technologies: java, playwright, rest assured, selenium, thread-safe. Missing or unlisted keywords in master resume: typescript. High title alignment with core SDET / Automation specialization. Estimated required experience: ~3 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "java",
+        "playwright",
+        "rest assured",
+        "selenium",
+        "thread-safe"
+      ],
+      "missing_skills": [
+        "typescript"
+      ]
+    },
+    "key_matches": [
+      "java",
+      "playwright",
+      "rest assured",
+      "selenium",
+      "thread-safe"
+    ],
+    "missing_skills": [
+      "typescript"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 3,
+    "company_name": "Swiggy",
+    "company": {
+      "name": "Swiggy"
+    },
+    "ats_provider": "smartrecruiters",
+    "title": "Lead SDET - Automation Infrastructure & Microservices",
+    "location": "Bangalore, India (Hybrid)",
+    "department": "Supply & Delivery Engineering",
+    "employment_type": "Full-time",
+    "url": "https://careers.swiggy.com/jobs/sdet-infra-blr",
+    "description": "Swiggy Bangalore is seeking an experienced SDET with strong Java, TestNG, Playwright/Selenium, thread-safe parallel architecture, and API regression testing.",
+    "salary_range": "\u20b918,00,000 - \u20b925,00,000",
+    "status": "active",
+    "first_seen": "2026-11-14T16:45:33.668322",
+    "match_score": 87.3,
+    "technical_score": 83.3,
+    "experience_score": 95.0,
+    "reasoning": "Strong overlap on key technologies: java, playwright, selenium, testng, thread-safe. Missing or unlisted keywords in master resume: microservices. High title alignment with core SDET / Automation specialization. Estimated required experience: ~3 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "java",
+        "playwright",
+        "selenium",
+        "testng",
+        "thread-safe"
+      ],
+      "missing_skills": [
+        "microservices"
+      ]
+    },
+    "key_matches": [
+      "java",
+      "playwright",
+      "selenium",
+      "testng",
+      "thread-safe"
+    ],
+    "missing_skills": [
+      "microservices"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 7,
+    "company_name": "Arista Networks",
+    "company": {
+      "name": "Arista Networks"
+    },
+    "ats_provider": "smartrecruiters",
+    "title": "Software Engineer - Test Automation",
+    "location": "Bengaluru, in",
+    "department": "Software Engineering",
+    "employment_type": "Full-time",
+    "url": "https://jobs.smartrecruiters.com/aristanetworks/744000160116794",
+    "description": "Software Engineer - Test Automation at Arista Networks. Department: Software Engineering. Location: Bengaluru, in.",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-14T17:42:46.191833",
+    "match_score": 82.8,
+    "technical_score": 75.0,
+    "experience_score": 95.0,
+    "reasoning": "High title alignment with core SDET / Automation specialization. Estimated required experience: ~3 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [],
+      "missing_skills": []
+    },
+    "key_matches": [],
+    "missing_skills": [],
+    "application_status": null
+  },
+  {
+    "id": 6,
+    "company_name": "Hewlett Packard Enterprise (HPE)",
+    "company": {
+      "name": "Hewlett Packard Enterprise (HPE)"
+    },
+    "ats_provider": "hpe",
+    "title": "Engineering &amp; QA",
+    "location": "India",
+    "department": null,
+    "employment_type": "Full-time",
+    "url": "https://careers.hpe.com/us/en/c/engineering-qa-jobs",
+    "description": "Position at Hewlett Packard Enterprise (HPE): Engineering &amp; QA",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-14T16:50:51.978481",
+    "match_score": 80.2,
+    "technical_score": 75.0,
+    "experience_score": 95.0,
+    "reasoning": "Estimated required experience: ~3 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [],
+      "missing_skills": []
+    },
+    "key_matches": [],
+    "missing_skills": [],
+    "application_status": null
+  },
+  {
+    "id": 8,
+    "company_name": "Druva",
+    "company": {
+      "name": "Druva"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Senior Staff Software Engineer",
+    "location": "Pune, Maharashtra, India",
+    "department": "Druva Cloud Platform",
+    "employment_type": "Full-time",
+    "url": "https://www.druva.com/why-druva/explore/careers/jobs/8564138002/?gh_jid=8564138002",
+    "description": "<p>About Druva:</p> <p>You won't just join a company at Druva; you'll help shape the future of data security at the moment it matters most. We are building a modern standard with our cloud-native solutions, designed to simplify the toughest challenges in cyber resilience for our customers. As the pioneer and market leader in fully managed SaaS data protection, we help organizations secure and recover their data from ransomware, cyberattacks, and operational disruptions without the complexity, cost, or risk of legacy infrastructure.</p> <p>Our momentum is backed by the market: Druva was named a <strong>Leader in the 2026 Gartner\u00ae Magic Quadrant\u2122 for Backup and Data Protection Platforms</strong>, a <strong>Leader in the IDC MarketScape for Cyber-Recovery</strong>, and a <strong>Leader &amp; Outperformer in the GigaOm Cloud Data Protection Radar</strong>. Even better, customers validate that leadership every day through standout Net Promoter Scores (NPS) and Gartner Peer Insights ratings. Today, the platform protects over <strong>450PB of customer data across 26 global regions</strong> and runs more than <strong>7 billion backups a year</strong>.</p> <p>Visit <a href=\"https://druva.com/\" data-external-url=\"https://druva.com\" data-requires-redirect=\"true\">druva.com</a> and follow us on LinkedIn, X, and Facebook.</p> <hr> <h2 id=\"team-mission-druva-product-platform\">Team &amp; Mission: Druva Product Platform</h2> <p>The <strong>Druva Product Platform</strong> team builds the shared core SaaS foundation that every Druva product line runs on. We build and operate the multi-tenant control plane, distributed APIs, tenant lifecycle and provisioning pipelines, Identity &amp; Access Management (IAM/RBAC), distributed job orchestration, usage metering, and platform observability.</p> <p>When a new workload or product capability ships at Druva, it ships on top of what this team owns. That makes the work high-leverage and high-blast-radius: our services are multi-tenant, globally distributed, always-on, and measured against strict availability and latency objectives at a scale of thousands of enterprise customers and billions of operations per year.</p> <hr> <h2 id=\"role-overview\">Role Overview</h2> <p>As a <strong>Senior Software Engineer (Development)</strong> on the Druva Product Platform team, you will be a core backend engineer responsible for designing, developing, scaling, and operating critical multi-tenant microservices and APIs. You will own complex technical deliverables end-to-end\u2014from architectural documents and high-performance Go/Python implementations to automated CI/CD deployments and production telemetry.</p> <p>This is a hands-on individual contributor role for an engineer who thrives on distributed systems challenges, concurrency, high data throughput, and building foundational platform services that empower other engineers.</p> <hr> <h2 id=\"key-skills\">Key Skills:</h2> <ul> <li><strong>5\u20138+ years</strong> of hands-on experience in software product development, building high-scale distributed systems and SaaS backends.</li> <li>Strong proficiency in <strong>Go (Golang)</strong> and/or <strong>Python</strong>, with deep understanding of concurrency (goroutines/async I/O), memory management, and data structures.</li> <li>Solid experience in designing, building, and maintaining <strong>microservices and REST/gRPC APIs</strong> in high-throughput multi-tenant environments.</li> <li>Deep hands-on experience with <strong>AWS Cloud services</strong> (such as EKS, EC2, S3, DynamoDB, RDS, SQS, SNS, Lambda) and containerization (<strong>Docker, Kubernetes</strong>).</li> <li>Strong database expertise across relational engines (PostgreSQL/MySQL) and distributed NoSQL databases (DynamoDB, Redis, Elasticsearch).</li> <li>Proven experience with event-driven architectures and message streaming systems (Apache Kafka, AWS SQS/EventBridge).</li> <li>Demonstrated ownership of services in production: telemetry/instrumentation (Prometheus, OpenTelemetry, Datadog), SLI/SLO monitoring, on-call support, and root cause analysis (RCA).</li> <li>Solid commitment to lean engineering practices: automated unit/integration testing, CI/CD pipelines, and rigorous peer code reviews.</li> </ul> <hr> <h2 id=\"desirable-skills\">Desirable Skills:</h2> <ul> <li>Demonstrated experience building multi-tenant platform primitives: tenant isolation, rate limiting/token buckets, quota management, and schema migrations.</li> <li>Domain expertise in data protection, backup/recovery, storage systems, virtualization, or cyber resilience (RPO/RTO).</li> <li>Knowledge of enterprise authentication and authorization standards (OAuth 2.0, SAML, OIDC, RBAC/ABAC, mTLS).</li> <li>Exposure to AI/LLM integration patterns (vector search, prompt engineering pipelines, LLM agent integration).</li> <li>Experience in high-growth, fast-paced SaaS product environments.</li> </ul> <hr> <h2 id=\"role-and-responsibilities\">Role and Responsibilities:</h2> <ul> <li>Architect, implement, and maintain high-performance, resilient microservices in Go/Python that serve as the backbone for Druva's SaaS platform.</li> <li>Design clean, backward-compatible, secure RESTful and gRPC APIs consumed by internal product engineering teams and enterprise customers.</li> <li>Author clear technical design documents evaluating architectural trade-offs across latency, consistency, scalability, and cost.</li> <li>Optimize database queries, caching strategies, and data models across PostgreSQL, DynamoDB, and Redis for sub-millisecond responsiveness.</li> <li>Drive production operational excellence: set up granular telemetry (metrics, traces, logs), define SLOs, and participate in on-call incident response.</li> <li>Conduct blameless root cause analyses (RCAs) for production issues and ship permanent software mitigations to eliminate recurring failure modes.</li> <li>Partner with Product Managers, Architects, and Quality Engineers to break down business requirements into deliverable engineering milestones.</li> <li>Champion code quality and engineering best practices: perform in-depth code reviews and maintain high automated test coverage (&gt;85%).</li> <li>Mentor and coach junior engineers, fostering technical excellence, design rigor, and continuous learning across the team.</li> </ul> <hr> <h2 id=\"qualification\">Qualification:</h2> <ul> <li>B.Tech / B.E / M.E / M.Tech in Computer Science, Information Technology, or equivalent practical experience.</li> </ul> <p>&nbsp;</p>",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-14T17:42:46.196628",
+    "match_score": 38.1,
+    "technical_score": 11.1,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: ci/cd. Missing or unlisted keywords in master resume: aws, docker, kafka, kubernetes, microservices. Estimated required experience: ~8 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "ci/cd"
+      ],
+      "missing_skills": [
+        "aws",
+        "docker",
+        "kafka",
+        "kubernetes",
+        "microservices",
+        "mysql",
+        "postgresql",
+        "python"
+      ]
+    },
+    "key_matches": [
+      "ci/cd"
+    ],
+    "missing_skills": [
+      "aws",
+      "docker",
+      "kafka",
+      "kubernetes",
+      "microservices",
+      "mysql",
+      "postgresql",
+      "python"
+    ],
+    "application_status": null
+  }
+]

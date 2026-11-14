@@ -8,6 +8,30 @@ import ResumeManager from './components/ResumeManager';
 import KnowledgeBase from './components/KnowledgeBase';
 import ApplicationManager from './components/ApplicationManager';
 
+async function safeFetch(apiEndpoint, staticJsonPath, defaultValue) {
+  try {
+    const res = await fetch(apiEndpoint);
+    const contentType = res.headers.get("content-type");
+    if (res.ok && contentType && contentType.includes("application/json")) {
+      return await res.json();
+    }
+  } catch (e) {
+    // proceed to static fallback
+  }
+
+  if (staticJsonPath) {
+    try {
+      const res = await fetch(staticJsonPath);
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (e) {
+      console.warn(`Could not load ${staticJsonPath}:`, e);
+    }
+  }
+  return defaultValue;
+}
+
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
   const [stats, setStats] = useState(null);
@@ -24,13 +48,13 @@ export default function App() {
   const refreshAllData = async () => {
     try {
       const [statsRes, compRes, jobsRes, qaRes, resumeRes, schedRes, appsRes] = await Promise.all([
-        fetch('/api/stats').then(r => r.ok ? r.json() : null),
-        fetch('/api/companies').then(r => r.ok ? r.json() : []),
-        fetch('/api/jobs').then(r => r.ok ? r.json() : []),
-        fetch('/api/knowledge-base').then(r => r.ok ? r.json() : []),
-        fetch('/api/resumes/master').then(r => r.ok ? r.json() : null),
-        fetch('/api/scheduler/status').then(r => r.ok ? r.json() : null),
-        fetch('/api/applications').then(r => r.ok ? r.json() : [])
+        safeFetch('/api/stats', '/data/stats.json', null),
+        safeFetch('/api/companies', '/data/companies.json', []),
+        safeFetch('/api/jobs', '/data/jobs.json', []),
+        safeFetch('/api/knowledge-base', '/data/knowledge_base.json', []),
+        safeFetch('/api/resumes/master', '/data/master_resume.json', null),
+        safeFetch('/api/scheduler/status', null, null),
+        safeFetch('/api/applications', '/data/applications.json', [])
       ]);
 
       setStats(statsRes);

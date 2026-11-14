@@ -1,0 +1,115 @@
+{
+  "id": 1,
+  "filename": "Naga_Teja_Arepalli_Master_Resume.docx",
+  "uploaded_at": "2026-11-14T16:45:33.620757",
+  "parsed_data": {
+    "name": "Naga Teja Arepalli",
+    "email": "naga.teja.are@gmail.com",
+    "phone": "+91 9347763464",
+    "location": "Bangalore, India",
+    "linkedin": "https://www.linkedin.com/in/naga-teja-arepalli",
+    "portfolio": "https://nagatejaarepalli.github.io/PortfolioPage/",
+    "github": "https://github.com/NagaTejaArepalli/",
+    "years_of_experience": 3.4,
+    "summary": "Senior QA Automation Engineer & SDET specializing in enterprise test framework architecture, thread-safe parallel execution, and cutting-edge autonomous AI testing. Proven track record of pioneering Devin AI, KIRO AI, and Model Context Protocol (MCP) integrations across the QA lifecycle\u2014scaling automated coverage to 85%+ across mission-critical enterprise workflows. Expertise in authoring large-scale BDD suites (375+ scenarios), deep API/web-service validation, automated failure triage, and proactive defect prevention across continuous delivery CI/CD pipelines.",
+    "skills": [
+      "Playwright",
+      "Selenium WebDriver",
+      "BDD (Cucumber)",
+      "Thread-Safe Parallel Execution",
+      "Page Object Model (POM)",
+      "TestNG",
+      "Java",
+      "Gherkin",
+      "Devin AI",
+      "KIRO AI",
+      "Model Context Protocol (MCP)",
+      "Automated Root-Cause Diagnostics",
+      "REST Assured",
+      "Microsoft Graph API",
+      "Web Services/REST APIs",
+      "GraphQL",
+      "GitLab CI/CD",
+      "Maven",
+      "Git",
+      "Jira"
+    ],
+    "categorized_skills": {
+      "Automation & Architecture": [
+        "Playwright",
+        "Selenium WebDriver",
+        "BDD (Cucumber)",
+        "Thread-Safe Parallel Execution",
+        "Page Object Model (POM)",
+        "TestNG",
+        "Java",
+        "Gherkin"
+      ],
+      "AI & Autonomous Testing": [
+        "Devin AI",
+        "KIRO AI",
+        "Model Context Protocol (MCP \u2013 Playwright, GitLab, Jira)",
+        "Automated Root-Cause Diagnostics"
+      ],
+      "API & Integration": [
+        "REST Assured",
+        "Microsoft Graph API",
+        "Web Services/REST APIs",
+        "GraphQL"
+      ],
+      "Tools & CI/CD": [
+        "GitLab CI/CD",
+        "Maven",
+        "Git",
+        "Jira"
+      ]
+    },
+    "experience_records": [
+      {
+        "company": "Infor",
+        "role": "QA Engineer (SDET)",
+        "dates": "Aug 2025 \u2013 Present",
+        "location": "Bangalore, India",
+        "bullets": [
+          "Pioneered autonomous feature testing using Devin AI across the complete lifecycle: parsing use cases, synthesizing manual test plans, conducting functional validation, and auto-generating robust automation scripts.",
+          "Architected a high-throughput, thread-safe parallel execution framework with per-request base configuration and isolated state management, substantially cutting CI/CD regression durations.",
+          "Authored and maintained 375+ high-rigor BDD scenarios across complex enterprise workflows (financial calculations, inventory planning, booking flows, and accounting), driving coverage over 85%.",
+          "Integrated Model Context Protocol (MCP) servers across Playwright, GitLab, and Jira, streamlining branch management, automated test runs, and issue triage.",
+          "Engineered custom Failure-Analyzer hooks to automatically parse runtime traces and stack logs, slashing manual triage overhead and accelerating root-cause remediation.",
+          "Hardened asynchronous email and report testing via Microsoft Graph API using regex matching and temporal run-scoping, eliminating test flakiness from stale artifacts.",
+          "Identified and resolved 27 pre-production defects (including 1 Blocker and 15+ Major issues) across revenue engines and integrations, directly safeguarding production release quality."
+        ]
+      },
+      {
+        "company": "Accenture in India",
+        "role": "Packaged Application Development Analyst & Associate",
+        "dates": "Jun 2023 \u2013 Jul 2025",
+        "location": "Bangalore, India",
+        "bullets": [
+          "Spearheaded automation for Wealth Management systems, ensuring strict transactional reliability for high-stakes financial operations.",
+          "Developed and scaled a Serenity-Cucumber BDD framework in Java; implemented POM and reusable utility wrappers to improve framework longevity.",
+          "Managed end-to-end defect lifecycles in Jira, significantly mitigating production leakage through rigorous cross-browser and cross-platform validation.",
+          "Automated dynamic test data generation and teardown pipelines, cutting manual prep overhead during high-velocity sprint cycles."
+        ]
+      }
+    ],
+    "experience_lines": [
+      "Infor \u2013 QA Engineer (SDET) (Aug 2025 \u2013 Present): Pioneered autonomous feature testing using Devin AI; architected high-throughput thread-safe parallel execution framework; authored 375+ BDD scenarios (>85% coverage); integrated MCP servers across Playwright, GitLab, Jira; built Failure-Analyzer hooks and Microsoft Graph API async validation; resolved 27 pre-production defects.",
+      "Accenture in India \u2013 Packaged Application Development Analyst & Associate (Jun 2023 \u2013 Jul 2025): Spearheaded Wealth Management automation; built Serenity-Cucumber BDD framework in Java with POM; automated test data generation pipelines in Jira/GitLab CI."
+    ],
+    "project_lines": [
+      "Thread-Safe Parallel Execution Architecture: Led team of 3 engineers to architect isolated parallel execution framework reducing regression run times significantly.",
+      "AI-Assisted Autonomous QA: Pioneered Devin AI & KIRO AI workflows for test case generation and MCP server integration with Playwright and Jira.",
+      "Microsoft Graph API Testing Framework: Hardened asynchronous email and reporting validation eliminating stale test artifacts."
+    ],
+    "certifications": [
+      "Generative AI Leader Certification",
+      "GitHub Copilot",
+      "Essentials Automation Certification - 2024 Automation Anywhere"
+    ],
+    "education": "B.Tech in Computer Science, Vel Tech Rangarajan Dr. Sagunthala R&D Institute, Chennai (2019 \u2013 2023), First Class with Distinction, 9.43 CGPA",
+    "education_lines": [
+      "Bachelor of Technology (B.Tech) in Computer Science, Vel Tech Rangarajan Dr. Sagunthala R&D Institute (2019 \u2013 2023) - 9.43 CGPA, First Class with Distinction"
+    ]
+  }
+}

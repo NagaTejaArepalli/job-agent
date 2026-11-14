@@ -33,9 +33,12 @@ class DiscoveryAgent:
                     ats_provider=ats_provider,
                     board_token=board_token
                 )
-                raw_jobs = await connector.fetch_jobs(
-                    keywords=keywords,
-                    location=location_pref
+                raw_jobs = await asyncio.wait_for(
+                    connector.fetch_jobs(
+                        keywords=keywords,
+                        location=location_pref
+                    ),
+                    timeout=10.0
                 )
                 return comp_id, comp_name, raw_jobs, "success"
             except Exception as e:
@@ -194,19 +197,35 @@ class DiscoveryAgent:
         }
         
     async def verify_active_jobs(self, limit: int = 50) -> Dict[str, Any]:
-        """Verify active jobs to check if any have been closed or taken down."""
+        """Verify active jobs in parallel to check if any have been closed or taken down."""
         jobs = self.db.query(Job).filter(Job.status == "active").order_by(Job.last_verified.asc()).limit(limit).all()
+        if not jobs:
+            return {"checked": 0, "deactivated": 0}
+
+        sem = asyncio.Semaphore(10)
+        async def verify_single(job_id, url):
+            async with sem:
+                try:
+                    return job_id, await asyncio.wait_for(JobVerifier.verify_job_url(url), timeout=6.0)
+                except Exception:
+                    return job_id, (True, "Timeout/Skipped")
+
+        results = await asyncio.gather(*(verify_single(j.id, j.url) for j in jobs), return_exceptions=True)
+        job_map = {j.id: j for j in jobs}
         checked = 0
         deactivated = 0
-        
-        for job in jobs:
-            is_active, reason = await JobVerifier.verify_job_url(job.url)
-            job.last_verified = datetime.utcnow()
-            if not is_active:
-                job.status = "expired"
-                deactivated += 1
-            checked += 1
-            
+        for res in results:
+            if not isinstance(res, tuple):
+                continue
+            job_id, (is_active, reason) = res
+            j = job_map.get(job_id)
+            if j:
+                j.last_verified = datetime.utcnow()
+                if not is_active:
+                    j.status = "expired"
+                    deactivated += 1
+                checked += 1
+
         self.db.commit()
         return {
             "checked": checked,

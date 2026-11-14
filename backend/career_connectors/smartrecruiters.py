@@ -55,9 +55,6 @@ class SmartRecruitersConnector(BaseCareerConnector):
             if kw_list and not any(kw in full_text for kw in kw_list):
                 continue
                 
-            if location and location.lower() not in job_loc.lower():
-                continue
-                
             jobs.append(
                 RawDiscoveredJob(
                     ats_job_id=str(job_id),

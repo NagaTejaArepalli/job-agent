@@ -101,6 +101,11 @@ def run_daily_pipeline_standalone():
         else:
             print("   Email alert skipped/failed (check SMTP_USER and SMTP_PASS secrets).", flush=True)
             
+        # 6. Export static data for Firebase Hosting
+        print("-> Step 6: Exporting static JSON data for Firebase Hosting...", flush=True)
+        from backend.scheduler.static_exporter import export_static_data
+        export_static_data(db)
+
         # Update Scheduler log
         run_record.status = "completed"
         run_record.jobs_discovered = discovery_res.get("new_jobs_added", 0)

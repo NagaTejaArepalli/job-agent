@@ -1,0 +1,330 @@
+[
+  {
+    "id": 1,
+    "question": "What is your current CTC?",
+    "answer": "\u20b99.75 LPA (\u20b98.75 LPA Fixed + \u20b91.00 LPA Variable)",
+    "category": "Compensation & CTC",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 2,
+    "question": "What is your current fixed compensation?",
+    "answer": "\u20b98.75 LPA",
+    "category": "Compensation & CTC",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 3,
+    "question": "What is your current variable compensation?",
+    "answer": "\u20b91.00 LPA",
+    "category": "Compensation & CTC",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 4,
+    "question": "What is your expected CTC?",
+    "answer": "\u20b914.00 \u2013 \u20b915.00 LPA (Minimum acceptable: \u20b913.5 LPA)",
+    "category": "Compensation & CTC",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 5,
+    "question": "Are you open to negotiating the offered compensation?",
+    "answer": "Yes, open to discussion based on overall scope, team, and benefits.",
+    "category": "Compensation & CTC",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 6,
+    "question": "Do you have any other offers in hand?",
+    "answer": "No other offers in hand currently.",
+    "category": "Compensation & CTC",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 7,
+    "question": "What is your official notice period?",
+    "answer": "60 days official notice period with Infor.",
+    "category": "Notice Period & Availability",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 8,
+    "question": "How soon can you join? When can you start?",
+    "answer": "Can join after completing the applicable 60-day notice period.",
+    "category": "Notice Period & Availability",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 9,
+    "question": "Have you already resigned?",
+    "answer": "No, I am currently employed with Infor and have not yet resigned.",
+    "category": "Notice Period & Availability",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 10,
+    "question": "Can your notice period be negotiated or shortened?",
+    "answer": "No, notice period is standard 60 days.",
+    "category": "Notice Period & Availability",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 11,
+    "question": "Can you join immediately?",
+    "answer": "No, the standard 60-day notice period applies.",
+    "category": "Notice Period & Availability",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 12,
+    "question": "Are you available for interviews during working hours?",
+    "answer": "Yes, available for virtual or in-person interviews with prior schedule.",
+    "category": "Notice Period & Availability",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 13,
+    "question": "Which automation tools have you used?",
+    "answer": "Playwright and Selenium WebDriver with Java and TypeScript. Also experienced with Cucumber BDD, TestNG, and Serenity.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 14,
+    "question": "Which programming language do you use for automation?",
+    "answer": "Java is my primary language for test automation frameworks and BDD. Also experienced with Gherkin and TypeScript.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 15,
+    "question": "Describe your automation testing experience.",
+    "answer": "Over 3+ years of enterprise SDET experience architecting Playwright and Selenium WebDriver frameworks with BDD (Cucumber), TestNG, Page Object Model (POM), and thread-safe parallel execution. Scaled automated test coverage to 85%+ across 375+ scenarios.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 16,
+    "question": "Have you built or architected automation frameworks?",
+    "answer": "Yes. At Infor, architected a high-throughput thread-safe parallel execution framework with per-request base configuration. At Accenture, developed and scaled a Serenity-Cucumber BDD framework in Java with Page Object Model.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 17,
+    "question": "Have you implemented parallel test execution?",
+    "answer": "Yes. Architected thread-safe parallel test execution with isolated state management and per-request configuration, significantly reducing CI/CD regression durations. Led a team of 3 to implement this.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 18,
+    "question": "How many automated scenarios have you authored/maintained?",
+    "answer": "Authored and maintained 375+ high-rigor BDD scenarios covering financial calculations, inventory planning, booking flows, and accounting.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 19,
+    "question": "What automation coverage have you achieved?",
+    "answer": "Achieved over 85% automated test coverage across mission-critical enterprise workflows.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 20,
+    "question": "Have you worked with AI-assisted testing or autonomous agents?",
+    "answer": "Yes. Pioneered autonomous feature testing using Devin AI across the complete lifecycle (parsing use cases, synthesizing test plans, auto-generating automation scripts). Integrated Model Context Protocol (MCP) servers across Playwright, GitLab, and Jira.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 21,
+    "question": "Have you implemented automated failure analysis?",
+    "answer": "Yes. Engineered custom Failure-Analyzer hooks to automatically parse runtime traces and stack logs, slashing manual failure triage overhead.",
+    "category": "Automation & SDET",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 22,
+    "question": "Which API testing technologies have you used?",
+    "answer": "REST Assured, Microsoft Graph API, RESTful Web Services, and GraphQL. Experienced with request validation, JSON assertions, and auth token handling.",
+    "category": "API Testing & Tools",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 23,
+    "question": "Have you tested asynchronous APIs, emails, or reports?",
+    "answer": "Yes. Hardened asynchronous email and report testing via Microsoft Graph API using regex matching and temporal run-scoping, preventing stale artifacts and flaky tests.",
+    "category": "API Testing & Tools",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 24,
+    "question": "Which CI/CD and source control tools have you used?",
+    "answer": "GitLab CI/CD, Git, Maven, and Jira for end-to-end defect lifecycle and automated regression pipelines.",
+    "category": "Frameworks & CI/CD",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 25,
+    "question": "Are you legally authorized to work in India?",
+    "answer": "Yes, I am an Indian citizen fully authorized to work in India.",
+    "category": "Work Authorization & Visa",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 26,
+    "question": "Are you authorized to work in the country where this role is located?",
+    "answer": "For India-based roles: Yes. For roles outside India: No, will require visa sponsorship.",
+    "category": "Work Authorization & Visa",
+    "is_sensitive": true,
+    "needs_confirmation": true
+  },
+  {
+    "id": 27,
+    "question": "Will you now or in the future require visa sponsorship?",
+    "answer": "For India-based roles: No. For roles outside India: Yes, sponsorship required.",
+    "category": "Work Authorization & Visa",
+    "is_sensitive": true,
+    "needs_confirmation": true
+  },
+  {
+    "id": 28,
+    "question": "What is your citizenship?",
+    "answer": "Indian.",
+    "category": "Work Authorization & Visa",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 29,
+    "question": "Where are you currently based?",
+    "answer": "Bangalore, India.",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 30,
+    "question": "What are your preferred work locations?",
+    "answer": "Bangalore, Hyderabad, Chennai (also willing to relocate within India).",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 31,
+    "question": "Are you willing to relocate?",
+    "answer": "Yes, willing to relocate within India (Bangalore, Hyderabad, Chennai).",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 32,
+    "question": "Are you comfortable with a hybrid work model?",
+    "answer": "Yes, comfortable working from the office, hybrid, or remote.",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 33,
+    "question": "What is your highest educational qualification?",
+    "answer": "B.Tech in Computer Science from Vel Tech Rangarajan Dr. Sagunthala R&D Institute, Chennai (2019 \u2013 2023), First Class with Distinction, 9.43 CGPA.",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 34,
+    "question": "What is your CGPA?",
+    "answer": "9.43 CGPA out of 10 (First Class with Distinction).",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 35,
+    "question": "Do you hold any certifications?",
+    "answer": "Generative AI Leader Certification, GitHub Copilot, and Essentials Automation Certification - 2024 (Automation Anywhere).",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 36,
+    "question": "Have you led or mentored a team?",
+    "answer": "Yes. For implementing the thread-safe parallel test execution framework, I led a team of 3 engineers to successfully deliver the initiative.",
+    "category": "Behavioral & Culture",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 37,
+    "question": "Tell me about yourself.",
+    "answer": "I am a Senior QA Automation Engineer & SDET with 3+ years of experience in enterprise software quality engineering. I specialize in Playwright, Selenium, Java, BDD (Cucumber), REST Assured, and CI/CD pipelines, and have pioneered autonomous AI testing with Devin AI and Model Context Protocol (MCP). Previously worked on Wealth Management systems at Accenture and currently at Infor.",
+    "category": "Behavioral & Culture",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 38,
+    "question": "Who is your current employer and title?",
+    "answer": "Infor \u2013 QA Engineer (SDET), since August 2025.",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 39,
+    "question": "Who was your previous employer?",
+    "answer": "Accenture in India \u2013 Packaged Application Development Analyst & Associate (June 2023 \u2013 July 2025).",
+    "category": "Personal & Contact",
+    "is_sensitive": false,
+    "needs_confirmation": false
+  },
+  {
+    "id": 40,
+    "question": "Are you subject to any non-compete or conflict of interest?",
+    "answer": "No non-compete agreements, non-solicitation restrictions, or conflicts of interest.",
+    "category": "Work Authorization & Visa",
+    "is_sensitive": true,
+    "needs_confirmation": true
+  },
+  {
+    "id": 41,
+    "question": "Can the employer conduct background verification?",
+    "answer": "Yes, authorized for employment and educational background verification.",
+    "category": "Work Authorization & Visa",
+    "is_sensitive": true,
+    "needs_confirmation": true
+  }
+]

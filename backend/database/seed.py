@@ -70,6 +70,7 @@ def seed_initial_data(db: Session):
                 ats = item.get("ats_provider") or detect_ats_provider(item["career_url"])
                 token = item.get("board_token")
 
+            kw = "QA, SDET, Test, Quality, Automation, Quality Engineer, Test Automation"
             existing = db.query(Company).filter(Company.name == item["name"]).first()
             if not existing:
                 db.add(Company(
@@ -77,13 +78,14 @@ def seed_initial_data(db: Session):
                     career_url=item["career_url"],
                     ats_provider=ats,
                     board_token=token,
-                    keywords=item.get("keywords", "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer"),
-                    location_preference=item.get("location_preference", "Bangalore, Hyderabad, Chennai, India / Remote"),
+                    keywords=kw,
+                    location_preference="India",
                     active=True
                 ))
             else:
                 existing.career_url = item["career_url"]
                 existing.ats_provider = ats
+                existing.keywords = kw
                 if token:
                     existing.board_token = token
         db.commit()
