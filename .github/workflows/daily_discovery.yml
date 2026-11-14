@@ -1,6 +1,8 @@
 name: Everyday Cloud Job Discovery & Matching
 
 on:
+  push:
+    branches: [ master, main ]
   schedule:
     # Runs every morning at 03:00 UTC (08:30 AM IST) completely in the cloud!
     - cron: '0 3 * * *'
@@ -59,7 +61,7 @@ jobs:
           git diff --staged --quiet || (git commit -m "Automated daily cloud job discovery: $(date +'%Y-%m-%d')" && git push)
 
       - name: Deploy Dashboard to Firebase Hosting (Optional)
-        if: env.FIREBASE_TOKEN != ''
+        if: ${{ secrets.FIREBASE_TOKEN != '' }}
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         run: |
