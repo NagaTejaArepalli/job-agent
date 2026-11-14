@@ -13,6 +13,7 @@ ENV/
 node_modules/
 dist/
 .vite/
+.firebase/
 
 # Database & local data
 data/*.db
