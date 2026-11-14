@@ -29,6 +29,17 @@ def run_daily_pipeline_standalone():
     init_db()
     db = SessionLocal()
 
+    from backend.database.models import Company, Job
+    company_count = db.query(Company).filter(Company.active == True).count()
+    if company_count == 0:
+        print("-> Fresh database detected. Seeding 148 target companies, Master Resume, and 41 Q&A items...")
+        from backend.database.seed import seed_initial_data
+        seed_initial_data(db)
+        company_count = db.query(Company).filter(Company.active == True).count()
+        print(f"   Successfully initialized {company_count} target companies in database.")
+    else:
+        print(f"   Loaded {company_count} target companies from database.")
+
     from backend.agents.llm_client import gemini_client
     if gemini_client.is_available:
         print(f"-> Gemini AI Engine: ACTIVE (Model: {gemini_client.model})")
@@ -44,10 +55,11 @@ def run_daily_pipeline_standalone():
     
     try:
         # 1. Discover jobs across all 148 target companies
-        print("-> Step 1: Discovering new jobs from official career portals (India only)...")
+        print(f"-> Step 1: Discovering new jobs across {company_count} official career portals (India only)...")
         discovery_agent = DiscoveryAgent(db)
         discovery_res = asyncio.run(discovery_agent.run_discovery_all())
-        print(f"   Found {discovery_res.get('total_jobs_found', 0)} total, {discovery_res.get('new_jobs_added', 0)} new jobs.")
+        total_active_jobs = db.query(Job).filter(Job.status == "active").count()
+        print(f"   Scanned {discovery_res.get('companies_scanned', company_count)} companies: {discovery_res.get('new_jobs_added', 0)} new jobs added. Total active India jobs: {total_active_jobs}.")
         
         # 2. Verify active job links
         print("-> Step 2: Verifying active links and expiring closed postings...")
