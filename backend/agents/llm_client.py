@@ -18,7 +18,7 @@ class GeminiAIClient:
     
     def __init__(self, api_key: Optional[str] = None):
         self.api_key = api_key or settings.GEMINI_API_KEY or os.getenv("GEMINI_API_KEY", "")
-        self.model = "gemini-2.5-flash"
+        self.model = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
         self.base_url = "https://generativelanguage.googleapis.com/v1beta/models"
         
     @property
@@ -59,6 +59,18 @@ class GeminiAIClient:
                         parts = candidates[0].get("content", {}).get("parts", [])
                         if parts:
                             return parts[0].get("text", "").strip()
+                elif response.status_code in (404, 400) and "1.5" not in self.model:
+                    # Fallback to gemini-1.5-flash if preferred model is unavailable
+                    fallback_endpoint = f"{self.base_url}/gemini-1.5-flash:generateContent?key={self.api_key}"
+                    fb_resp = await client.post(fallback_endpoint, json=payload)
+                    if fb_resp.status_code == 200:
+                        candidates = fb_resp.json().get("candidates", [])
+                        if candidates:
+                            parts = candidates[0].get("content", {}).get("parts", [])
+                            if parts:
+                                return parts[0].get("text", "").strip()
+                    else:
+                        print(f"[GeminiAIClient] Fallback API returned status {fb_resp.status_code}")
                 else:
                     print(f"[GeminiAIClient] API returned status {response.status_code}: {response.text[:120]}")
             except Exception as e:

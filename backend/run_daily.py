@@ -25,9 +25,15 @@ def run_daily_pipeline_standalone():
     
     Operates 100% locally on your machine with NO cloud publishing or external site needed.
     """
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting local daily job pipeline...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting daily job pipeline...")
     init_db()
     db = SessionLocal()
+
+    from backend.agents.llm_client import gemini_client
+    if gemini_client.is_available:
+        print(f"-> Gemini AI Engine: ACTIVE (Model: {gemini_client.model})")
+    else:
+        print("-> Gemini AI Engine: Running in fast heuristic matching mode (GEMINI_API_KEY optional)")
     
     run_record = SchedulerRun(
         run_time=datetime.utcnow(),
