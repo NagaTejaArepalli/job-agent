@@ -104,14 +104,56 @@ class BrowserFormFiller:
                     "linkedin"
                 )
 
-                # 6. GitHub / Portfolio / Website
+                # 6. GitHub
                 await try_fill(
-                    ['input[name*="github" i]', 'input[name*="website" i]', 'input[id*="portfolio" i]', 'input[placeholder*="github" i]'],
+                    ['input[name*="github" i]', 'input[id*="github" i]', 'input[placeholder*="github" i]'],
                     form_data.get("github", {}).get("value") or form_data.get("github"),
                     "github"
                 )
 
-                # 7. Resume Attachment
+                # 7. Portfolio / Website
+                await try_fill(
+                    ['input[name*="portfolio" i]', 'input[name*="website" i]', 'input[id*="portfolio" i]', 'input[placeholder*="portfolio" i]'],
+                    form_data.get("portfolio", {}).get("value") or form_data.get("portfolio") or "https://nagatejaarepalli.github.io/PortfolioPage/",
+                    "portfolio"
+                )
+
+                # 8. Current Company
+                await try_fill(
+                    ['input[name*="current_company" i]', 'input[name*="company" i]', 'input[id*="employer" i]'],
+                    form_data.get("current_company", {}).get("value") or "Infor",
+                    "current_company"
+                )
+
+                # 9. Current Title
+                await try_fill(
+                    ['input[name*="current_title" i]', 'input[name*="title" i]', 'input[id*="title" i]'],
+                    form_data.get("current_title", {}).get("value") or "QA Engineer (SDET)",
+                    "current_title"
+                )
+
+                # 10. Notice Period
+                await try_fill(
+                    ['input[name*="notice" i]', 'input[id*="notice" i]'],
+                    "60 days",
+                    "notice_period"
+                )
+
+                # 11. Current CTC
+                await try_fill(
+                    ['input[name*="current_ctc" i]', 'input[id*="current_ctc" i]', 'input[placeholder*="ctc" i]'],
+                    "9.75 LPA",
+                    "current_ctc"
+                )
+
+                # 12. Expected CTC
+                await try_fill(
+                    ['input[name*="expected_ctc" i]', 'input[id*="expected_ctc" i]'],
+                    "14-15 LPA",
+                    "expected_ctc"
+                )
+
+                # 13. Resume Attachment
                 if resume_file_path and os.path.exists(resume_file_path):
                     file_input = page.locator('input[type="file"][name*="resume" i], input[type="file"]').first
                     if await file_input.count() > 0:

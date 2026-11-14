@@ -103,8 +103,50 @@ class ApplicationAgent:
             "verified": True
         }
         prepared_answers["github"] = {
-            "label": "GitHub / Portfolio",
-            "value": profile_data.get("github", ""),
+            "label": "GitHub Profile",
+            "value": profile_data.get("github", "https://github.com/NagaTejaArepalli/"),
+            "source": "Master Profile",
+            "confidence": 1.0,
+            "verified": True
+        }
+        prepared_answers["portfolio"] = {
+            "label": "Portfolio / Personal Website",
+            "value": profile_data.get("portfolio", "https://nagatejaarepalli.github.io/PortfolioPage/"),
+            "source": "Master Profile",
+            "confidence": 1.0,
+            "verified": True
+        }
+        prepared_answers["current_company"] = {
+            "label": "Current Employer",
+            "value": "Infor",
+            "source": "Master Profile",
+            "confidence": 1.0,
+            "verified": True
+        }
+        prepared_answers["current_title"] = {
+            "label": "Current Job Title",
+            "value": "QA Engineer (SDET)",
+            "source": "Master Profile",
+            "confidence": 1.0,
+            "verified": True
+        }
+        prepared_answers["location"] = {
+            "label": "Current Location",
+            "value": profile_data.get("location", "Bangalore, India"),
+            "source": "Master Profile",
+            "confidence": 1.0,
+            "verified": True
+        }
+        prepared_answers["total_experience"] = {
+            "label": "Total Professional Experience",
+            "value": "3 years 5 months (since June 2023)",
+            "source": "Master Profile",
+            "confidence": 1.0,
+            "verified": True
+        }
+        prepared_answers["education"] = {
+            "label": "Highest Education & University",
+            "value": profile_data.get("education", "B.Tech in Computer Science, Vel Tech Rangarajan Dr. Sagunthala R&D Institute (9.43 CGPA)"),
             "source": "Master Profile",
             "confidence": 1.0,
             "verified": True

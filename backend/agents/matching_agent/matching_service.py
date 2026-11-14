@@ -8,7 +8,9 @@ COMMON_TECH_SKILLS = [
     "c#", "rest assured", "postman", "api testing", "cucumber", "bdd", "tdd", "junit", "testng",
     "pytest", "jenkins", "github actions", "gitlab", "docker", "kubernetes", "aws", "azure", "gcp",
     "sql", "postgresql", "mysql", "mongodb", "git", "linux", "jira", "confluence", "performance testing",
-    "jmeter", "k6", "ci/cd", "agile", "scrum", "microservices", "kafka", "selenium webdriver"
+    "jmeter", "k6", "ci/cd", "agile", "scrum", "microservices", "kafka", "selenium webdriver",
+    "devin ai", "kiro ai", "mcp", "model context protocol", "microsoft graph api", "graphql", "serenity",
+    "page object model", "pom", "parallel execution", "thread-safe", "gherkin", "maven"
 ]
 
 class MatchingAgent:
