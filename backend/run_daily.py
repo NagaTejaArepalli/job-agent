@@ -1,6 +1,13 @@
-import asyncio
 import sys
 import os
+from pathlib import Path
+
+# Add project root to sys.path so it works directly from any runner / GitHub Actions
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+import asyncio
 from datetime import datetime
 from backend.database.session import SessionLocal, init_db
 from backend.database.models import SchedulerRun
@@ -50,10 +57,31 @@ def run_daily_pipeline_standalone():
         # 4. Generate daily summary Excel report
         print("-> Step 4: Generating daily summary Excel report...")
         from backend.api.reports import get_job_report_payload
+        from backend.scheduler.email_service import send_email_alert
         report_data = get_job_report_payload(db)
+        report_path = None
         if report_data:
             report_path = ReportingService.generate_excel_report(report_data)
             print(f"   Daily report saved locally to: {report_path}")
+
+        # 5. Send Email Alert with HTML Report & Attached Excel
+        print("-> Step 5: Sending Email Notification with HTML report and Excel attachment...")
+        recipient = os.getenv("ALERT_EMAIL_TO", "naga.teja.are@gmail.com").strip()
+        candidate_name = "Naga Teja Arepalli"
+        matched_jobs = [j for j in report_data if j.get("match_score", 0) >= 50] if report_data else []
+        if not matched_jobs and report_data:
+            matched_jobs = report_data[:10]
+
+        email_sent = send_email_alert(
+            candidate_name=candidate_name,
+            recipient_email=recipient,
+            jobs_data=matched_jobs,
+            excel_attachment_path=report_path
+        )
+        if email_sent:
+            print(f"   HTML report & Excel attachment sent to {recipient}!")
+        else:
+            print("   Email alert skipped/failed (check SMTP_USER and SMTP_PASS secrets).")
             
         # Update Scheduler log
         run_record.status = "completed"

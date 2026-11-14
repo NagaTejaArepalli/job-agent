@@ -34,14 +34,21 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_PROVIDER: ${{ secrets.LLM_PROVIDER || 'heuristic' }}
           DATABASE_URL: sqlite:///data/job_agent.db
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO || 'naga.teja.are@gmail.com' }}
         run: |
           python backend/run_daily.py
 
-      - name: Upload Daily Excel Report
+      - name: Upload Daily Excel & Resume Reports
         uses: actions/upload-artifact@v4
         with:
           name: daily-job-discovery-report
-          path: data/reports/*.xlsx
+          path: |
+            data/reports/*.xlsx
+            data/tailored_resumes/*
           retention-days: 30
 
       - name: Commit & Push Updated Discovered Jobs to Cloud
@@ -50,3 +57,11 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/job_agent.db data/reports/ data/tailored_resumes/ -f || true
           git diff --staged --quiet || (git commit -m "Automated daily cloud job discovery: $(date +'%Y-%m-%d')" && git push)
+
+      - name: Deploy Dashboard to Firebase Hosting (Optional)
+        if: env.FIREBASE_TOKEN != ''
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          npm install -g firebase-tools
+          firebase deploy --only hosting --token "$FIREBASE_TOKEN"
