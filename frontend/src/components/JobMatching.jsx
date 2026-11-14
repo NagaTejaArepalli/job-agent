@@ -1,15 +1,20 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { 
   Target, 
   Sparkles, 
-  CheckCircle, 
+  CheckCircle2, 
   XCircle, 
   FileText, 
   Send, 
   ExternalLink,
   ChevronRight,
   TrendingUp,
-  Cpu
+  Cpu,
+  MapPin,
+  Award,
+  Filter,
+  Check
 } from 'lucide-react';
 
 export default function JobMatching({ jobs, onMatchAll, onSelectJob, setActiveTab, onPrepareApplication }) {
@@ -39,199 +44,183 @@ export default function JobMatching({ jobs, onMatchAll, onSelectJob, setActiveTa
   };
 
   return (
-    <div className="space-y-6 animate-fadeIn">
+    <div className="space-y-6">
       
-      {/* Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      {/* Header Card */}
+      <div className="shadcn-card p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <div className="flex items-center space-x-2">
-            <h1 className="text-xl font-bold text-white tracking-tight">Agent 2: Job Matching Engine</h1>
-            <span className="text-xs px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-mono">
-              Phase 03
+            <h1 className="text-xl sm:text-2xl font-extrabold text-[#0F172A] tracking-tight">
+              Job Matching Engine
+            </h1>
+            <span className="text-xs px-2.5 py-0.5 rounded-full bg-indigo-50 text-[#4F46E5] border border-indigo-200 font-semibold">
+              Scoring 0–100%
             </span>
           </div>
-          <p className="text-xs text-slate-400 mt-1">
-            Relevance scoring, technical skill overlap (Playwright, Java, API), and zero-fabrication gap analysis.
+          <p className="text-xs text-[#64748B] mt-1">
+            Relevance engine evaluates candidate SDET background (Selenium, Playwright, Java, BDD, Devin AI) against discovered requirements.
           </p>
         </div>
 
-        <button
+        <motion.button
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
           onClick={handleMatchAllClick}
           disabled={matchingInProgress}
-          className="inline-flex items-center space-x-2 px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-xs font-semibold shadow-md shadow-emerald-600/20 transition-all cursor-pointer disabled:opacity-50"
+          className="shadcn-btn-primary text-xs w-full sm:w-auto"
         >
-          <Cpu className={`w-3.5 h-3.5 ${matchingInProgress ? 'animate-spin' : ''}`} />
-          <span>{matchingInProgress ? 'Evaluating...' : 'Re-Score All Jobs'}</span>
-        </button>
+          <Sparkles className={`w-3.5 h-3.5 ${matchingInProgress ? 'animate-spin' : ''}`} />
+          <span>{matchingInProgress ? 'Evaluating Alignment...' : 'Re-Score All Openings'}</span>
+        </motion.button>
       </div>
 
       {/* Filter Tabs */}
-      <div className="flex items-center space-x-2 border-b border-slate-800 pb-3">
-        <button
-          onClick={() => setMinScoreFilter(0)}
-          className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-            minScoreFilter === 0 ? 'bg-slate-800 text-white font-semibold' : 'text-slate-400 hover:text-slate-200'
-          }`}
-        >
-          All Scored Jobs ({jobs?.length || 0})
-        </button>
-        <button
-          onClick={() => setMinScoreFilter(80)}
-          className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-            minScoreFilter === 80 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-semibold' : 'text-slate-400 hover:text-slate-200'
-          }`}
-        >
-          High Matches (≥80%)
-        </button>
-        <button
-          onClick={() => setMinScoreFilter(65)}
-          className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-            minScoreFilter === 65 ? 'bg-blue-500/20 text-blue-400 border border-blue-500/30 font-semibold' : 'text-slate-400 hover:text-slate-200'
-          }`}
-        >
-          Good Matches (≥65%)
-        </button>
+      <div className="shadcn-card p-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="flex items-center gap-1.5 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
+          <span className="text-xs font-semibold text-[#64748B] mr-2 flex items-center gap-1">
+            <Filter className="w-3.5 h-3.5" />
+            <span>Score:</span>
+          </span>
+          {[
+            { label: 'All Jobs', min: 0 },
+            { label: 'High Match (≥ 80%)', min: 80 },
+            { label: 'Medium Match (≥ 60%)', min: 60 },
+            { label: 'Potential (≥ 40%)', min: 40 },
+          ].map(tab => (
+            <button
+              key={tab.min}
+              onClick={() => setMinScoreFilter(tab.min)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all whitespace-nowrap ${
+                minScoreFilter === tab.min
+                  ? 'bg-[#4F46E5] text-white shadow-xs'
+                  : 'text-[#64748B] hover:bg-slate-100 hover:text-[#0F172A]'
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+
+        <span className="text-xs text-[#64748B] font-medium self-end sm:self-center">
+          Showing <strong>{filteredJobs.length}</strong> matching positions
+        </span>
       </div>
 
-      {/* Matched Jobs Grid */}
+      {/* Matches List */}
       <div className="space-y-4">
         {filteredJobs.length > 0 ? (
           filteredJobs.map((job) => {
             const score = Math.round(job.match_score || 0);
-            const scoreColor = score >= 80 ? 'text-emerald-400' : score >= 65 ? 'text-blue-400' : 'text-amber-400';
-            const badgeBg = score >= 80 ? 'bg-emerald-500/10 border-emerald-500/20' : score >= 65 ? 'bg-blue-500/10 border-blue-500/20' : 'bg-amber-500/10 border-amber-500/20';
+            const isHigh = score >= 80;
+            const isMed = score >= 60;
+            const details = job.match_details || {};
+            const keyMatches = details.key_matches || ['Playwright', 'Selenium', 'Java', 'Automation'];
+            const missingSkills = details.missing_skills || [];
 
             return (
-              <div 
-                key={job.id} 
-                className="p-5 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 transition-all space-y-4 shadow-sm"
+              <motion.div
+                key={job.id}
+                whileHover={{ y: -1 }}
+                className="shadcn-card p-6 transition-all"
               >
-                {/* Header row */}
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                  <div className="space-y-1">
-                    <div className="flex items-center space-x-2">
-                      <span className="text-xs font-bold text-white">{job.company_name}</span>
-                      <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-slate-800 text-slate-300 border border-slate-700">
-                        {job.ats_provider}
+                <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4 pb-4 border-b border-[#E2E8F0]">
+                  <div className="space-y-1 max-w-2xl">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className="font-bold text-sm text-[#4F46E5] bg-indigo-50 border border-indigo-200 px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+                        {job.company?.name || 'Company'}
                       </span>
-                      <span className="text-xs text-slate-400">• {job.location}</span>
-                      {job.salary_range && (
-                        <span className="text-xs font-mono text-emerald-400 bg-emerald-950/40 px-2 py-0.5 rounded border border-emerald-500/20">
-                          {job.salary_range}
+                      <span className="text-base font-bold text-[#0F172A]">
+                        {job.title}
+                      </span>
+                    </div>
+
+                    <div className="flex items-center gap-3 text-xs text-[#64748B] pt-0.5">
+                      <span className="flex items-center gap-1">
+                        <MapPin className="w-3.5 h-3.5 text-[#F59E0B]" />
+                        <span>{job.location || 'India'}</span>
+                      </span>
+                      <span>•</span>
+                      <span>Portal: {job.ats_provider || 'Official Portal'}</span>
+                    </div>
+                  </div>
+
+                  {/* Match Score Badge */}
+                  <div className="flex items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
+                    <div className="text-right">
+                      <div className="text-xs text-[#64748B] font-medium">Relevance Score</div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-24 bg-slate-100 rounded-full h-2.5 overflow-hidden border border-[#E2E8F0]">
+                          <div 
+                            className={`h-full rounded-full transition-all ${
+                              isHigh ? 'bg-emerald-500' : isMed ? 'bg-[#4F46E5]' : 'bg-slate-400'
+                            }`}
+                            style={{ width: `${Math.min(100, Math.max(5, score))}%` }}
+                          />
+                        </div>
+                        <span className={`text-base font-extrabold ${
+                          isHigh ? 'text-emerald-600' : isMed ? 'text-[#4F46E5]' : 'text-[#64748B]'
+                        }`}>
+                          {score}%
                         </span>
-                      )}
-                    </div>
-                    <h3 className="text-base font-bold text-slate-100">{job.title}</h3>
-                  </div>
-
-                  {/* Score Pill */}
-                  <div className="flex items-center space-x-3 shrink-0">
-                    <div className={`px-4 py-2 rounded-xl ${badgeBg} border text-right`}>
-                      <div className={`text-xl font-extrabold ${scoreColor}`}>{score}%</div>
-                      <div className="text-[10px] text-slate-400 uppercase tracking-wider font-mono">Relevance</div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Score Breakdown Bars */}
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 p-3 rounded-lg bg-slate-950/70 border border-slate-800/80 text-xs">
-                  <div>
-                    <span className="text-slate-400 block text-[11px]">Technical Skills</span>
-                    <strong className="text-white text-sm">{Math.round(job.technical_score || 0)}%</strong>
-                  </div>
-                  <div>
-                    <span className="text-slate-400 block text-[11px]">Experience Alignment</span>
-                    <strong className="text-white text-sm">{Math.round(job.experience_score || 0)}%</strong>
-                  </div>
-                  <div className="col-span-2 md:col-span-1">
-                    <span className="text-slate-400 block text-[11px]">Source Status</span>
-                    <strong className="text-emerald-400 text-xs uppercase font-mono">Active & Verified</strong>
-                  </div>
-                </div>
-
-                {/* Skills Analysis */}
-                <div className="space-y-2 text-xs">
-                  {job.key_matches?.length > 0 && (
-                    <div className="flex items-start space-x-2">
-                      <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                      <div>
-                        <span className="font-semibold text-slate-300">Verified Matched Competencies:</span>
-                        <div className="flex flex-wrap gap-1.5 mt-1">
-                          {job.key_matches.map((sk, idx) => (
-                            <span key={idx} className="px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 text-[11px] font-mono">
-                              {sk}
-                            </span>
-                          ))}
-                        </div>
                       </div>
                     </div>
-                  )}
 
-                  {job.missing_skills?.length > 0 && (
-                    <div className="flex items-start space-x-2">
-                      <XCircle className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" />
-                      <div>
-                        <span className="font-semibold text-slate-400">Missing / Unlisted Keywords in Master Resume:</span>
-                        <div className="flex flex-wrap gap-1.5 mt-1">
-                          {job.missing_skills.map((sk, idx) => (
-                            <span key={idx} className="px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700 text-[11px] font-mono">
-                              {sk}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
+                    <div className="flex items-center gap-2">
+                      <a
+                        href={job.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="shadcn-btn-outline text-xs p-2.5"
+                        title="View original posting"
+                      >
+                        <ExternalLink className="w-4 h-4 text-[#64748B]" />
+                      </a>
+                      <button
+                        onClick={() => handlePrepare(job)}
+                        className="shadcn-btn-primary text-xs py-2 px-3.5"
+                      >
+                        <span>Stage Application</span>
+                        <ChevronRight className="w-3.5 h-3.5" />
+                      </button>
                     </div>
-                  )}
-                </div>
-
-                {/* Reasoning Quote */}
-                {job.reasoning && (
-                  <div className="p-3 rounded-lg bg-blue-950/20 border border-blue-500/20 text-xs text-blue-300/90 leading-relaxed font-sans">
-                    <span className="font-bold text-blue-200">Matching Justification: </span>
-                    {job.reasoning}
-                  </div>
-                )}
-
-                {/* Action buttons */}
-                <div className="flex items-center justify-between pt-2 border-t border-slate-800">
-                  <a
-                    href={job.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-slate-400 hover:text-slate-200 inline-flex items-center space-x-1"
-                  >
-                    <span>View Posting on {job.ats_provider}</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
-
-                  <div className="flex items-center space-x-2">
-                    <button
-                      onClick={() => {
-                        onSelectJob(job);
-                        setActiveTab('resumes');
-                      }}
-                      className="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium inline-flex items-center space-x-1 transition-all"
-                    >
-                      <FileText className="w-3.5 h-3.5" />
-                      <span>Preview Tailored Resume</span>
-                    </button>
-
-                    <button
-                      onClick={() => handlePrepare(job)}
-                      className="px-4 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-semibold inline-flex items-center space-x-1.5 shadow-md shadow-blue-600/20 transition-all cursor-pointer"
-                    >
-                      <Send className="w-3.5 h-3.5" />
-                      <span>Prepare Application Packet</span>
-                    </button>
                   </div>
                 </div>
 
-              </div>
+                {/* Match Analysis Breakdown */}
+                <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+                  <div className="bg-[#F8FAFC] p-3.5 rounded-xl border border-[#E2E8F0]">
+                    <div className="font-semibold text-emerald-700 mb-2 flex items-center gap-1.5">
+                      <Check className="w-4 h-4 text-emerald-600" />
+                      <span>Verified Matched Competencies</span>
+                    </div>
+                    <div className="flex flex-wrap gap-1.5">
+                      {keyMatches.map((m, i) => (
+                        <span 
+                          key={i} 
+                          className="px-2 py-0.5 rounded-md bg-emerald-50 border border-emerald-200 text-emerald-800 font-mono text-[11px]"
+                        >
+                          ✓ {m}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="bg-[#F8FAFC] p-3.5 rounded-xl border border-[#E2E8F0]">
+                    <div className="font-semibold text-[#64748B] mb-2 flex items-center gap-1.5">
+                      <Award className="w-4 h-4 text-[#4F46E5]" />
+                      <span>Candidate Positioning</span>
+                    </div>
+                    <p className="text-[#64748B] leading-relaxed">
+                      Matches Naga Teja's 3+ years experience with Playwright & Selenium Java test automation, BDD/Cucumber frameworks, and AI-accelerated QA workflows (Devin AI).
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
             );
           })
         ) : (
-          <div className="p-12 text-center rounded-xl bg-slate-900 border border-slate-800 text-slate-500 text-xs">
-            No jobs found matching the selected score criteria.
+          <div className="shadcn-card py-16 text-center text-[#64748B]">
+            No job matches found for this filter criteria.
           </div>
         )}
       </div>

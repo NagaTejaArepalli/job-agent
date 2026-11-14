@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import JobDiscovery from './components/JobDiscovery';
@@ -179,86 +180,102 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
+    <div className="min-h-screen bg-[#F8FAFC] text-[#0F172A] flex flex-col font-sans pb-16 md:pb-0">
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} stats={stats} />
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {loading ? (
-          <div className="flex items-center justify-center py-32 space-x-3 text-slate-400">
-            <div className="w-6 h-6 border-2 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
-            <span className="text-sm font-medium">Loading AI Job Search Agent...</span>
+          <div className="flex flex-col items-center justify-center py-32 space-y-4">
+            <div className="w-8 h-8 border-3 border-[#4F46E5] border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-sm font-semibold text-[#64748B]">
+              Loading AI Job Search Agent...
+            </p>
           </div>
         ) : (
-          <>
-            {activeTab === 'dashboard' && (
-              <Dashboard
-                stats={stats}
-                scheduler={scheduler}
-                recentJobs={jobs}
-                onTriggerPipeline={handleTriggerPipeline}
-                setActiveTab={setActiveTab}
-                onSelectJob={setSelectedJob}
-              />
-            )}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeTab}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.18, ease: "easeOut" }}
+            >
+              {activeTab === 'dashboard' && (
+                <Dashboard
+                  stats={stats}
+                  scheduler={scheduler}
+                  recentJobs={jobs}
+                  onTriggerPipeline={handleTriggerPipeline}
+                  setActiveTab={setActiveTab}
+                  onSelectJob={setSelectedJob}
+                />
+              )}
 
-            {activeTab === 'discovery' && (
-              <JobDiscovery
-                companies={companies}
-                jobs={jobs}
-                onAddCompany={handleAddCompany}
-                onDeleteCompany={handleDeleteCompany}
-                onDiscoverCompany={handleDiscoverCompany}
-                onDiscoverAll={handleDiscoverAll}
-                onSelectJob={setSelectedJob}
-                setActiveTab={setActiveTab}
-              />
-            )}
+              {activeTab === 'discovery' && (
+                <JobDiscovery
+                  companies={companies}
+                  jobs={jobs}
+                  onAddCompany={handleAddCompany}
+                  onDeleteCompany={handleDeleteCompany}
+                  onDiscoverCompany={handleDiscoverCompany}
+                  onDiscoverAll={handleDiscoverAll}
+                  onSelectJob={setSelectedJob}
+                  setActiveTab={setActiveTab}
+                />
+              )}
 
-            {activeTab === 'matching' && (
-              <JobMatching
-                jobs={jobs}
-                onMatchAll={handleMatchAll}
-                onSelectJob={setSelectedJob}
-                setActiveTab={setActiveTab}
-                onPrepareApplication={handlePrepareApplication}
-              />
-            )}
+              {activeTab === 'matching' && (
+                <JobMatching
+                  jobs={jobs}
+                  onMatchAll={handleMatchAll}
+                  onSelectJob={setSelectedJob}
+                  setActiveTab={setActiveTab}
+                  onPrepareApplication={handlePrepareApplication}
+                />
+              )}
 
-            {activeTab === 'applications' && (
-              <ApplicationManager
-                applications={applications}
-                selectedJob={selectedJob}
-                onFillForm={handleFillForm}
-                onToggleChecklist={handleToggleChecklist}
-                onUpdateStatus={handleUpdateStatus}
-              />
-            )}
+              {activeTab === 'applications' && (
+                <ApplicationManager
+                  applications={applications}
+                  selectedJob={selectedJob}
+                  onFillForm={handleFillForm}
+                  onToggleChecklist={handleToggleChecklist}
+                  onUpdateStatus={handleUpdateStatus}
+                />
+              )}
 
-            {activeTab === 'resumes' && (
-              <ResumeManager
-                masterResume={masterResume}
-                selectedJob={selectedJob}
-                onUploadMasterResume={handleUploadMasterResume}
-                onGenerateTailoredResume={handleGenerateTailoredResume}
-              />
-            )}
+              {activeTab === 'resumes' && (
+                <ResumeManager
+                  masterResume={masterResume}
+                  selectedJob={selectedJob}
+                  onUploadMasterResume={handleUploadMasterResume}
+                  onGenerateTailoredResume={handleGenerateTailoredResume}
+                />
+              )}
 
-            {activeTab === 'knowledge' && (
-              <KnowledgeBase
-                qaItems={qaItems}
-                onUploadQADoc={handleUploadQADoc}
-                onAddQAItem={handleAddQAItem}
-                onDeleteQAItem={handleDeleteQAItem}
-                onSemanticQuery={handleSemanticQuery}
-              />
-            )}
-          </>
+              {activeTab === 'knowledge' && (
+                <KnowledgeBase
+                  qaItems={qaItems}
+                  onUploadQADoc={handleUploadQADoc}
+                  onAddQAItem={handleAddQAItem}
+                  onDeleteQAItem={handleDeleteQAItem}
+                  onSemanticQuery={handleSemanticQuery}
+                />
+              )}
+            </motion.div>
+          </AnimatePresence>
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-800/80 bg-slate-900/60 py-4 mt-12 text-center text-xs text-slate-500">
-        <p>AI Job Search & Application Agent • Human-in-the-Loop Review • Zero-Fabrication Architecture</p>
+      {/* Responsive Footer */}
+      <footer className="border-t border-[#E2E8F0] bg-white py-4 mt-12 text-center text-xs text-[#64748B] hidden sm:block">
+        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
+          <span>AI Job Search & Application Agent • Tailored for <strong>Naga Teja Arepalli</strong></span>
+          <span className="flex items-center gap-1.5 font-medium text-emerald-600">
+            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            Strict India Matching • Human-in-the-Loop Submit
+          </span>
+        </div>
       </footer>
     </div>
   );
