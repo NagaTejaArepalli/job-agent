@@ -1,19 +1,18 @@
 @echo off
 echo ==========================================================
-echo    AI Job Search ^& Application Agent (Everyday System)
+echo    AI Job Search ^& Application Agent (Naga Teja Arepalli)
 echo ==========================================================
 
-echo [1/2] Starting Backend Server on http://localhost:8000...
-start "Backend API Server" python -m uvicorn backend.main:app --port 8000 --reload
+echo [1/2] Starting Server on http://127.0.0.1:8000...
+start "AI Job Agent Server" python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 
-echo [2/2] Starting Frontend Vite Server on http://localhost:5173...
-cd frontend
-start "Frontend Dashboard" npm run dev
-cd ..
+timeout /t 2 /nobreak >nul
+
+echo [2/2] Opening Dashboard in your browser...
+start http://127.0.0.1:8000
 
 echo.
-echo Application started!
-echo Dashboard URL: http://localhost:5173
-echo Backend API:   http://localhost:8000/docs
+echo Application is running!
+echo Dashboard: http://127.0.0.1:8000
 echo.
 pause
