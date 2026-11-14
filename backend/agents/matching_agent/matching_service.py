@@ -44,6 +44,19 @@ class MatchingAgent:
         
     def evaluate_job(self, job: Job, master_resume: MasterResume) -> Dict[str, Any]:
         from backend.utils.location_filter import is_india_location
+        
+        # STRICT EXCLUSIONS: Do not match jobs at current (Infor) or previous (Accenture) employers
+        company_name = (job.company.name if job.company else "").lower()
+        if "infor" in company_name or "accenture" in company_name:
+            return {
+                "match_score": 0.0,
+                "technical_score": 0.0,
+                "experience_score": 0.0,
+                "reasoning": "Strictly excluded: Infor (current employer) and Accenture (previous employer) are excluded from applications.",
+                "key_matches": [],
+                "missing_skills": []
+            }
+            
         is_india, _ = is_india_location(job.location or "")
         if not is_india:
             return {

@@ -16,6 +16,17 @@ class DiscoveryAgent:
         self.db = db
         
     async def discover_company_jobs(self, company: Company) -> Dict[str, Any]:
+        # STRICT EXCLUSION: Do not search or apply to current/past employers (Infor & Accenture)
+        EXCLUDED_EMPLOYERS = ["infor", "accenture"]
+        if any(exc in (company.name or "").lower() for exc in EXCLUDED_EMPLOYERS):
+            return {
+                "company_name": company.name,
+                "total_found": 0,
+                "new_added": 0,
+                "updated": 0,
+                "status": "excluded_current_past_employer"
+            }
+            
         connector = get_connector(
             company_name=company.name,
             career_url=company.career_url,

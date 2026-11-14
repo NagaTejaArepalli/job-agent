@@ -39,9 +39,18 @@ def create_master_resume_docx(output_path: str, data: dict):
     doc.save(output_path)
 
 def seed_initial_data(db: Session):
-    # 1. Seed Company Configurations from target_companies.json (148 official company career sites)
+    # 1. Seed Company Configurations from target_companies.json (excluding current/past employers: Infor, Accenture)
     import json
     from backend.career_connectors.registry import detect_ats_provider
+    
+    EXCLUDED_COMPANIES = ["infor", "accenture", "accenture in india"]
+    
+    # Clean up any existing Infor or Accenture records from DB
+    for exc in EXCLUDED_COMPANIES:
+        exc_comps = db.query(Company).filter(Company.name.ilike(f"%{exc}%")).all()
+        for ec in exc_comps:
+            db.delete(ec)
+    db.commit()
     
     target_file = settings.COMPANY_CONFIG_DIR / "target_companies.json"
     if target_file.exists():
@@ -49,6 +58,9 @@ def seed_initial_data(db: Session):
             comps_data = json.load(f)
             
         for item in comps_data:
+            if any(exc in item["name"].lower() for exc in EXCLUDED_COMPANIES):
+                continue
+                
             existing = db.query(Company).filter(Company.name == item["name"]).first()
             if not existing:
                 ats = item.get("ats_provider") or detect_ats_provider(item["career_url"])
@@ -243,9 +255,9 @@ def seed_initial_data(db: Session):
 
     # 4. Seed India-based active jobs for immediate testing
     if db.query(Job).count() == 0 or True: # refresh seed jobs to ensure strict India locations
-        # Clean existing non-India jobs
+        # Clean existing non-India or excluded employer jobs
         db.query(Job).delete()
-        c_infor = db.query(Company).filter(Company.name == "Infor").first()
+        c_cred = db.query(Company).filter(Company.name == "CRED").first()
         c_razorpay = db.query(Company).filter(Company.name == "Razorpay").first()
         c_swiggy = db.query(Company).filter(Company.name == "Swiggy").first()
         c_flipkart = db.query(Company).filter(Company.name == "Flipkart").first()
@@ -253,16 +265,16 @@ def seed_initial_data(db: Session):
         
         india_jobs = [
             Job(
-                company_id=c_infor.id if c_infor else 1,
-                ats_job_id="infor-sdet-blr-01",
-                title="Senior QA Engineer (SDET) - Test Automation & Frameworks",
+                company_id=c_cred.id if c_cred else 1,
+                ats_job_id="cred-sdet-blr-01",
+                title="Senior SDET - Automation Architecture & Backend Quality",
                 location="Bangalore, Karnataka, India",
-                department="Cloud Enterprise Quality",
+                department="Core Infrastructure Quality",
                 employment_type="Full-time",
-                url="https://careers.infor.com/jobs/sdet-bangalore-01",
-                description="Seeking a Senior QA Engineer / SDET in Bangalore to build enterprise test frameworks using Java, Playwright, Selenium, and REST Assured with CI/CD integration.",
-                salary_range="₹14,00,000 - ₹18,00,000",
-                hash_id="seed_infor_blr_01",
+                url="https://careers.cred.club/jobs/sdet-blr",
+                description="CRED Bangalore is seeking a Senior SDET with deep expertise in Java/TypeScript, Playwright/Selenium, thread-safe parallel test execution, and REST Assured API automation.",
+                salary_range="₹18,00,000 - ₹26,00,000",
+                hash_id="seed_cred_blr_01",
                 status="active"
             ),
             Job(
