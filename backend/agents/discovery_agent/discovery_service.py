@@ -32,7 +32,15 @@ class DiscoveryAgent:
         new_jobs = 0
         updated_jobs = 0
         
+        from backend.utils.location_filter import is_india_location
+        
         for raw in raw_jobs:
+            is_india, normalized_loc = is_india_location(raw.location)
+            # STRICT FILTER: User requires India opportunities only
+            if not is_india:
+                continue
+                
+            raw.location = normalized_loc
             existing_job = self.db.query(Job).filter(
                 (Job.hash_id == raw.hash_id) | 
                 ((Job.company_id == company.id) & (Job.ats_job_id == raw.ats_job_id) & (Job.ats_job_id.isnot(None)))

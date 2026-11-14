@@ -43,6 +43,18 @@ class MatchingAgent:
         return 3 # default estimated baseline
         
     def evaluate_job(self, job: Job, master_resume: MasterResume) -> Dict[str, Any]:
+        from backend.utils.location_filter import is_india_location
+        is_india, _ = is_india_location(job.location or "")
+        if not is_india:
+            return {
+                "match_score": 0.0,
+                "technical_score": 0.0,
+                "experience_score": 0.0,
+                "reasoning": f"Strictly excluded: Location '{job.location}' is outside India. Candidate requires opportunities within India only (Bangalore, Hyderabad, Chennai, Pune, Delhi NCR, or India Remote).",
+                "key_matches": [],
+                "missing_skills": []
+            }
+
         resume_text = (master_resume.raw_text or "").lower()
         job_title = (job.title or "").lower()
         job_desc = (job.description or "").lower()

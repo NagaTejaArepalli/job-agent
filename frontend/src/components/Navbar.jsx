@@ -9,7 +9,8 @@ import {
   Building2, 
   Clock, 
   ShieldCheck, 
-  UserCheck 
+  UserCheck,
+  MapPin
 } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, stats }) {
@@ -73,6 +74,10 @@ export default function Navbar({ activeTab, setActiveTab, stats }) {
 
           {/* Safety & Protocol Badges */}
           <div className="hidden lg:flex items-center space-x-2">
+            <div className="flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-[11px] font-medium" title="Location Constraint: Strictly searches and applies to jobs in India only.">
+              <MapPin className="w-3.5 h-3.5" />
+              <span>India Only</span>
+            </div>
             <div className="flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-[11px] font-medium" title="Human-in-the-loop: The agent never submits forms automatically.">
               <UserCheck className="w-3.5 h-3.5" />
               <span>Human Submit</span>

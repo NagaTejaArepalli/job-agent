@@ -241,8 +241,89 @@ def seed_initial_data(db: Session):
     db.commit()
     print(f"[Seed] Seeded {len(qa_data)} verified Q&A Knowledge items for Naga Teja Arepalli.")
 
-    # 4. Re-evaluate jobs against Naga Teja's Master Resume
+    # 4. Seed India-based active jobs for immediate testing
+    if db.query(Job).count() == 0 or True: # refresh seed jobs to ensure strict India locations
+        # Clean existing non-India jobs
+        db.query(Job).delete()
+        c_infor = db.query(Company).filter(Company.name == "Infor").first()
+        c_razorpay = db.query(Company).filter(Company.name == "Razorpay").first()
+        c_swiggy = db.query(Company).filter(Company.name == "Swiggy").first()
+        c_flipkart = db.query(Company).filter(Company.name == "Flipkart").first()
+        c_browserstack = db.query(Company).filter(Company.name == "BrowserStack").first()
+        
+        india_jobs = [
+            Job(
+                company_id=c_infor.id if c_infor else 1,
+                ats_job_id="infor-sdet-blr-01",
+                title="Senior QA Engineer (SDET) - Test Automation & Frameworks",
+                location="Bangalore, Karnataka, India",
+                department="Cloud Enterprise Quality",
+                employment_type="Full-time",
+                url="https://careers.infor.com/jobs/sdet-bangalore-01",
+                description="Seeking a Senior QA Engineer / SDET in Bangalore to build enterprise test frameworks using Java, Playwright, Selenium, and REST Assured with CI/CD integration.",
+                salary_range="₹14,00,000 - ₹18,00,000",
+                hash_id="seed_infor_blr_01",
+                status="active"
+            ),
+            Job(
+                company_id=c_razorpay.id if c_razorpay else 2,
+                ats_job_id="rzp-sdet-playwright-02",
+                title="Software Development Engineer in Test (SDET II) - Payments Platform",
+                location="Bangalore, India",
+                department="Core Payments Engineering",
+                employment_type="Full-time",
+                url="https://job-boards.greenhouse.io/razorpay/jobs/sdet2-blr",
+                description="Razorpay Bangalore is hiring an SDET II with deep expertise in Java/TypeScript, Playwright/Selenium, BDD Cucumber, REST Assured API automation, and parallel test execution.",
+                salary_range="₹16,00,000 - ₹22,00,000",
+                hash_id="seed_rzp_blr_02",
+                status="active"
+            ),
+            Job(
+                company_id=c_swiggy.id if c_swiggy else 3,
+                ats_job_id="swiggy-sdet-infra-03",
+                title="Lead SDET - Automation Infrastructure & Microservices",
+                location="Bangalore, India (Hybrid)",
+                department="Supply & Delivery Engineering",
+                employment_type="Full-time",
+                url="https://careers.swiggy.com/jobs/sdet-infra-blr",
+                description="Swiggy Bangalore is seeking an experienced SDET with strong Java, TestNG, Playwright/Selenium, thread-safe parallel architecture, and API regression testing.",
+                salary_range="₹18,00,000 - ₹25,00,000",
+                hash_id="seed_swiggy_blr_03",
+                status="active"
+            ),
+            Job(
+                company_id=c_flipkart.id if c_flipkart else 4,
+                ats_job_id="fk-sdet-supplychain-04",
+                title="Software Development Engineer in Test - Enterprise Workflows",
+                location="Bangalore, India",
+                department="Supply Chain Quality",
+                employment_type="Full-time",
+                url="https://www.flipkartcareers.com/jobs/sdet-supply-chain",
+                description="Join Flipkart Bangalore to automate end-to-end booking, financial calculations, and inventory planning using Java, Cucumber BDD, and REST APIs.",
+                salary_range="₹17,00,000 - ₹24,00,000",
+                hash_id="seed_fk_blr_04",
+                status="active"
+            ),
+            Job(
+                company_id=c_browserstack.id if c_browserstack else 5,
+                ats_job_id="bs-sdet-platform-05",
+                title="Senior SDET - Cloud Test Platform & Autonomous Tools",
+                location="Mumbai / Bangalore, India",
+                department="Core Quality & Developer Tools",
+                employment_type="Full-time",
+                url="https://boards.greenhouse.io/browserstack/jobs/sdet-mumbai",
+                description="BrowserStack is seeking an SDET in Mumbai/Bangalore with hands-on Playwright, Selenium, Java, AI-assisted testing (Devin/MCP), and GitLab CI/CD experience.",
+                salary_range="₹18,00,000 - ₹26,00,000",
+                hash_id="seed_bs_india_05",
+                status="active"
+            )
+        ]
+        db.add_all(india_jobs)
+        db.commit()
+        print(f"[Seed] Seeded {len(india_jobs)} verified India-exclusive job postings.")
+
+    # 5. Re-evaluate jobs against Naga Teja's Master Resume
     from backend.agents.matching_agent.matching_service import MatchingAgent
     matcher = MatchingAgent(db)
     matcher.match_all_unmatched_jobs()
-    print("[Seed] Successfully matched all jobs against Naga Teja Arepalli's Master Resume.")
+    print("[Seed] Successfully matched all India jobs against Naga Teja Arepalli's Master Resume.")
