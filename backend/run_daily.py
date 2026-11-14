@@ -25,26 +25,26 @@ def run_daily_pipeline_standalone():
     
     Operates 100% locally on your machine with NO cloud publishing or external site needed.
     """
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting daily job pipeline...")
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Starting daily job pipeline...", flush=True)
     init_db()
     db = SessionLocal()
 
     from backend.database.models import Company, Job
     company_count = db.query(Company).filter(Company.active == True).count()
     if company_count == 0:
-        print("-> Fresh database detected. Seeding 148 target companies, Master Resume, and 41 Q&A items...")
+        print("-> Fresh database detected. Seeding 148 target companies, Master Resume, and 41 Q&A items...", flush=True)
         from backend.database.seed import seed_initial_data
         seed_initial_data(db)
         company_count = db.query(Company).filter(Company.active == True).count()
-        print(f"   Successfully initialized {company_count} target companies in database.")
+        print(f"   Successfully initialized {company_count} target companies in database.", flush=True)
     else:
-        print(f"   Loaded {company_count} target companies from database.")
+        print(f"   Loaded {company_count} target companies from database.", flush=True)
 
     from backend.agents.llm_client import gemini_client
     if gemini_client.is_available:
-        print(f"-> Gemini AI Engine: ACTIVE (Model: {gemini_client.model})")
+        print(f"-> Gemini AI Engine: ACTIVE (Model: {gemini_client.model})", flush=True)
     else:
-        print("-> Gemini AI Engine: Running in fast heuristic matching mode (GEMINI_API_KEY optional)")
+        print("-> Gemini AI Engine: Running in fast heuristic matching mode (GEMINI_API_KEY optional)", flush=True)
     
     run_record = SchedulerRun(
         run_time=datetime.utcnow(),
@@ -55,35 +55,35 @@ def run_daily_pipeline_standalone():
     
     try:
         # 1. Discover jobs across all 148 target companies
-        print(f"-> Step 1: Discovering new jobs across {company_count} official career portals (India only)...")
+        print(f"-> Step 1: Discovering new jobs across {company_count} official career portals in parallel (India only)...", flush=True)
         discovery_agent = DiscoveryAgent(db)
         discovery_res = asyncio.run(discovery_agent.run_discovery_all())
         total_active_jobs = db.query(Job).filter(Job.status == "active").count()
-        print(f"   Scanned {discovery_res.get('companies_scanned', company_count)} companies: {discovery_res.get('new_jobs_added', 0)} new jobs added. Total active India jobs: {total_active_jobs}.")
+        print(f"   Scanned {discovery_res.get('companies_scanned', company_count)} companies: {discovery_res.get('new_jobs_added', 0)} new jobs added. Total active India jobs: {total_active_jobs}.", flush=True)
         
         # 2. Verify active job links
-        print("-> Step 2: Verifying active links and expiring closed postings...")
+        print("-> Step 2: Verifying active links and expiring closed postings...", flush=True)
         verify_res = asyncio.run(discovery_agent.verify_active_jobs(limit=100))
-        print(f"   Checked: {verify_res.get('checked', 0)}, Deactivated: {verify_res.get('deactivated', 0)}.")
+        print(f"   Checked: {verify_res.get('checked', 0)}, Deactivated: {verify_res.get('deactivated', 0)}.", flush=True)
         
         # 3. Match new jobs against Naga Teja Arepalli's Master Resume
-        print("-> Step 3: Running relevance matching against Master Resume...")
+        print("-> Step 3: Running relevance matching against Master Resume...", flush=True)
         matching_agent = MatchingAgent(db)
         matching_res = matching_agent.match_all_unmatched_jobs()
-        print(f"   Evaluated: {matching_res.get('evaluated_jobs', 0)} jobs.")
+        print(f"   Evaluated: {matching_res.get('evaluated_jobs', 0)} jobs.", flush=True)
         
         # 4. Generate daily summary Excel report
-        print("-> Step 4: Generating daily summary Excel report...")
+        print("-> Step 4: Generating daily summary Excel report...", flush=True)
         from backend.api.reports import get_job_report_payload
         from backend.scheduler.email_service import send_email_alert
         report_data = get_job_report_payload(db)
         report_path = None
         if report_data:
             report_path = ReportingService.generate_excel_report(report_data)
-            print(f"   Daily report saved locally to: {report_path}")
+            print(f"   Daily report saved locally to: {report_path}", flush=True)
 
         # 5. Send Email Alert with HTML Report & Attached Excel
-        print("-> Step 5: Sending Email Notification with HTML report and Excel attachment...")
+        print("-> Step 5: Sending Email Notification with HTML report and Excel attachment...", flush=True)
         recipient = os.getenv("ALERT_EMAIL_TO", "naga.teja.are@gmail.com").strip()
         candidate_name = "Naga Teja Arepalli"
         matched_jobs = [j for j in report_data if j.get("match_score", 0) >= 50] if report_data else []
@@ -97,9 +97,9 @@ def run_daily_pipeline_standalone():
             excel_attachment_path=report_path
         )
         if email_sent:
-            print(f"   HTML report & Excel attachment sent to {recipient}!")
+            print(f"   HTML report & Excel attachment sent to {recipient}!", flush=True)
         else:
-            print("   Email alert skipped/failed (check SMTP_USER and SMTP_PASS secrets).")
+            print("   Email alert skipped/failed (check SMTP_USER and SMTP_PASS secrets).", flush=True)
             
         # Update Scheduler log
         run_record.status = "completed"
@@ -111,7 +111,7 @@ def run_daily_pipeline_standalone():
             f"Active: {len(report_data) if report_data else 0} India postings."
         )
         db.commit()
-        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Daily pipeline completed successfully!\n")
+        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Daily pipeline completed successfully!\n", flush=True)
         return run_record.summary
         
     except Exception as e:

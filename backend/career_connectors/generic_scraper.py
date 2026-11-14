@@ -22,14 +22,14 @@ class GenericCareerScraper(BaseCareerConnector):
         
         jobs: List[RawDiscoveredJob] = []
         
-        async with httpx.AsyncClient(timeout=25.0, headers=headers, follow_redirects=True) as client:
+        async with httpx.AsyncClient(timeout=8.0, headers=headers, follow_redirects=True) as client:
             try:
                 response = await client.get(self.career_url)
                 if response.status_code != 200:
                     return []
                 html_text = response.text
             except Exception as e:
-                print(f"[GenericCareerScraper] Fetch error for {self.company_name} ({self.career_url}): {e}")
+                # Silently catch network errors or timeouts so pipeline continues seamlessly
                 return []
                 
         # 1. Try to find Schema.org JobPosting JSON-LD
@@ -82,11 +82,20 @@ class GenericCareerScraper(BaseCareerConnector):
                     str_url = str(full_url)
                     if str_url not in found_urls:
                         found_urls.add(str_url)
+                        
+                        # Infer Indian location
+                        inferred_loc = "India"
+                        text_lower = f"{clean_text} {str_url}".lower()
+                        for city in ["bangalore", "bengaluru", "hyderabad", "pune", "chennai", "mumbai", "gurgaon", "noida", "delhi"]:
+                            if city in text_lower:
+                                inferred_loc = f"{city.capitalize()}, India"
+                                break
+
                         jobs.append(
                             RawDiscoveredJob(
                                 ats_job_id=str(hash(str_url)),
                                 title=clean_text,
-                                location="Remote / Unspecified",
+                                location=inferred_loc,
                                 department=None,
                                 employment_type="Full-time",
                                 url=str_url,

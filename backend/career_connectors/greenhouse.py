@@ -25,7 +25,7 @@ class GreenhouseConnector(BaseCareerConnector):
         endpoint = f"https://boards-api.greenhouse.io/v1/boards/{self.board_token}/jobs?content=true"
         jobs: List[RawDiscoveredJob] = []
         
-        async with httpx.AsyncClient(timeout=25.0) as client:
+        async with httpx.AsyncClient(timeout=8.0) as client:
             try:
                 response = await client.get(endpoint)
                 if response.status_code != 200:

@@ -24,7 +24,7 @@ class LeverConnector(BaseCareerConnector):
         endpoint = f"https://api.lever.co/v0/postings/{self.board_token}?mode=json"
         jobs: List[RawDiscoveredJob] = []
         
-        async with httpx.AsyncClient(timeout=25.0) as client:
+        async with httpx.AsyncClient(timeout=8.0) as client:
             try:
                 response = await client.get(endpoint)
                 if response.status_code != 200:

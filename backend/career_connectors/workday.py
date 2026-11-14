@@ -45,7 +45,7 @@ class WorkdayConnector(BaseCareerConnector):
         
         jobs: List[RawDiscoveredJob] = []
         
-        async with httpx.AsyncClient(timeout=25.0, headers=headers) as client:
+        async with httpx.AsyncClient(timeout=8.0, headers=headers) as client:
             try:
                 response = await client.post(endpoint, json=payload)
                 if response.status_code != 200:

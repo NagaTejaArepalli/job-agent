@@ -61,19 +61,31 @@ def seed_initial_data(db: Session):
             if any(exc in item["name"].lower() for exc in EXCLUDED_COMPANIES):
                 continue
                 
+            norm_name = item["name"].lower().strip()
+            from backend.career_connectors.registry import KNOWN_ATS_MAPPINGS
+            if norm_name in KNOWN_ATS_MAPPINGS:
+                ats = KNOWN_ATS_MAPPINGS[norm_name][0]
+                token = KNOWN_ATS_MAPPINGS[norm_name][1]
+            else:
+                ats = item.get("ats_provider") or detect_ats_provider(item["career_url"])
+                token = item.get("board_token")
+
             existing = db.query(Company).filter(Company.name == item["name"]).first()
             if not existing:
-                ats = item.get("ats_provider") or detect_ats_provider(item["career_url"])
                 db.add(Company(
                     name=item["name"],
                     career_url=item["career_url"],
                     ats_provider=ats,
+                    board_token=token,
                     keywords=item.get("keywords", "QA, SDET, Test Automation, Software Engineer in Test, Quality Engineer"),
                     location_preference=item.get("location_preference", "Bangalore, Hyderabad, Chennai, India / Remote"),
                     active=True
                 ))
             else:
                 existing.career_url = item["career_url"]
+                existing.ats_provider = ats
+                if token:
+                    existing.board_token = token
         db.commit()
         print(f"[Seed] Successfully synced {len(comps_data)} official target company career portals.")
 

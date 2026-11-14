@@ -7,6 +7,35 @@ from backend.career_connectors.smartrecruiters import SmartRecruitersConnector
 from backend.career_connectors.workday import WorkdayConnector
 from backend.career_connectors.generic_scraper import GenericCareerScraper
 
+KNOWN_ATS_MAPPINGS = {
+    "datadog": ("greenhouse", "datadog"),
+    "pure storage": ("greenhouse", "purestorage"),
+    "zscaler": ("greenhouse", "zscaler"),
+    "okta": ("greenhouse", "okta"),
+    "agoda": ("greenhouse", "agoda"),
+    "toast": ("greenhouse", "toast"),
+    "samsara": ("greenhouse", "samsara"),
+    "airbnb": ("greenhouse", "airbnb"),
+    "rubrik": ("greenhouse", "rubrik"),
+    "roku": ("greenhouse", "roku"),
+    "highradius": ("greenhouse", "highradius"),
+    "zenoti": ("greenhouse", "zenoti"),
+    "commvault": ("greenhouse", "commvault"),
+    "druva": ("greenhouse", "druva"),
+    "slice": ("greenhouse", "slice"),
+    "groww": ("greenhouse", "groww"),
+    "swiggy": ("smartrecruiters", "swiggy"),
+    "servicenow": ("smartrecruiters", "servicenow"),
+    "arista networks": ("smartrecruiters", "aristanetworks"),
+    "freshworks": ("smartrecruiters", "freshworks"),
+    "unacademy": ("smartrecruiters", "unacademy"),
+    "whatfix": ("smartrecruiters", "whatfix"),
+    "coupa": ("lever", "coupa"),
+    "linkedin": ("lever", "linkedin"),
+    "cred": ("lever", "cred"),
+    "meesho": ("lever", "meesho"),
+}
+
 def detect_ats_provider(url: str) -> str:
     url_lower = url.lower()
     if "greenhouse.io" in url_lower:
@@ -22,9 +51,21 @@ def detect_ats_provider(url: str) -> str:
     return "generic"
 
 def get_connector(company_name: str, career_url: str, ats_provider: Optional[str] = None, board_token: Optional[str] = None) -> BaseCareerConnector:
+    norm_name = (company_name or "").lower().strip()
     provider = (ats_provider or "").lower().strip()
-    if not provider or provider == "generic":
-        provider = detect_ats_provider(career_url)
+    
+    # Check if this company is a known ATS board
+    if norm_name in KNOWN_ATS_MAPPINGS:
+        mapped_prov, mapped_token = KNOWN_ATS_MAPPINGS[norm_name]
+        provider = mapped_prov
+        board_token = board_token or mapped_token
+
+    if not provider or provider not in ["greenhouse", "lever", "ashby", "smartrecruiters", "workday"]:
+        detected = detect_ats_provider(career_url)
+        if detected != "generic":
+            provider = detected
+        elif provider not in ["greenhouse", "lever", "ashby", "smartrecruiters", "workday"]:
+            provider = "generic"
         
     if provider == "greenhouse":
         return GreenhouseConnector(company_name, career_url, board_token)
