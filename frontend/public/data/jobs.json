@@ -1084,34 +1084,6 @@
     "application_status": null
   },
   {
-    "id": 13,
-    "company_name": "Coupa",
-    "company": {
-      "name": "Coupa"
-    },
-    "ats_provider": "lever",
-    "title": "Senior Payroll Specialist -11944",
-    "location": "Pune, India",
-    "department": "G&A",
-    "employment_type": "Mid Level",
-    "url": "https://jobs.lever.co/coupa/f987be5a-6950-4a07-9ab1-db1afc1b5d25",
-    "description": "Coupa makes margins multiply through its community-generated AI and industry-leading total spend management platform for businesses large and small. Coupa AI is informed by trillions of dollars of direct and indirect spend data across a global network of 10M+ buyers and suppliers. We empower you with the ability to predict, prescribe, and automate smarter, more profitable business decisions to improve operating margins. Why join Coupa? Pioneering Technology: At Coupa, we're at the forefront of innovation, leveraging the latest technology to empower our customers with greater efficiency and visibility in their spend. Collaborative Culture: We value collaboration and teamwork, and our culture is driven by transparency, openness, and a shared commitment to excellence. Global Impact: Join a company where your work has a global, measurable impact on our clients, the business, and each other. Learn more on Life at Coupa blog and hear from our employees about their experiences working at Coupa. The Impact of a Sr. Payroll Specialist to Coupa: We are seeking a detailed\u2011oriented and experienced Senior Payroll Specialist to join our fast-growing team.While this role oversees global payroll operations, significant preference will be given to candidates with extensive, hands-on experience in India payroll and statutory compliance. This role is critical to managing end-to-end operations and providing expert support to our employees. The ideal candidate will possess strong organizational skills, the ability to thrive under payroll deadlines, and a collaborative mindset to support our cross\u2011functional teams. What You\u2019ll Do:: End-to-End Processing: Follow the payroll calendar timelines to prepare accurate inputs, validate new hire information, and submit data for next-level review and vendor processing. Quality Assurance: Review and validate payroll outputs, salary calculations, and backup records to ensure 100% accuracy. Financial Coordination: Coordinate approvals with the payroll manager, process payments (Net, tax, invoices), and share Gross\u2011to\u2011Net and Journal Entries with the accounting team. Query & Vendor Management: Manage daily payroll queries, ticketing systems, and vendor communications efficiently. Post Payroll activities: Complete trackers, KPIs, FloQast sign\u2011offs, and manage timely statutory payments (PF, PT, TDS and other Compliance Payment). Audit & Year-End: Manage year\u2011end filings, reconciliations, and employee support for tax forms (e.g., Form 16 /130). Prepare comprehensive payroll data for audits and ensure adherence to internal controls. Support all internal and external financial audits Process Improvement: Ensure timely updates to Standard Operating Procedures (SOPs) and act as a reliable backup for team members. Lead initiatives to streamline payroll workflows and enhance efficiency in collaboration with cross-functional partners Cross-Functional Collaboration: Partner closely with HR and other related department to ensure seamless data flow between systems and verify that personnel changes are accurately reflected in payroll Compliance & Tax Management: Apply deep knowledge of international tax regulations, local wage laws, and statutory requirements to ensure full global compliance. Records Management: Maintain comprehensive payroll records in accordance with company policies and internal control protocols (SOX/compliance) What you will bring to Coupa: : Experience: Minimum 10\u201312 years of recent, ideally within a fast-growth company environment, and experience in Tech company can be added advantage Education: Bachelor\u2019s degree in Accounting, Finance, Human Resources, or a related field. Technical Proficiency: Advanced proficiency in modern payroll systems, service desk tools, and MS Excel (VLOOKUPs, pivot tables, etc.). Subject Matter Expertise: Deep, proven knowledge of Indian payroll protocols, labor laws, taxation, statutory regulations, and audit requirements. Work Ethic: Ability to work under pressure, meet strict deadlines, and maintain strict data confidentiality with a strong sense of professional integrity. Analytical Mindset: Highly detail-oriented with a passion for numerical accuracy and data integrity. Communication: Exceptional verbal and written communication skills; able to explain complex payroll concepts to non-technical stakeholders. Adaptability: Proactive and flexible; comfortable navigating the shifting priorities of all business. Problem Solving: Assertive and creative approach to resolving issues and escalating risks when necessary.",
-    "salary_range": null,
-    "status": "active",
-    "first_seen": "2026-11-14T17:56:55.821729",
-    "match_score": 65.8,
-    "technical_score": 75.0,
-    "experience_score": 60.0,
-    "reasoning": "Estimated required experience: ~12 yrs (Profile matches: ~3.4 yrs).",
-    "match_details": {
-      "key_matches": [],
-      "missing_skills": []
-    },
-    "key_matches": [],
-    "missing_skills": [],
-    "application_status": null
-  },
-  {
     "id": 24,
     "company_name": "Toast",
     "company": {
@@ -2206,6 +2178,44 @@
       "aws",
       "azure",
       "microservices",
+      "python",
+      "sql"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 109,
+    "company_name": "Commvault",
+    "company": {
+      "name": "Commvault"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Engineer- Dev",
+    "location": "Bangalore, India; Hyderbad, India",
+    "department": "Engineering",
+    "employment_type": "Full-time",
+    "url": "https://job-boards.greenhouse.io/commvault/jobs/5455201008",
+    "description": "<div class=\"content-intro\"><p><strong>Recruitment Fraud Alert</strong></p> <p>We\u2019ve learned that scammers are impersonating Commvault team members\u2014including HR and leadership\u2014via email or text. These bad actors may conduct fake interviews and ask for personal information, such as your social security number. &nbsp;</p> <p><strong>What to know:</strong></p> <ul> <li>Commvault does&nbsp;<em>not</em>&nbsp;conduct interviews by email or text.</li> <li>We will never ask you to submit sensitive documents (including banking information, SSN, etc) before your first day.</li> <li>Commvault recruiters may contact prospective candidates through LinkedIn and other professional networking platforms regarding career opportunities. If you are unsure whether a recruiting communication is legitimate, review the profile to ensure they have a badge verifying them as a Commvault employee.</li> </ul> <p>If you suspect a recruiting scam, please contact us at <u><a href=\"mailto:wwrecruitingteam@commvault.com\">wwrecruitingteam@commvault.com</a>&nbsp;</u></p> <p>&nbsp;</p> <p><strong>About Commvault</strong></p> <p>Commvault (NASDAQ: CVLT) delivers continuous recovery for the AI era. We help organizations stay ready for constant disruption by returning critical data, applications, identities, and AI systems to a clean, trusted state. Our purpose-built recovery solutions span cloud-native and hybrid environments, leveraging AI to enable resilience at enterprise scale.</p></div><p><strong>Engineer \u2013 Development, Indexing (C++ / SQL)</strong></p> <p><strong>Experience:</strong> 0\u20132 years; Fresh graduates are welcome<br><strong>Location:</strong> Bangalore</p> <p>&nbsp;<strong>The Opportunity</strong></p> <p>We are looking for an Engineer to join our Indexing team. You will contribute to software that organizes and retrieves data efficiently, with a focus on correctness, performance, and reliability. You will also develop automation to improve testing, validation, and engineering workflows.</p> <p>This role is suited to an early-career developer with strong C++ and SQL skills, a systematic approach to development, and the curiosity to ask what could go wrong and how to test it.</p> <p><strong>What you\u2019ll do</strong></p> <ul> <li>Develop and maintain indexing components using C++ and SQL.</li> <li>Build and maintain automated tests, validation scripts, and tools that reduce repetitive work.</li> <li>Investigate defects by reproducing issues, examining logs, stepping through code, and identifying root causes.</li> <li>Write SQL queries to retrieve, validate, and troubleshoot data.</li> <li>Design test cases covering expected behaviour, boundary conditions, invalid inputs, and failure scenarios.</li> <li>Add unit and regression tests to validate changes and prevent recurring defects.</li> <li>Work with developers and QA engineers to clarify requirements, review changes, and resolve issues.</li> <li>Communicate findings, explain technical decisions, and document your work clearly.</li> </ul> <p><strong>Who you are</strong></p> <ul> <li>A fresh graduate or developer with up to two years of software development experience. Relevant academic projects and internships are welcome.</li> <li>Proficient in C++, including object-oriented programming, STL containers, pointers, references, and memory management.</li> <li>Comfortable writing SQL queries using joins, aggregations, and subqueries, with an understanding of relational database fundamentals.</li> <li>Strong in data structures, algorithms, and logical problem-solving.</li> <li>Able to debug methodically, test assumptions, and explain how you arrived at a solution.</li> <li>Able to translate a requirement into varied test scenarios, including empty or duplicate data, boundary values, large inputs, and interrupted operations.</li> <li>Interested in automation and identifying opportunities to improve testing and development efficiency.</li> <li>Clear in written and verbal communication, willing to ask questions, and receptive to feedback.</li> <li>Curious about unfamiliar code and motivated to learn.</li> </ul> <p><strong>Good to have</strong></p> <ul> <li>Familiarity with Python for scripting, automation, or testing.</li> <li>Exposure to test automation frameworks.</li> <li>Understanding of indexing, search, database internals, or storage systems.</li> <li>Familiarity with multithreading, concurrency, and operating system fundamentals.</li> <li>Experience using Git and a debugger such as GDB or Visual Studio.</li> <li>Projects or internships demonstrating C++, SQL, debugging, automation, or thoughtful testing.</li> </ul><div class=\"content-conclusion\"><div class=\"jd-info au-target\" data-ph-at-id=\"jobdescription-text\" data-ph-id=\"ph-page-element-page5-4e8TMw\"> <p>Commvault is an equal opportunity workplace and is an affirmative action employer. We are always committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status and we will not discriminate against on the basis of such characteristics or any other status protected by the laws or regulations in the locations where we work.</p> <p>Commvault\u2019s goal is to make interviewing inclusive and accessible to all candidates and employees. If you have a disability or special need that requires accommodation to participate in the interview process or apply for a position at Commvault, please email <a href=\"mailto:accommodations@commvault.com\" target=\"_blank\"><span class=\"WHY2\">accommodations@commvault.com</span></a>&nbsp;For any inquiries not related to an accommodation please reach out to&nbsp;<a href=\"mailto:wwrecruitingteam@commvault.com\" target=\"_blank\"><span class=\"WHY2\">wwrecruitingteam@commvault.com</span></a>.</p> <p>&nbsp;</p> <p><a href=\"https://www.commvault.com/privacy-policy\">Commvault's Privacy Policy </a></p> </div> <p>&nbsp;</p></div>",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-18T11:15:14.777575",
+    "match_score": 49.8,
+    "technical_score": 33.3,
+    "experience_score": 95.0,
+    "reasoning": "Strong overlap on key technologies: git. Missing or unlisted keywords in master resume: python, sql. Estimated required experience: ~2 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "git"
+      ],
+      "missing_skills": [
+        "python",
+        "sql"
+      ]
+    },
+    "key_matches": [
+      "git"
+    ],
+    "missing_skills": [
       "python",
       "sql"
     ],
@@ -3644,48 +3654,6 @@
       "azure",
       "javascript",
       "mongodb",
-      "postgresql",
-      "typescript"
-    ],
-    "application_status": null
-  },
-  {
-    "id": 73,
-    "company_name": "Okta",
-    "company": {
-      "name": "Okta"
-    },
-    "ats_provider": "greenhouse",
-    "title": "Senior Software Engineer, Workflows (Fullstack Javascript Engineer)",
-    "location": "Bengaluru, India",
-    "department": "SW Eng - Core Identity-670",
-    "employment_type": "Full-time",
-    "url": "https://www.okta.com/company/careers/opportunity/5772061?gh_jid=5772061",
-    "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta Workflows is the foundation for secure integration between cloud services. By harnessing the power of the cloud, Okta allows people to quickly integrate different services, while still enforcing strong security policies. It integrates directly with an organization\u2019s existing services such as directories and identity systems, as well as many other applications.</p> <p>With Okta Workflows, organizations can automate processes quickly, easily, at a large scale, and low total cost - all within an intuitive, no-code interface. Hundreds of customers, including NTT, MGM, Netflix, and more, trust Okta Workflows to help their organizations work faster, boost revenue, and stay secure.</p> <p><strong>Position Description</strong></p> <p>We are looking for a full-stack JavaScript engineer that has a deep understanding of both backend service engineering and user interface development. In this role, you will be a vital part of our Workflows Integrated Development Environment team.</p> <p>You will share our passion and great pride in building elegant solutions and will join an engineering team that prioritizes scalability, rigorous code reviews, automated testing, and an iterative approach to build high-quality, next-generation enterprise software. You will be part of a full-stack engineering team at Okta that provides opportunities to investigate new technologies and share knowledge, tools, code, and best practices. You will get an opportunity to solve hard problems while partnering with product management and user experience teams examining and refining requirements to deliver an amazing customer experience.&nbsp;</p> <p>Our team is fast, innovative, and flexible, with an agile release cycle and personal project ownership. We expect great things from our engineers and reward them with stimulating new projects, emerging technologies, and the chance to have significant equity in a company that is about to change the cloud computing landscape forever.</p> <p><strong>Role Details:</strong></p> <ul> <li>Design and build high-quality scalable software by enforcing best practices around software engineering architecture and processes (Code Reviews, Unit testing, etc.)</li> <li>Work with product owners and architects to scope and plan engineering efforts and dependencies</li> <li>Understand detailed requirements and own your code at all stages of the lifecycle - design, implementation, test automation, delivery, and monitoring - to provide high-quality products to our customers.</li> <li>Contribute to the design and implementation of new products and features while also working down our existing technical debt&nbsp;</li> <li>Participate in code reviews, retrospectives, and other continuous improvement activities</li> <li>Collaborate with QA, Technical Support, Documentation, and UX team</li> <li>Be a mentor for colleagues and help promote knowledge-sharing</li> </ul> <p><strong>Experience:&nbsp;</strong></p> <ul> <li>A deep understanding of the JavaScript language, along with 5+ years of experience building Express and ReactJS applications.</li> <li>Experience shipping robust services and user interfaces for production-grade applications in an agile, product-oriented environment.</li> <li>Experience working with cloud systems at scale.</li> <li>Prior experience with consuming and/or designing REST APIs.</li> <li>Excellent grasp of software development and testing principles.</li> </ul> <p><strong>Nice to Haves:</strong></p> <ul> <li>Knowledge in PostgreSQL</li> <li>Familiarity with TypeScript</li> <li>Knowledge in Docker &amp; Kubernetes</li> </ul> <p><strong>Education and Training:</strong></p> <ul> <li>Bachelors in Computer Science, or relevant industry experience</li> </ul> <p>#LI-MM5<br>#LI-Hybrid</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li> </ul> <p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
-    "salary_range": null,
-    "status": "active",
-    "first_seen": "2026-11-14T17:56:55.852717",
-    "match_score": 32.0,
-    "technical_score": 0.0,
-    "experience_score": 60.0,
-    "reasoning": "Missing or unlisted keywords in master resume: agile, docker, javascript, kubernetes, postgresql. Estimated required experience: ~5 yrs (Profile matches: ~3.4 yrs).",
-    "match_details": {
-      "key_matches": [],
-      "missing_skills": [
-        "agile",
-        "docker",
-        "javascript",
-        "kubernetes",
-        "postgresql",
-        "typescript"
-      ]
-    },
-    "key_matches": [],
-    "missing_skills": [
-      "agile",
-      "docker",
-      "javascript",
-      "kubernetes",
       "postgresql",
       "typescript"
     ],
