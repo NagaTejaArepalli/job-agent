@@ -908,6 +908,56 @@
     "application_status": null
   },
   {
+    "id": 112,
+    "company_name": "Toast",
+    "company": {
+      "name": "Toast"
+    },
+    "ats_provider": "greenhouse",
+    "title": "QA Engineer II",
+    "location": "Bangalore, India",
+    "department": "R & D : Engineering : International",
+    "employment_type": "Full-time",
+    "url": "https://careers.toasttab.com/jobs?gh_jid=8392140",
+    "description": "<p>We\u2019re not your traditional tech company and we don\u2019t aim to be. Going against the grain is in our DNA. Building a revolutionary product begins with revolutionary thinking. That\u2019s why we value diversity of thought, background and lived experience. Together, we empower restaurants of all sizes to build great teams, increase revenue, improve operations, and delight their guests. We pair our deep understanding of the restaurant industry with powerful cloud based software and restaurant-grade hardware to deliver an intuitive all-in-one platform. Join us on our mission to empower the restaurant community to delight guests, do what they love, and thrive.&nbsp;</p> <p><strong>We are Toasters</strong></p> <p>Diversity, Equity, and Inclusion is Baked into our Recipe for Success.At Toast our employees are our secret ingredient. When they are powered to succeed, Toast succeeds.</p> <p>The restaurant industry is one of the most diverse industries. We embrace and are excited by this diversity, believing that only through authenticity, inclusivity, high standards of respect and trust, and leading with humility will we be able to achieve our goals.</p> <p>Baking inclusive principles into our company and diversity into our design provides equitable opportunities for all and enhances our ability to be first in class in all aspects of our industry. Toast is named as One of the Best Places to Work in 2024 by Glassdoor.</p> <p><strong>Are you bready* for a change?</strong></p> <p>Toast is scaling rapidly and with that growth comes an exciting new opportunity to join one of our earliest and impactful lines of business in Bangalore. Toast is looking for a \u200bQuality Assurance Engineer to join its FinTech Integrated Payments team that enables our International customers &amp; Enterprise integrations.</p> <p>You will enable restaurants by playing a critical role in testing features in this domain.The Toast platform processes tens of millions of requests per day, and this number grows constantly as we add new locations , integrations , partners to our ecosystem and expand to new geographies. You will be one of the impactful technologists , accountable for Fintech business growth in the International and Enterprise integration team. This is a mission-critical system on which our restaurants rely for their livelihood, so Quality , Reliability and Scalability are paramount.</p> <p><strong>About this </strong><strong><em>roll</em></strong><strong>*:</strong></p> <p>As a QA-II on our team, you will be:</p> <ul> <li>Collaborating with Product , Design(UI) and Development stakeholders to understand the requirements.</li> <li>Creating and implementing comprehensive test plans.</li> <li>Conducting and participating in test plan and test strategy reviews.</li> <li>Testing new features and regressions across our suite of hardware and software products.&nbsp;</li> <li>Create defects for requirement deviations, assign priority and severity and escalate if needed.&nbsp;</li> <li>Collaborating and assisting the project teams to triage and reproduction of defects, debugging of customer issues,validate fixes and attending sprint ceremonies.</li> <li>Work with other QA engineers and developers to adapt a test automation strategy.</li> <li>Increase Automation test case coverage by developing reusable scripts, brining test efficiency by using automation for release testing.&nbsp;</li> <li>Actively contribute towards product design and roadmap discussions by pitching ideas from a quality perspective.</li> <li>Keeping current with tools such as Jira, Confluence, TestRail, automation products etc.</li> </ul> <p><strong>Do you have the right ingredients*?</strong></p> <ul> <li>4+ years of experience in Quality Assurance.</li> <li>Ability to learn and understand complex business logic and find creative ways to test it.</li> <li>Design and deliver test plans for a significant component, set of features, mid-size application, or service.&nbsp;</li> <li>Have a solid understanding of the test strategies and methodologies used in your technology domain (and how to best apply them). Example API testing using postman, Web Application testing (Desktop, Toast Hardware and Mobile Apps), Automated testing using Selenium , Playwright etc.</li> <li>Possess an appetite for automation and are aware of automation frameworks, methodologies &amp; tools</li> <li>Your test plan, scripts and test case reviews tend to be rapid and uneventful. You provide useful feedback for changes submitted by others.&nbsp;</li> <li>Your automation test scripts are maintainable and reusable, identify bugs and do not produce false positives.&nbsp;</li> <li>You make improvements to your team\u2019s testing processes and question the defined set of tests.&nbsp;</li> <li>You have established good working relationships with team members and peers working on related software.&nbsp;</li> <li>Commitment to quality, user experience, and using your \u201cget unblocked\u201d attitude for continuous learning and problem solving.</li> <li>Ability to thrive in a dynamic environment.</li> </ul> <p><strong>Special Sauce* (Extra Ingredients)</strong></p> <ul> <li>Strong familiarity with Test Automation frameworks for backend and frontend tech stacks.</li> <li>Understanding and hands on experience with testing of Fintech,Payments Products and services.</li> </ul> <p><strong>Our Tech Stack</strong></p> <p>Toast\u2019s products run on a stack that ranges from Guest and restaurant-facing Android tablets to backend services in Java to internal, guest-facing and restaurant-facing web apps(Single Page Applications). Our backend services follow a microservice architecture written using Java 8 and DropWizard. Many of our services use REST and GraphQL architectures. We use AWS extensively, ranging from S3 to RDS to Lambda. We have our own platform for dealing with user management, service elevations and robust load balancing. Toast stores data in a set of sharded Postgres databases and utilizes Apache Spark for large scale data workloads including query and batch processing. The front-end is built primarily using React and ES6. The main Toast POS application is an Android application written in Java and Kotlin. For data between tablets and our cloud platform we operate RabbitMQ clusters as well as direct tablet communication to the back end.</p> <p data-pm-slice=\"1 1 []\"><strong>AI at Toast</strong></p> <p>At Toast, one of our company values is that we're hungry to build and learn. We believe learning new AI tools empowers us to build for our customers faster, more independently, and with higher quality. We provide these tools across all disciplines, from Engineering and Product to Sales and Support, and are inspired by how our Toasters are already driving real value with them. The people who thrive here are those who embrace changes that let us build more for our customers; it\u2019s a core part of our culture.</p> <p data-pm-slice=\"1 1 []\"><strong>Our Total Rewards Philosophy&nbsp;<br></strong>We strive to provide competitive compensation and benefits programs that help to attract, retain, and motivate the best and brightest people in our industry. Our total rewards package goes beyond great earnings potential and provides the means to a healthy lifestyle with the flexibility to meet Toasters\u2019 changing needs. Learn more about our benefits at&nbsp;<a class=\"c-link\" href=\"https://careers.toasttab.com/toast-benefits\" target=\"_blank\" data-stringify-link=\"https://careers.toasttab.com/toast-benefits\" data-sk=\"tooltip_parent\" data-remove-tab-index=\"true\">https://careers.toasttab.com/toast-benefits</a>.</p><div class=\"content-conclusion\"><p><strong>How Toast Uses AI in its Hiring Process</strong></p> <p data-pm-slice=\"1 1 []\">Throughout the hiring process, our goal is to get to know you. We use AI tools to support our recruiters and interviewers with tasks like note-taking, summarization, and documentation of interviews to ensure they can be fully focused on your conversation. All hiring dec",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-21T10:41:22.536197",
+    "match_score": 72.7,
+    "technical_score": 66.7,
+    "experience_score": 80.0,
+    "reasoning": "Strong overlap on key technologies: api testing, graphql, java, jira, playwright, selenium. Missing or unlisted keywords in master resume: aws, confluence, postman. Estimated required experience: ~4 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "api testing",
+        "graphql",
+        "java",
+        "jira",
+        "playwright",
+        "selenium"
+      ],
+      "missing_skills": [
+        "aws",
+        "confluence",
+        "postman"
+      ]
+    },
+    "key_matches": [
+      "api testing",
+      "graphql",
+      "java",
+      "jira",
+      "playwright",
+      "selenium"
+    ],
+    "missing_skills": [
+      "aws",
+      "confluence",
+      "postman"
+    ],
+    "application_status": null
+  },
+  {
     "id": 22,
     "company_name": "Airbnb",
     "company": {
@@ -3390,6 +3440,162 @@
       "gcp",
       "mysql",
       "postgresql"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 113,
+    "company_name": "Rubrik",
+    "company": {
+      "name": "Rubrik"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Senior AI Engineer - Enterprise Agentic Systems",
+    "location": "Bangalore, India",
+    "department": "Information Technology & Services",
+    "employment_type": "Full-time",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8358790?gh_jid=8358790",
+    "description": "<h2><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>About the role&nbsp;</strong></span></h2> <p>We are looking for a Senior AI Engineer to join Rubrik's Applied AI Apps org, building production-grade, full-stack applications and APIs for our internal Business teams while embedding AI-agentified capabilities into these internal platforms. This is a hands-on build role: you will own features end to end from database schema through backend services and distributed systems to the user interface and bring practical, hands-on experience building or integrating AI agents, tool-calling workflows along with the right AI evals or LLM-powered features into production systems that our business stakeholders rely on.</p> <p>The ideal candidate combines strong full-stack engineering fundamentals with a systems mindset for reliability and scale, and has spent meaningful hands-on time (1\u20132 years) building AI-agentified applications not just experimenting with AI tools, but shipping agentic features in production. We are targeting 8+ years of overall software engineering experience; this is flexible for candidates who demonstrate strong depth across full-stack, distributed systems, and applied AI engineering skills during technical evaluation.</p> <h2><strong>What you'll do</strong></h2> <h3><strong>Key Responsibilities:</strong></h3> <p>&nbsp;</p> <ul> <li>Build and productionize agentic workflows, LLM-powered automation, and AI-assisted tooling having hands-on experience with these systems.</li> <li>Design and build end-to-end agent evaluation frameworks that measure correctness, latency, cost, safety, and task completion rate, including synthetic test environments that stress-test agents built on Google ADK and Google AI/ML services (Vertex AI, Gemini) under diverse real-world conditions.</li> <li>Curate golden datasets and test harnesses for our Rubrik enterprise use cases and contribute to an eval-as-a-service platform that IT teams can self-serve against standard and custom benchmarks.</li> <li>Automate regression and drift detection with CI/CD-integrated eval pipelines that catch regressions on every model or prompt change before production deployments</li> <li>Architect for distributed systems concerns: scalability, fault tolerance, data consistency, and service boundaries across backend and data layers.</li> <li>Build full-stack web applications and own features end to end be it database schema, backend services, APIs (REST, GraphQL, gRPC, and webhooks), and frontend (React/Next.js) user interface</li> <li>Design and build APIs and services that are consumed by applications, internal tools, and AI agents/LLMs, including tool-calling interfaces</li> <li>Apply reliability engineering practices \u2014 observability (logging, metrics, tracing), SLAs/SLOs, incident response, and post-incident reviews \u2014 to keep production systems healthy.</li> <li>Clarify requirements upfront, surface blockers early, and communicate progress proactively without being asked.</li> <li>Collaborate openly with internal Business stakeholders, Product, QA, DevOps, and UX or designer teams; avoid working in silos.</li> </ul> <p><strong>&nbsp;</strong></p> <h2><strong>Experience you'll need</strong></h2> <ul> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Bachelor's degree in Computer Science, Information Systems, or a related field.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">5-7 years of Salesforce experience.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Strong knowledge of Salesforce Sales Cloud, Marketing Cloud (or Pardot), Channel/Partner Portals, and Salesforce Admin functionalities.&nbsp;</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Experience with Salesforce Service Cloud and Case Management is a plus.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Proficiency in troubleshooting complex issues involving Apex, Flows, Workflows, Process Builder, Validation Rules, Reports &amp; Dashboards.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Familiarity with Salesforce integration tools (e.g., MuleSoft, Zapier, Marketing Automation Platforms).</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Salesforce Administrator certification is required; additional certifications (e.g., Platform App Builder, Marketing Cloud Administrator, Marketing Cloud Email Specialist) are a plus.<strong><br></strong></span></li> </ul> <h2><strong>Required Qualification</strong></h2> <p>&nbsp;</p> <p><strong><em>Education &amp; Experience</em></strong></p> <ul> <li>Bachelor's or Master's degree in Computer Science, Engineering, or equivalent practical experience.</li> <li>8+ years of hands-on software engineering experience across full-stack engineering (flexible based on demonstrated strength in technical evaluation).</li> <li>1\u20132 years of hands-on experience building, integrating and operating AI Agent powered applications (agentic workflows, tool-calling, RAG, LLM-powered features) in production..</li> <li>Demonstrated experience owning systems designed for scale and reliability, not just feature delivery.</li> </ul> <p><strong><em>Technical Skills \u2014 Applied AI Engineering</em></strong></p> <ul> <li>1\u20132 years of hands-on experience building AI applications, using agent frameworks (e.g., Claude Agent SDK, Google ADK, LangGraph, or equivalent).</li> <li>Practical understanding of latency, cost, rate limiting, and safety/guardrails when exposing systems for AI consumption.</li> <li>Experience with coding agents, Spec Driven and Eval Driven Development</li> <li>Deep hands-on experience with LLM evaluation \u2014 familiarity with frameworks and libraries such as LangSmith, DeepEval, LLM as a Judge, Promptfoo, RAGAS, Hugging Face evaluation tooling, custom eval harnesses</li> <li>Strong understanding of agentic AI patterns \u2014 Supervisor Multi-Agent, ReAct/Plan-Execute reasoning chains, retrieval-augmented generation (RAG)</li> </ul> <p><strong><em>Technical Skills \u2014 Full Stack Software Engineering</em></strong></p> <ul> <li>Frontend: Strong JavaScript fundamentals; hands-on experience with React and Next.js for building modern, production-grade web applications (hooks, state management, component architecture, routing, server-side rendering).</li> <li>Backend: Proficient in Python, writing production-grade code; hands-on experience with FastAPI or Flask (or equivalent frameworks) for building REST APIs.</li> <li>Database: Experience with relational and non-relational databases (PostgreSQL, MySQL, SQL Server, MongoDB, or equivalent); solid understanding of schema design, joins, indexing, and query optimization.</li> <li>APIs: Secure API design, API Gateway expertise with platforms such as Kong / Apigee / AWS API Gateway / Azure APIM / MuleSoft API Gateway for routing, rate limiting, and policy enforcement.</li> </ul> <p><strong><em>Technical Skills \u2014 Distributed Systems &amp; Reliability Engineering</em></strong></p> <ul> <li>Working knowledge of distributed systems concepts: service decomposition, consistency models, caching, queuing/messaging, and failure handling.</li> <li>Reliability engineering fundamentals: observability (logging, metrics, tracing), SLAs/SLOs, error budgets, and operational runbooks.</li> <li>Ability to reason about system design tra",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-21T10:41:22.559078",
+    "match_score": 35.5,
+    "technical_score": 20.0,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: ci/cd, graphql. Missing or unlisted keywords in master resume: aws, azure, javascript, mongodb, mysql. Estimated required experience: ~8 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "ci/cd",
+        "graphql"
+      ],
+      "missing_skills": [
+        "aws",
+        "azure",
+        "javascript",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "python",
+        "sql"
+      ]
+    },
+    "key_matches": [
+      "ci/cd",
+      "graphql"
+    ],
+    "missing_skills": [
+      "aws",
+      "azure",
+      "javascript",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "python",
+      "sql"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 114,
+    "company_name": "Rubrik",
+    "company": {
+      "name": "Rubrik"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Senior AI Engineer - Enterprise Agentic Systems",
+    "location": "Bengaluru, India",
+    "department": "Information Technology & Services",
+    "employment_type": "Full-time",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8318044?gh_jid=8318044",
+    "description": "<p>&nbsp;</p> <h2><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>About the role&nbsp;</strong></span></h2> <p>We are looking for a Senior AI Engineer to join Rubrik's Applied AI Apps org, building production-grade, full-stack applications and APIs for our internal Business teams while embedding AI-agentified capabilities into these internal platforms. This is a hands-on build role: you will own features end to end from database schema through backend services and distributed systems to the user interface and bring practical, hands-on experience building or integrating AI agents, tool-calling workflows along with the right AI evals or LLM-powered features into production systems that our business stakeholders rely on.</p> <p>The ideal candidate combines strong full-stack engineering fundamentals with a systems mindset for reliability and scale, and has spent meaningful hands-on time (1\u20132 years) building AI-agentified applications not just experimenting with AI tools, but shipping agentic features in production. We are targeting 8+ years of overall software engineering experience; this is flexible for candidates who demonstrate strong depth across full-stack, distributed systems, and applied AI engineering skills during technical evaluation.</p> <h2><strong>What you'll do</strong></h2> <h3><strong>Key Responsibilities:</strong></h3> <ul> <li>Build and productionize agentic workflows, LLM-powered automation, and AI-assisted tooling having hands-on experience with these systems.</li> <li>Design and build end-to-end agent evaluation frameworks that measure correctness, latency, cost, safety, and task completion rate, including synthetic test environments that stress-test agents built on Google ADK and Google AI/ML services (Vertex AI, Gemini) under diverse real-world conditions.</li> <li>Curate golden datasets and test harnesses for our Rubrik enterprise use cases and contribute to an eval-as-a-service platform that IT teams can self-serve against standard and custom benchmarks.</li> <li>Automate regression and drift detection with CI/CD-integrated eval pipelines that catch regressions on every model or prompt change before production deployments</li> <li>Architect for distributed systems concerns: scalability, fault tolerance, data consistency, and service boundaries across backend and data layers.</li> <li>Build full-stack web applications and own features end to end be it database schema, backend services, APIs (REST, GraphQL, gRPC, and webhooks), and frontend (React/Next.js) user interface</li> <li>Design and build APIs and services that are consumed by applications, internal tools, and AI agents/LLMs, including tool-calling interfaces</li> <li>Apply reliability engineering practices \u2014 observability (logging, metrics, tracing), SLAs/SLOs, incident response, and post-incident reviews \u2014 to keep production systems healthy.</li> <li>Clarify requirements upfront, surface blockers early, and communicate progress proactively without being asked.</li> <li>Collaborate openly with internal Business stakeholders, Product, QA, DevOps, and UX or designer teams; avoid working in silos.</li> </ul> <p><strong>&nbsp;</strong></p> <h2><strong>Experience you'll need</strong></h2> <ul> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Bachelor's degree in Computer Science, Information Systems, or a related field.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">5-7 years of Salesforce experience.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Strong knowledge of Salesforce Sales Cloud, Marketing Cloud (or Pardot), Channel/Partner Portals, and Salesforce Admin functionalities.&nbsp;</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Experience with Salesforce Service Cloud and Case Management is a plus.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Proficiency in troubleshooting complex issues involving Apex, Flows, Workflows, Process Builder, Validation Rules, Reports &amp; Dashboards.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Familiarity with Salesforce integration tools (e.g., MuleSoft, Zapier, Marketing Automation Platforms).</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Salesforce Administrator certification is required; additional certifications (e.g., Platform App Builder, Marketing Cloud Administrator, Marketing Cloud Email Specialist) are a plus.<strong><br></strong></span></li> </ul> <h2><strong>Required Qualification</strong></h2> <p><strong><em>Education &amp; Experience</em></strong></p> <ul> <li>Bachelor's or Master's degree in Computer Science, Engineering, or equivalent practical experience.</li> <li>8+ years of hands-on software engineering experience across full-stack engineering (flexible based on demonstrated strength in technical evaluation).</li> <li>1\u20132 years of hands-on experience building, integrating and operating AI Agent powered applications (agentic workflows, tool-calling, RAG, LLM-powered features) in production..</li> <li>Demonstrated experience owning systems designed for scale and reliability, not just feature delivery.</li> </ul> <p><strong><em>Technical Skills \u2014 Applied AI Engineering</em></strong></p> <ul> <li>1\u20132 years of hands-on experience building AI applications, using agent frameworks (e.g., Claude Agent SDK, Google ADK, LangGraph, or equivalent).</li> <li>Practical understanding of latency, cost, rate limiting, and safety/guardrails when exposing systems for AI consumption.</li> <li>Experience with coding agents, Spec Driven and Eval Driven Development</li> <li>Deep hands-on experience with LLM evaluation \u2014 familiarity with frameworks and libraries such as LangSmith, DeepEval, LLM as a Judge, Promptfoo, RAGAS, Hugging Face evaluation tooling, custom eval harnesses</li> <li>Strong understanding of agentic AI patterns \u2014 Supervisor Multi-Agent, ReAct/Plan-Execute reasoning chains, retrieval-augmented generation (RAG)</li> </ul> <p><strong><em>Technical Skills \u2014 Full Stack Software Engineering</em></strong></p> <ul> <li>Frontend: Strong JavaScript fundamentals; hands-on experience with React and Next.js for building modern, production-grade web applications (hooks, state management, component architecture, routing, server-side rendering).</li> <li>Backend: Proficient in Python, writing production-grade code; hands-on experience with FastAPI or Flask (or equivalent frameworks) for building REST APIs.</li> <li>Database: Experience with relational and non-relational databases (PostgreSQL, MySQL, SQL Server, MongoDB, or equivalent); solid understanding of schema design, joins, indexing, and query optimization.</li> <li>APIs: Secure API design, API Gateway expertise with platforms such as Kong / Apigee / AWS API Gateway / Azure APIM / MuleSoft API Gateway for routing, rate limiting, and policy enforcement.</li> </ul> <p><strong><em>Technical Skills \u2014 Distributed Systems &amp; Reliability Engineering</em></strong></p> <ul> <li>Working knowledge of distributed systems concepts: service decomposition, consistency models, caching, queuing/messaging, and failure handling.</li> <li>Reliability engineering fundamentals: observability (logging, metrics, tracing), SLAs/SLOs, error budgets, and operational runbooks.</li> <li>Ability to reason about system design trade-offs and bu",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-21T10:41:22.560032",
+    "match_score": 35.5,
+    "technical_score": 20.0,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: ci/cd, graphql. Missing or unlisted keywords in master resume: aws, azure, javascript, mongodb, mysql. Estimated required experience: ~8 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "ci/cd",
+        "graphql"
+      ],
+      "missing_skills": [
+        "aws",
+        "azure",
+        "javascript",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "python",
+        "sql"
+      ]
+    },
+    "key_matches": [
+      "ci/cd",
+      "graphql"
+    ],
+    "missing_skills": [
+      "aws",
+      "azure",
+      "javascript",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "python",
+      "sql"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 115,
+    "company_name": "Rubrik",
+    "company": {
+      "name": "Rubrik"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Senior AI Engineer - Enterprise Agentic Systems",
+    "location": "Bangalore, India",
+    "department": "Information Technology & Services",
+    "employment_type": "Full-time",
+    "url": "https://www.rubrik.com/company/careers/departments/job.8273808?gh_jid=8273808",
+    "description": "<h2>&nbsp;</h2> <h2><span style=\"font-family: arial, helvetica, sans-serif;\"><strong>About the role&nbsp;</strong></span></h2> <p>We are looking for a Senior AI Engineer to join Rubrik's Applied AI Apps org, building production-grade, full-stack applications and APIs for our internal Business teams while embedding AI-agentified capabilities into these internal platforms. This is a hands-on build role: you will own features end to end from database schema through backend services and distributed systems to the user interface and bring practical, hands-on experience building or integrating AI agents, tool-calling workflows along with the right AI evals or LLM-powered features into production systems that our business stakeholders rely on.</p> <p>The ideal candidate combines strong full-stack engineering fundamentals with a systems mindset for reliability and scale, and has spent meaningful hands-on time (1\u20132 years) building AI-agentified applications not just experimenting with AI tools, but shipping agentic features in production. We are targeting 8+ years of overall software engineering experience; this is flexible for candidates who demonstrate strong depth across full-stack, distributed systems, and applied AI engineering skills during technical evaluation.</p> <h2><strong>What you'll do</strong></h2> <h3><strong>Key Responsibilities:</strong></h3> <p>&nbsp;</p> <ul> <li>Build and productionize agentic workflows, LLM-powered automation, and AI-assisted tooling having hands-on experience with these systems.</li> <li>Design and build end-to-end agent evaluation frameworks that measure correctness, latency, cost, safety, and task completion rate, including synthetic test environments that stress-test agents built on Google ADK and Google AI/ML services (Vertex AI, Gemini) under diverse real-world conditions.</li> <li>Curate golden datasets and test harnesses for our Rubrik enterprise use cases and contribute to an eval-as-a-service platform that IT teams can self-serve against standard and custom benchmarks.</li> <li>Automate regression and drift detection with CI/CD-integrated eval pipelines that catch regressions on every model or prompt change before production deployments</li> <li>Architect for distributed systems concerns: scalability, fault tolerance, data consistency, and service boundaries across backend and data layers.</li> <li>Build full-stack web applications and own features end to end be it database schema, backend services, APIs (REST, GraphQL, gRPC, and webhooks), and frontend (React/Next.js) user interface</li> <li>Design and build APIs and services that are consumed by applications, internal tools, and AI agents/LLMs, including tool-calling interfaces</li> <li>Apply reliability engineering practices \u2014 observability (logging, metrics, tracing), SLAs/SLOs, incident response, and post-incident reviews \u2014 to keep production systems healthy.</li> <li>Clarify requirements upfront, surface blockers early, and communicate progress proactively without being asked.</li> <li>Collaborate openly with internal Business stakeholders, Product, QA, DevOps, and UX or designer teams; avoid working in silos.</li> </ul> <p><strong>&nbsp;</strong></p> <h2><strong>Experience you'll need</strong></h2> <ul> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Bachelor's degree in Computer Science, Information Systems, or a related field.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">5-7 years of Salesforce experience.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Strong knowledge of Salesforce Sales Cloud, Marketing Cloud (or Pardot), Channel/Partner Portals, and Salesforce Admin functionalities.&nbsp;</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Experience with Salesforce Service Cloud and Case Management is a plus.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Proficiency in troubleshooting complex issues involving Apex, Flows, Workflows, Process Builder, Validation Rules, Reports &amp; Dashboards.</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Familiarity with Salesforce integration tools (e.g., MuleSoft, Zapier, Marketing Automation Platforms).</span></li> <li style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 10pt;\">Salesforce Administrator certification is required; additional certifications (e.g., Platform App Builder, Marketing Cloud Administrator, Marketing Cloud Email Specialist) are a plus.<strong><br></strong></span></li> </ul> <h2><strong>Required Qualification</strong></h2> <p>&nbsp;</p> <p><strong><em>Education &amp; Experience</em></strong></p> <ul> <li>Bachelor's or Master's degree in Computer Science, Engineering, or equivalent practical experience.</li> <li>8+ years of hands-on software engineering experience across full-stack engineering (flexible based on demonstrated strength in technical evaluation).</li> <li>1\u20132 years of hands-on experience building, integrating and operating AI Agent powered applications (agentic workflows, tool-calling, RAG, LLM-powered features) in production..</li> <li>Demonstrated experience owning systems designed for scale and reliability, not just feature delivery.</li> </ul> <p><strong><em>Technical Skills \u2014 Applied AI Engineering</em></strong></p> <ul> <li>1\u20132 years of hands-on experience building AI applications, using agent frameworks (e.g., Claude Agent SDK, Google ADK, LangGraph, or equivalent).</li> <li>Practical understanding of latency, cost, rate limiting, and safety/guardrails when exposing systems for AI consumption.</li> <li>Experience with coding agents, Spec Driven and Eval Driven Development</li> <li>Deep hands-on experience with LLM evaluation \u2014 familiarity with frameworks and libraries such as LangSmith, DeepEval, LLM as a Judge, Promptfoo, RAGAS, Hugging Face evaluation tooling, custom eval harnesses</li> <li>Strong understanding of agentic AI patterns \u2014 Supervisor Multi-Agent, ReAct/Plan-Execute reasoning chains, retrieval-augmented generation (RAG)</li> </ul> <p><strong><em>Technical Skills \u2014 Full Stack Software Engineering</em></strong></p> <ul> <li>Frontend: Strong JavaScript fundamentals; hands-on experience with React and Next.js for building modern, production-grade web applications (hooks, state management, component architecture, routing, server-side rendering).</li> <li>Backend: Proficient in Python, writing production-grade code; hands-on experience with FastAPI or Flask (or equivalent frameworks) for building REST APIs.</li> <li>Database: Experience with relational and non-relational databases (PostgreSQL, MySQL, SQL Server, MongoDB, or equivalent); solid understanding of schema design, joins, indexing, and query optimization.</li> <li>APIs: Secure API design, API Gateway expertise with platforms such as Kong / Apigee / AWS API Gateway / Azure APIM / MuleSoft API Gateway for routing, rate limiting, and policy enforcement.</li> </ul> <p><strong><em>Technical Skills \u2014 Distributed Systems &amp; Reliability Engineering</em></strong></p> <ul> <li>Working knowledge of distributed systems concepts: service decomposition, consistency models, caching, queuing/messaging, and failure handling.</li> <li>Reliability engineering fundamentals: observability (logging, metrics, tracing), SLAs/SLOs, error budgets, and operational runbooks.</li> <li>Ability to reason about s",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-21T10:41:22.560539",
+    "match_score": 35.5,
+    "technical_score": 20.0,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: ci/cd, graphql. Missing or unlisted keywords in master resume: aws, azure, javascript, mongodb, mysql. Estimated required experience: ~8 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "ci/cd",
+        "graphql"
+      ],
+      "missing_skills": [
+        "aws",
+        "azure",
+        "javascript",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "python",
+        "sql"
+      ]
+    },
+    "key_matches": [
+      "ci/cd",
+      "graphql"
+    ],
+    "missing_skills": [
+      "aws",
+      "azure",
+      "javascript",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "python",
+      "sql"
     ],
     "application_status": null
   },
