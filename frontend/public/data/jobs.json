@@ -156,34 +156,6 @@
     "application_status": null
   },
   {
-    "id": 7,
-    "company_name": "Arista Networks",
-    "company": {
-      "name": "Arista Networks"
-    },
-    "ats_provider": "smartrecruiters",
-    "title": "Software Engineer - Test Automation",
-    "location": "Bengaluru, in",
-    "department": "Software Engineering",
-    "employment_type": "Full-time",
-    "url": "https://jobs.smartrecruiters.com/aristanetworks/744000160116794",
-    "description": "Software Engineer - Test Automation at Arista Networks. Department: Software Engineering. Location: Bengaluru, in.",
-    "salary_range": null,
-    "status": "active",
-    "first_seen": "2026-11-14T17:42:46.191833",
-    "match_score": 82.8,
-    "technical_score": 75.0,
-    "experience_score": 95.0,
-    "reasoning": "High title alignment with core SDET / Automation specialization. Estimated required experience: ~3 yrs (Profile matches: ~3.4 yrs).",
-    "match_details": {
-      "key_matches": [],
-      "missing_skills": []
-    },
-    "key_matches": [],
-    "missing_skills": [],
-    "application_status": null
-  },
-  {
     "id": 6,
     "company_name": "Hewlett Packard Enterprise (HPE)",
     "company": {
@@ -3600,6 +3572,48 @@
     "application_status": null
   },
   {
+    "id": 116,
+    "company_name": "Okta",
+    "company": {
+      "name": "Okta"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Manager, Engineering",
+    "location": "Bengaluru",
+    "department": "SW Eng - Applications-674",
+    "employment_type": "Full-time",
+    "url": "https://www.okta.com/company/careers/opportunity/8405177?gh_jid=8405177",
+    "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is the leading independent provider of enterprise identity. The Okta Identity Cloud enables organizations to securely connect the right people to the right technologies at the right time. With over 6,500 pre-built integrations to applications and infrastructure providers, Okta customers can easily and securely use the best technologies for their business. Over 7,950 organizations, including 20th Century Fox, JetBlue, Nordstrom, Slack, Teach for America and Twilio, trust Okta to help protect the identities of their workforces and customers</p> <p>The vision is to make Okta the de facto provider of the cloud identity and access management, and help customers migrate to cloud based identity and access management solutions.&nbsp;</p> <p>Our elite team is fast, innovative and flexible, with a weekly, agile release cycle. They are eager to grow and to create an impact on the world around us. They are open minded, constantly propose stimulating new projects and explore/adopt emerging technologies&nbsp;</p> <p>We are looking for an engineering manager to work on Multi-Product Experiences (MPE) with focus on enterprise tenant management, delegated administration and organization management tools. We focus on managing orgs, tenants, permissions and related tools. You will own a global cloud service, with stringent performance, reliability and scalability requirements. You will lead a team of elite engineers, grow the team, and drive impact and customer satisfaction, and additionally engage with teams in North America for planning, roadmap alignment and integrations. You will drive engineering best practices, productivity enhancement, and make our elite engineering team shine. You also share great pride in elegant solutions and strongly believe in designing for scale, rigorous code reviews, automated testing, and an iterative process to build high-quality next generation cloud software.&nbsp;</p> <p><strong>Job Duties and Responsibilities:</strong></p> <ul> <li>Establishing clear priorities, expectations, and accountability for individuals and team</li> <li>Collaborate with product management, architects and tech leads to help define and refine product roadmap</li> <li>Driving the execution and delivery of product features with high quality product by working with cross-functional teams, System Architects, QA, and Documentation teams</li> <li>Providing regular feedback, technical guidance, and mentoring to team members</li> <li>Fostering collaborative, engaging and inclusive team environments</li> <li>Maintaining and improving our culture by sourcing and hiring only the most qualified individuals with an eye towards diversity &amp; inclusion</li> </ul> <p><strong>Required Knowledge, Skills, and Abilities:</strong></p> <ul> <li>8+ years of experience in developing enterprise cloud software development</li> <li>Experience working with product &amp; program managers to align on objectives, priorities, trade-offs and risk</li> <li>Excellent communication and collaboration skills for technical discussions.</li> <li>Ability to work effectively with distributed teams and people of various backgrounds</li> <li>Lead, recruit, mentor and retain engineers</li> </ul> <p><strong>Preferred skills:</strong></p> <ul> <li>Expertise in managing projects written using Java/Golang, REST API, JSON.</li> <li>Experience or knowledge of cloud computing services such as AWS/Azure/GCP</li> <li>Experience managing framework/platform team</li> <li>Shipped a large-scale project with cross team dependencies</li> <li>Enjoy communicating to all levels of our customer support and professional services.</li> <li>Knowledge of network security, encryption, identity and provisioning a plus</li> </ul> <p><strong>Education and Training:</strong></p> <ul> <li>Bachelor\u2019s Degree majoring in computer science or equivalent</li> </ul> <p>Okta\u2019s Top 5 Core Leadership Competencies are part of the deeply ingrained principles that guide all of our company\u2019s actions. They also align strongly to our cultural cornerstones, our Okta values: love our customers, empower our people, never stop innovating, act with integrity, and maintain transparency. It\u2019s our expectation that our managers and leaders embody these core competencies:</p> <ul> <li>Builds Effective Teams: Building strong-identity teams that apply their diverse skills and perspectives to achieve common goals.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li> <li>Demonstrates Self-Awareness (EQ): Using a combination of feedback and reflection to gain productive insight into personal strengths and weaknesses.</li> <li>Develops Talent: Developing people to meet both their career goals and the organization\u2019s goals.</li> <li>Drives Results: Consistently achieving results, even under tough circumstances.</li> <li>Strategic Mindset: Seeing ahead to future possibilities and translating them into breakthrough strategies.</li> </ul> <p>Okta is an Equal Opportunity Employer.</p> <p>REQ5156</p> <p>#LI-Hybrid</p> <p>&nbsp;</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li> </ul> <p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-23T11:51:27.198743",
+    "match_score": 35.5,
+    "technical_score": 20.0,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: java. Missing or unlisted keywords in master resume: agile, aws, azure, gcp. Estimated required experience: ~8 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "java"
+      ],
+      "missing_skills": [
+        "agile",
+        "aws",
+        "azure",
+        "gcp"
+      ]
+    },
+    "key_matches": [
+      "java"
+    ],
+    "missing_skills": [
+      "agile",
+      "aws",
+      "azure",
+      "gcp"
+    ],
+    "application_status": null
+  },
+  {
     "id": 19,
     "company_name": "Agoda",
     "company": {
@@ -3730,48 +3744,6 @@
       "kubernetes",
       "linux",
       "microservices"
-    ],
-    "application_status": null
-  },
-  {
-    "id": 69,
-    "company_name": "Okta",
-    "company": {
-      "name": "Okta"
-    },
-    "ats_provider": "greenhouse",
-    "title": "Senior Software Engineer (Core Frontier)",
-    "location": "Bengaluru, India",
-    "department": "Emerging Tech-694",
-    "employment_type": "Full-time",
-    "url": "https://www.okta.com/company/careers/opportunity/8305423?gh_jid=8305423",
-    "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p><strong>Get to know Okta</strong></p> <p>Okta is The World\u2019s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth.</p> <p>At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we\u2019re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp;</p> <p>Join our team! We\u2019re building a world where Identity belongs to you.</p> <p><strong>The Product</strong></p> <p>Auth0 is a developer-friendly identity platform that simplifies authentication and authorization for applications. Designed by developers for developers, we make access to applications safe, secure, and seamless for the more than 100 million daily logins around the world. Our modern approach to identity enables this Tier-\u00d8 global service to deliver convenience, privacy, and security so customers can focus on innovation. Know more about our product at <a href=\"https://auth0.com/\"><strong>https://auth0.com/</strong></a>.</p> <p><strong>The Role</strong></p> <p>We are hiring for a new team within Core Identity, the Engineering organization entrusted with the very heart of the Auth0 application. Our teams own the authentication pipeline, identity protocols, user sessions, and all the fundamental concepts and foundational elements that underpin our entire product. We are also the stewards of the platform's technical health, performance, and efficiency.</p> <p>As a <strong>Senior Engineer</strong> for this new team, named <strong>Core Frontier</strong>, you will operate at the vital intersection of deep product innovation and the global customer experience. Your mission is to ensure that the sophisticated features developed across the Core Identity organization (such as Native to Web, Cross-App Access and Custom Token Exchange) are hardened, scaled, and seamlessly integrated into the Auth0 ecosystem. You will act as the architectural bridge, ensuring that complex internal logic translates into a polished, secure, and high-performance experience that millions of developers and end-users interact with every day.</p> <p>This is an opportunity to solve complex distributed systems challenges at a global scale, whilst providing a delightful and secure experience for our customers. You will primarily work with our NodeJS backend (TypeScript/JavaScript), with data stored in MongoDB, PostgreSQL, and Redis, all running on a multi-cloud infrastructure (AWS and Azure). If you have a passion for simplifying complex problems, building resilient and secure software, and care deeply about the final \"feel\" of a product, we encourage you to apply. Experience with or an interest in Identity and Access Management is highly valued.</p> <p><strong>What you will do:&nbsp;</strong></p> <ul> <li>Be a founding engineer of this new team in Bengaluru, setting the technical bar and engineering culture for our growing presence in the region and working in collaboration with our global teams in Europe and North America.</li> <li>Build and design&nbsp; innovative features that extend the capabilities of Auth0\u2019s platform to help our customers innovate around the world securely and delightfully.</li> <li>Contribute to the strategic technical quality, security, reliability, and scalability of our systems, and advocate for engineering best practices.</li> <li>Thrive in a highly collaborative and cross-functional environment, working with talented engineers and partners across Product, Security, Design, Architecture and QA to deliver features that delight our customers and ensure a unified technical vision.</li> <li>Deepen or gain expertise in identity, security, and modern cloud technologies (AWS, Azure) while working on distributed systems at scale.</li> <li>Mentor and be mentored by other engineers and contribute to our culture of technical excellence and continuous improvement.</li> <li>Participate in an on-call rotation to ensure our critical services remain healthy and reliable.</li> </ul> <p><strong>What you will bring:</strong></p> <ul> <li>5+ years of professional software development experience, or equivalent.</li> <li>Proficiency in designing and&nbsp; building services with Node.js (JavaScript or TypeScript).</li> <li>Experience creating and maintaining public and secure APIs, as well as front ends.</li> <li>Experience designing, building, and operating distributed systems in a cloud environment (e.g., AWS, Azure).</li> <li>A strong commitment to quality, with experience in various testing strategies (e.g., unit, integration, end-to-end).</li> <li>A product-oriented mindset, with the ability to understand customer needs and work collaboratively to find effective solutions.</li> </ul> <p><strong>Nice to have:</strong></p> <ul> <li>Experience in the Identity and Access Management (IAM) domain.</li> <li>Knowledge of security engineering principles and application security best practices.</li> </ul> <p><strong>What you can look forward to as an Okta employee!</strong></p> <ul> <li>Amazing <a href=\"https://rewards.okta.com/\"><strong>Benefits</strong></a></li> <li>Making <a href=\"https://www.okta.com/okta-for-good/\"><strong>Social Impact</strong></a></li> <li>Developing <a href=\"https://www.okta.com/company/\"><strong>Talent and Fostering Connection + Community at Okta</strong></a></li> </ul> <p>Okta cultivates a dynamic work environment, providing the best tools, technology and benefits to empower our employees to work productively in a setting that best and uniquely suits their needs. Each organization is unique in the degree of flexibility and mobility in which they work so that all employees are enabled to be their most creative and successful versions of themselves, regardless of where they live. Find your place at Okta<a href=\"https://www.okta.com/company/careers/\"><strong> today! https://www.okta.com/company/careers/</strong></a>.</p> <p>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.</p> <p>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please use this <a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\"><strong>Form</strong></a> to request an accommodation.</p> <p>Okta is committed to complying with applicable data privacy and security laws and regulations. For more information, please see our Privacy Policy at <strong><a href=\"https://www.okta.com/privacy-policy/\">https://www.okta.com/privacy-policy/</a></strong><strong>.<br><br>#P24606_3431661<br>#LI-Hybrid</strong></p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a hr",
-    "salary_range": null,
-    "status": "active",
-    "first_seen": "2026-11-14T17:56:55.850837",
-    "match_score": 32.0,
-    "technical_score": 0.0,
-    "experience_score": 60.0,
-    "reasoning": "Missing or unlisted keywords in master resume: aws, azure, javascript, mongodb, postgresql. Estimated required experience: ~5 yrs (Profile matches: ~3.4 yrs).",
-    "match_details": {
-      "key_matches": [],
-      "missing_skills": [
-        "aws",
-        "azure",
-        "javascript",
-        "mongodb",
-        "postgresql",
-        "typescript"
-      ]
-    },
-    "key_matches": [],
-    "missing_skills": [
-      "aws",
-      "azure",
-      "javascript",
-      "mongodb",
-      "postgresql",
-      "typescript"
     ],
     "application_status": null
   },
