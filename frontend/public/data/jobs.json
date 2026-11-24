@@ -1440,46 +1440,6 @@
     "application_status": null
   },
   {
-    "id": 74,
-    "company_name": "Okta",
-    "company": {
-      "name": "Okta"
-    },
-    "ats_provider": "greenhouse",
-    "title": "Senior Technical Writer",
-    "location": "Bengaluru, India",
-    "department": "Developer Relations-490",
-    "employment_type": "Full-time",
-    "url": "https://www.okta.com/company/careers/opportunity/7685798?gh_jid=7685798",
-    "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is seeking a technical writer who is passionate about creating and delivering developer-centered technical content for developer.okta.com. We\u2019re looking for a collaborative, creative team member who understands how to write clear, concise, and relevant content.</p> <p>Reporting to the Manager of Technical Documentation, you will work closely with a global network of engineers, product managers, and developer success professionals to understand real-world use cases for identity and access management.</p> <p>You will create practical technical content that guides Okta's broad technical community, including application developers and integration partners&nbsp; to adopt, integrate, and deploy our solutions successfully.</p> <p>If you have a passion for learning new technologies and want to help us drive the adoption and reach of our products and platform, this is the place for you!</p> <p>&nbsp;</p> <p><strong>Location</strong>: Bengaluru, Karnataka, India</p> <p><strong>Work Mode</strong>: Hybrid (2 days Onsite per week)</p> <p><strong>Note</strong>: \"This role requires in-person onboarding and travel to our Bengaluru, IN office during the first week of employment.\"</p> <p>&nbsp;</p> <p><strong>What you\u2019ll be doing</strong></p> <ul> <li>Design, develop, edit, and deliver accurate and effective developer documentation for Okta products.</li> <li>Work closely with Engineering, Product Management, QA, Support, and members of the Information Development team to ensure quality and accuracy of content.</li> <li>Follow our documentation guidelines to produce high quality documentation.</li> <li>Prioritize projects when working with multiple engineering teams.</li> <li>Collaborate with developers to review API documentation.</li> <li>Analyze customer feedback before and after delivering documentation to enhance content depth, quality, and relevance.</li> </ul> <p>&nbsp;</p> <p><strong>What you\u2019ll bring to the role</strong></p> <ul> <li>Minimum 4 years relevant experience writing documentation for Cloud or Enterprise products.</li> <li>Bachelor\u2019s degree or certificate in Technical Writing is preferred.</li> <li>Self-starter who thrives in a fast-paced environment.</li> <li>Excellent written and verbal communication skills.</li> <li>Experience writing SDK, CLI, or developer tools documentation.</li> <li>Experience writing developer documentation and release notes.</li> <li>Experience with Markdown, Visual Studio Code, Acrolinx, and source code control tools such as Git and GitHub.</li> <li>Familiarity working with Jira and Confluence.</li> <li>Good collaboration skills with the writers and cross-functional teams.</li> </ul> <p>&nbsp;</p> <p><strong>And extra credit if you have experience in any of the following!</strong></p> <ul> <li>Strong ability to understand the application of security products in the real world and produce use case-based content.</li> <li>Knowledge of Okta or similar identity and access management solutions.</li> <li>Experience with DITA, OpenAPI, and any API management and publishing platform.</li> <li>Experience working in an Agile environment.</li> </ul> <p><strong>Education:<br></strong>A Bachelor\u2019s degree in Engineering, Information Systems, Technical Communications, or a related technical field.<br><br></p> <p>#LI-Hybrid<br>#P22406</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li> </ul> <p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
-    "salary_range": null,
-    "status": "active",
-    "first_seen": "2026-11-14T17:56:55.853071",
-    "match_score": 56.0,
-    "technical_score": 50.0,
-    "experience_score": 80.0,
-    "reasoning": "Strong overlap on key technologies: git, jira. Missing or unlisted keywords in master resume: agile, confluence. Estimated required experience: ~4 yrs (Profile matches: ~3.4 yrs).",
-    "match_details": {
-      "key_matches": [
-        "git",
-        "jira"
-      ],
-      "missing_skills": [
-        "agile",
-        "confluence"
-      ]
-    },
-    "key_matches": [
-      "git",
-      "jira"
-    ],
-    "missing_skills": [
-      "agile",
-      "confluence"
-    ],
-    "application_status": null
-  },
-  {
     "id": 89,
     "company_name": "Rubrik",
     "company": {
@@ -1924,6 +1884,50 @@
       "gcp",
       "javascript",
       "tdd"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 117,
+    "company_name": "Okta",
+    "company": {
+      "name": "Okta"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Principal Software Engineer",
+    "location": "Bengaluru, India",
+    "department": "SW Eng - Core Identity-670",
+    "employment_type": "Full-time",
+    "url": "https://www.okta.com/company/careers/opportunity/7696955?gh_jid=7696955",
+    "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><div class=\"SingleJob-content\"> <p>Okta is The World\u2019s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the core of business security and growth.</p> <p>At Okta, we celebrate a variety of perspectives and experiences. We are not looking for someone who checks every single box - we\u2019re looking for lifelong learners and people who can make us better with their unique experiences.&nbsp;</p> <p>Join our team! We\u2019re building a world where Identity belongs to you.</p> <p><strong>Authentication Experience</strong></p> <p>Okta supports a wide variety of organizations across both the Workforce and Consumer spaces. These diverse environments present unique challenges; no two organizations have the same requirements when it comes to the desired authentication experience for their end users. We are dedicated to striking the perfect balance between robust security and effortless usability. We are constantly building cutting-edge authentication mechanisms designed to make access seamless, specifically tailored for the fast-paced, user-centric world of consumer identity and security-centric world of workforce identity.</p> <p>If you are driven to innovate, passionate about the intersection of product flexibility and security, and want to help shape how the world connects to technology\u2014we\u2019d love for you to join us.</p> <p><strong>Job Duties and Responsibilities:</strong></p> <ul> <li>Collaborate with cross-functional teams (Architects, QA, Product, Documentation, and UX teams) to ideate, design and implement features that drive the core authentication experience for users in the Workforce and Customer identity landscape</li> <li>Propose and align on technical strategy and tactical/long term roadmap</li> <li>Produce technical designs, proposals, and architectural decisions</li> <li>Develop high-quality, maintainable software components with comprehensive unit/functional tests</li> <li>Participate in code reviews, providing feedback and ensuring adherence to coding standards and security best practices</li> <li>Contribute to technical documentation and knowledge sharing within the team</li> <li>Mentor and coach junior engineers</li> </ul> <p>&nbsp;</p> <p><strong>Minimum Requirements</strong><strong>:</strong></p> <ul> <li>12+ years of strong hands-on experience designing &amp;&nbsp; developing enterprise software using <strong>Java with Springboot</strong></li> <li>Deep proficiency in object-oriented programming principles, design patterns, server-side technologies, distributed system concepts(caching, asynchronous processing, multi-threading) and performance optimization</li> <li>Expert understanding of secure coding practices, <strong>authentication/authorization protocols </strong>(FIDO2/WebAuthn, SSO, OAuth, OIDC, SAML etc.), and identity management concepts</li> <li>Experience designing and building scalable, distributed systems and RESTful APIs</li> <li>Skilled in debugging and troubleshooting complex java codebase&nbsp;</li> <li>Passionate about writing clean, maintainable and scalable code with a deep focus on security</li> <li>Solid experience with <strong>cloud infrastructure platforms</strong> particularly AWS and GCP and databases</li> <li>Proven experience with Agile methodologies (Scrum/Kanban), CI/CD pipelines, and automation tools</li> <li>Excellent communication and interpersonal skills and proven ability to work with cross-functional(Product/Design/QA) and geo-distributed teams&nbsp;</li> <li>Lead and mentor junior engineers</li> </ul> <p><strong>Nice to have</strong>:</p> <ul> <li>Experience with phishing-resistant authentications such as Passkeys, Smart Card or Okta FastPass</li> <li>Some experience with basic UI development</li> </ul> <p><strong>Education and Training:</strong></p> <ul> <li>Bachelor\u2019s degree in Computer Science or equivalent experience</li> <li>12+ years of software development experience, with at least 8 years of experience designing and building enterprise grade software using Java at scale</li> </ul> <p>#LI-Hybrid</p> <p>P4321_3383523</p> </div><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li> </ul> <p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-24T13:19:37.739065",
+    "match_score": 50.3,
+    "technical_score": 33.3,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: ci/cd, java. Missing or unlisted keywords in master resume: agile, aws, gcp, scrum. Estimated required experience: ~12 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "ci/cd",
+        "java"
+      ],
+      "missing_skills": [
+        "agile",
+        "aws",
+        "gcp",
+        "scrum"
+      ]
+    },
+    "key_matches": [
+      "ci/cd",
+      "java"
+    ],
+    "missing_skills": [
+      "agile",
+      "aws",
+      "gcp",
+      "scrum"
     ],
     "application_status": null
   },
@@ -4156,6 +4160,42 @@
     "missing_skills": [
       "linux",
       "python"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 118,
+    "company_name": "Zscaler",
+    "company": {
+      "name": "Zscaler"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Senior Manager, Software Development Engineering - Networking",
+    "location": "Bangalore, IND",
+    "department": "Zero Trust Exchange",
+    "employment_type": "Full-time",
+    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5306440007",
+    "description": "<div class=\"content-intro\"><p data-pm-slice=\"1 1 []\">Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world\u2019s largest in-line cloud security platform.</p> <p>We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world\u2019s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler.</p></div><p><strong>Role</strong>&nbsp;</p> <p>We're looking for an experienced Senior Engineering Manager to join our team. This is a Hybrid role in Bangalore reporting to the Sr Director in the Platform Convergence team.&nbsp;In this role, you will lead high-caliber software and platform engineers building managed data stores, internal developer platforms, and automation pipelines.</p> <p><strong>What you\u2019ll do (Role Expectations)</strong></p> <ul> <li>Lead and scale a rapidly growing software engineering team of strong individual contributors by establishing clear goals, running performance reviews, and providing ongoing feedback and career mentorship</li> <li>Define the architectural vision and long-term roadmap for distributed services, reviewing system architecture and code to ensure alignment with platform capabilities</li> <li>Ensure all systems satisfy rigorous standards across performance, security, scalability, reliability, operational efficiency, and cost optimization</li> <li>Spearhead quality processes and technical initiatives throughout the product lifecycle to systematically eliminate architectural, design, and coding defects at the source</li> <li>Own service reliability targets (SLOs/SLAs), maintain incident response readiness, and drive thorough post-incident root cause analysis (RCA) follow-through</li> </ul> <p><strong>Who You Are (Success Profile)</strong></p> <ul> <li>You thrive in ambiguity. You're comfortable building the path as you walk it. You thrive in a dynamic environment, seeing ambiguity not as a hindrance, but as the raw material to build something meaningful.</li> <li>You act like an owner. Your passion for the mission fuels your bias for action. You operate with integrity because you genuinely care about the outcome. True ownership involves leveraging dynamic range: the ability to navigate seamlessly between high-level strategy and hands-on execution.</li> <li>You are a problem-solver. You love running towards the challenges because you are laser-focused on finding the solution, knowing that solving the hard problems delivers the biggest impact.</li> <li>You are a high-trust collaborator. You are ambitious for the team, not just yourself. You embrace our challenge culture by giving and receiving ongoing feedback\u2014knowing that candor delivered with clarity and respect is the truest form of teamwork and the fastest way to earn trust.</li> <li>You are a learner. You have a true growth mindset and are obsessed with your own development, actively seeking feedback to become a better partner and a stronger teammate. You love what you do and you do it with purpose.</li> </ul> <p><strong>What We\u2019re Looking for (Minimum Qualifications)</strong></p> <ul> <li>Foundational understanding of AI/ML technologies and experience leveraging, securing, or positioning AI-driven solutions to optimize outcomes within your functional domain</li> <li>14+ years of overall experience and 3+ years of managing a team of engineers working in databases, cloud or distributed domains</li> <li>Experience in developing and managing large-scale highly available distributed systems/database kernels in Rust or C language</li> <li>Software development experience in large-scale distributed systems and experience working collaboratively with teams like QA, Product Management, and Support</li> <li>Experience with load balancers and L4 to L7 networking protocol</li> </ul> <p><strong>What Will Make You Stand Out (Preferred Qualifications)</strong></p> <ul> <li>Experience integrating AI/ML model inference, AI security controls, or automated threat intelligence into high-throughput microservices</li> <li>Experience with Unix / Linux based solutions</li> <li>Experience in developing database systems and compilers</li> </ul> <p>#LI-Hybrid #LI-RM6</p><div class=\"content-conclusion\"><p data-pm-slice=\"1 3 []\">At Zscaler, we are committed to building a team that reflects the communities we serve and the customers we work with. We foster an inclusive environment that values all backgrounds and perspectives, emphasizing collaboration and belonging. Join us in our mission to make doing business seamless and secure.</p> <p>Our Benefits program is one of the most important ways we support our employees. Zscaler proudly offers comprehensive and inclusive benefits to meet the diverse needs of our employees and their families throughout their life stages, including:</p> <div class=\"has-nudge\" data-nudge-id=\"5eb9419b-6a4d-4451-bfa6-e2eb96084be0\"> <ul> <li>Various health plans</li> <li>Time off plans for vacation and sick time</li> <li>Parental leave options</li> <li>Retirement options</li> <li>Education reimbursement</li> <li>In-office perks, and more!</li> </ul> <div class=\"has-nudge\" data-nudge-id=\"5eb9419b-6a4d-4451-bfa6-e2eb96084be0\"> <p data-pm-slice=\"1 1 []\">Learn more about Zscaler's hybrid working model and benefits&nbsp;<a href=\"https://www.zscaler.com/candidate-resource-hub\" target=\"_blank\">here</a>.</p> </div> </div> <p>By applying for this role, you adhere to applicable laws, regulations, and Zscaler policies, including those related to security and privacy standards and guidelines.</p> <p class=\"p1\">Zscaler is committed to providing equal employment opportunities to all individuals. We strive to create a workplace where employees are treated with respect and have the chance to succeed. All qualified applicants will be considered for employment without regard to race, color, religion, sex (including pregnancy or related medical conditions), age, national origin, sexual orientation, gender identity or expression, genetic information, disability status, protected veteran status, or any other characteristic protected by federal, state, or local laws. <em>See more information by clicking on the </em><a href=\"https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12ScreenRdr.pdf\"><em>Know Your Rights: Workplace Discrimination is Illegal </em></a><em>link.</em></p> <p>Pay Transparency</p> <p>Zscaler complies with all applicable federal, state, and local pay transparency rules.</p> <p>Zscaler is committed to providing reasonable support (called accommodations or adjustments) in our recruiting processes for candidates who are differently abled, have long term conditions, mental health conditions or sincerely held religious beliefs, or who are neurodivergent or require pregnancy-related support.</p></div>",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-24T13:19:37.750974",
+    "match_score": 24.5,
+    "technical_score": 0.0,
+    "experience_score": 60.0,
+    "reasoning": "Missing or unlisted keywords in master resume: agile, linux, microservices. Estimated required experience: ~14 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [],
+      "missing_skills": [
+        "agile",
+        "linux",
+        "microservices"
+      ]
+    },
+    "key_matches": [],
+    "missing_skills": [
+      "agile",
+      "linux",
+      "microservices"
     ],
     "application_status": null
   }
