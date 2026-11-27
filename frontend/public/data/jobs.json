@@ -1670,6 +1670,42 @@
     "application_status": null
   },
   {
+    "id": 122,
+    "company_name": "Commvault",
+    "company": {
+      "name": "Commvault"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Principal Engineer- Backend",
+    "location": "Bangalore, India",
+    "department": "Clumio - R&D",
+    "employment_type": "Full-time",
+    "url": "https://job-boards.greenhouse.io/commvault/jobs/5484909008",
+    "description": "<div class=\"content-intro\"><p><strong>Recruitment Fraud Alert</strong></p> <p>We\u2019ve learned that scammers are impersonating Commvault team members\u2014including HR and leadership\u2014via email or text. These bad actors may conduct fake interviews and ask for personal information, such as your social security number. &nbsp;</p> <p><strong>What to know:</strong></p> <ul> <li>Commvault does&nbsp;<em>not</em>&nbsp;conduct interviews by email or text.</li> <li>We will never ask you to submit sensitive documents (including banking information, SSN, etc) before your first day.</li> <li>Commvault recruiters may contact prospective candidates through LinkedIn and other professional networking platforms regarding career opportunities. If you are unsure whether a recruiting communication is legitimate, review the profile to ensure they have a badge verifying them as a Commvault employee.</li> </ul> <p>If you suspect a recruiting scam, please contact us at <u><a href=\"mailto:wwrecruitingteam@commvault.com\">wwrecruitingteam@commvault.com</a>&nbsp;</u></p> <p>&nbsp;</p> <p><strong>About Commvault</strong></p> <p>Commvault (NASDAQ: CVLT) delivers continuous recovery for the AI era. We help organizations stay ready for constant disruption by returning critical data, applications, identities, and AI systems to a clean, trusted state. Our purpose-built recovery solutions span cloud-native and hybrid environments, leveraging AI to enable resilience at enterprise scale.</p></div><p><strong>Principal Engineer- Backend </strong></p> <p><strong>The Opportunity</strong></p> <p>We have an outstanding career opportunity for Backend- Principal Engineer at Bangalore location. As a Backend Principal Engineer on the Clumio team, you serve as a technical leader in the control and management plane of the cloud-native data protection platform. Reporting to the Engineering Director, this role combines hands-on engineering with architectural leadership, shaping systems that are foundational to customer data protection and recovery.</p> <p><strong>About the Team</strong></p> <p>The Clumio Backend team designs, builds, and operates core backend systems that support Clumio's cloud-native data protection platform. For many customers, data protection is not a \"nice-to-have\" capability, but a foundational requirement driven by compliance, audit, and security mandates. In these environments, recovery performance, cost efficiency, strong governance, and reliable operation at scale are critical differentiators. The team builds and operates key backend components of the platform's control and management plane, playing an integral role in how customers securely interact with, configure, and manage their data protection environments.</p> <p>Built on a cloud-native architecture, the Backend team develops shared services and well-defined interfaces that abstract complexity from underlying systems and enable consistent, reliable, and scalable interactions across the platform. This work supports the continued evolution of the platform, enabling new capabilities, data sources, and workflows to be added efficiently and safely. Beyond core data protection workflows, the Backend team helps enable essential SaaS capabilities across the platform, including lifecycle management, observability, usage and cost insights, and intelligent analytics that support effective operation and informed customer decision-making.</p> <p>Working closely with product, frontend, infrastructure, quality engineering, and customer-facing teams, the Backend team focuses on building highly reliable, scalable, and operable distributed systems that form a critical part of Clumio's enterprise-grade cloud data protection platform.</p> <p><strong>What you\u2019ll do\u2026</strong></p> <ul> <li>You own and drive cross-cutting technical initiatives that span multiple services and define core platform capabilities across shared services such as control planes, policy management, and operational services.</li> <li>This includes designing and evolving platform abstractions, making architectural decisions that balance correctness, cost, scalability, and operational simplicity, and leading the execution of complex projects from design through production rollout.</li> <li>You are responsible for setting technical direction and ensuring that architectural decisions are realized in high-quality production systems.</li> <li>You remain deeply hands-on, spending significant time writing and reviewing code, solving complex technical problems, and participating in production operations.</li> <li>You work closely with Senior Engineers, Product, and Customer Success teams to guide designs, incorporate operational and customer feedback, and establish technical patterns that allow the platform to scale and evolve across multiple cloud environments.</li> </ul> <p><strong>Who you are\u2026</strong></p> <ul> <li>Bachelor's degree required.</li> <li>8+ years of professional software engineering experience, including significant ownership of complex, production backend or platform systems from design through operation.</li> <li>Experience in at least one modern programming language such as Go (Preferred), Python, Java, or Rust.</li> <li>Experience leading ambiguous, high-impact technical initiatives, driving solutions from problem definition to production delivery.</li> <li>Strong ability to translate business, customer, and operational requirements into clear technical designs, APIs, and system architectures.</li> <li>Experience in designing, building, and evolving distributed, cloud-native systems, with emphasis on correctness, scalability, operability, reliability, and cost efficiency.</li> <li>Ownership of non-trivial production systems, including diagnosing real-world issues, improving reliability, and iterating based on operational feedback.</li> <li>Experience making high-impact architectural decisions, evaluating trade-offs, and clearly communicating them to both technical and non-technical stakeholders.</li> <li>Highly collaborative and self-driven, with a strong sense of shared ownership, and the ability to work effectively with cross-functional and geographically distributed teams, fostering open communication and alignment across time zones.</li> <li>Security and SaaS experience strongly preferred.</li> </ul> <p><strong>You\u2019ll love working here because:</strong></p> <ul> <li>Employee stock purchase plan (ESPP)</li> <li>Continuous professional development, product training, and career pathing</li> <li>Annual health check-ups, Car lease Program, and Tuition Reimbursement</li> <li>An inclusive company culture, an opportunity to join our Community Guilds</li> <li>Personal accident cover and Term life cover</li> </ul> <p>Ready to #makeyourmark at Commvault? Apply now!</p> <p>&nbsp;</p><div class=\"content-conclusion\"><div class=\"jd-info au-target\" data-ph-at-id=\"jobdescription-text\" data-ph-id=\"ph-page-element-page5-4e8TMw\"> <p>Commvault is an equal opportunity workplace and is an affirmative action employer. We are always committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status and we will not discriminate against on the basis of such characteristics or any other status protected by the laws or regulations in the locations where we work.</p> <p>Commvault\u2019s goal is to make interviewing inclusive and accessible to all candidates and employees. If you have a disability or special need that requires accommodation to participate in the interview process or apply for a position at Commvault, please email <a href=\"mailto:accommodations@commvault.com\" target=\"_blank\"><span class=\"WHY2\">accommodations@commvault.com</span></a>&nbsp;For any inquiries not related to an accommodation please reach out to&nbsp;<a href=\"mailto:wwrecruitingteam@commvault.com\" target=\"_blank\"><span class=\"WHY2\">wwrecruitingteam@commvault.com</span></a>.</p",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-27T11:48:53.020569",
+    "match_score": 52.0,
+    "technical_score": 50.0,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: java. Missing or unlisted keywords in master resume: python. Estimated required experience: ~8 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "java"
+      ],
+      "missing_skills": [
+        "python"
+      ]
+    },
+    "key_matches": [
+      "java"
+    ],
+    "missing_skills": [
+      "python"
+    ],
+    "application_status": null
+  },
+  {
     "id": 18,
     "company_name": "Zenoti",
     "company": {
@@ -2902,6 +2938,60 @@
       "kubernetes",
       "microservices",
       "python"
+    ],
+    "application_status": null
+  },
+  {
+    "id": 121,
+    "company_name": "Okta",
+    "company": {
+      "name": "Okta"
+    },
+    "ats_provider": "greenhouse",
+    "title": "Staff Software Engineer",
+    "location": "Bengaluru, India",
+    "department": "SW Eng - Applications-674",
+    "employment_type": "Full-time",
+    "url": "https://www.okta.com/company/careers/opportunity/8147075?gh_jid=8147075",
+    "description": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta's Identity Governance (OIG) organization is looking for a <strong>Staff Engineer</strong> to join our Identity Administration team \u2014 a team that is directly responsible for one of the most critical and visible workflows in enterprise identity: how employees request, approve, and gain access to the resources they need.&nbsp;</p> <p>&nbsp;</p> <p><strong>Opportunity</strong></p> <p>As a Staff Engineer on the OIG Identity Administration team, you will be involved in development, design, and maintenance of our product to serve enterprise customers at scale. You will involve the development and evolution of our product features \u2014 spanning the across different identity entities and personas \u2014 and work collaboratively across engineering, product, and design to deliver features that are secure, scalable, and delightful to use.</p> <p>This is a role for someone who thinks in systems, leads with craft, and is energized by the challenge of building enterprise-grade software that millions of users depend on.</p> <p>This is a rare opportunity to join a team where your technical decisions will directly shape how thousands of enterprises manage access governance at scale, where the technical challenges are genuinely hard, and where the work you ship will be seen and felt by real users every day.</p> <p>&nbsp;</p> <p><strong>Job Duties And Responsibilities</strong></p> <p>&nbsp;</p> <ul> <li>Take end-to-end ownership of feature areas \u2014 from technical design through implementation, testing, deployment, and post-launch monitoring</li> <li>Design, build, and ship high-quality, production-ready features across the OIG system, with a focus on correctness, reliability, and performance</li> <li>Quickly deliver high-quality bug fixes and handle customer-reported issues</li> <li>Write clean, well-tested, maintainable code and hold yourself and teammates to a high bar for engineering quality</li> <li>Partner with our Product Development, QA, and Site Reliability Engineering teams for scoping the development and deployment work</li> </ul> <p>&nbsp;</p> <p><strong>Required knowledge, skills, and abilities:</strong></p> <ul> <li>7+ years of experience with Java (Spring/Dropwizard) and/or Golang, with a deep understanding of multi-threading and asynchronous processing.</li> <li>Understanding of OAuth 2.0, OIDC, and JWT tokens, specifically for service-to-service communication.</li> <li>Experience building high-performance RESTful APIs and/or gRPC services with in-depth knowledge in distributed systems / micro services architectures.</li> <li>Solid experience with relational databases (MySQL/PostgreSQL) and caching layers (Redis) at scale.</li> <li>Hands-on experience with AWS (Fargate, EC2, Lambda) and Infrastructure-as-Code (Terraform). You should be comfortable managing your own cloud resources.</li> <li>Strong proficiency with containerization (Docker/Kubernetes) and CI/CD automation tools (Jenkins, ArgoCD, or GitHub Actions).</li> </ul> <p><strong>Nice to haves:</strong></p> <ul> <li>Experience with Splunk, SignalFX, or Datadog for monitoring and troubleshooting production issues.</li> <li>Familiarity with Kafka or SQS for handling cross-org asynchronous events.</li> <li>Basic familiarity with React/JavaScript to help integrate backend services.</li> <li>Understanding of how to build and deploy services across isolated infrastructure units</li> </ul> <p>&nbsp;<strong>Education and Training:</strong></p> <ul> <li>B.S. Computer Science or related field</li> </ul> <p>P25305_3525598</p> <p>#LI-Hybrid</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p> <ul> <li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li> <li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li> <li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li> </ul> <p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+    "salary_range": null,
+    "status": "active",
+    "first_seen": "2026-11-27T11:48:52.992771",
+    "match_score": 42.0,
+    "technical_score": 18.2,
+    "experience_score": 60.0,
+    "reasoning": "Strong overlap on key technologies: ci/cd, java. Missing or unlisted keywords in master resume: aws, docker, github actions, javascript, jenkins. Estimated required experience: ~7 yrs (Profile matches: ~3.4 yrs).",
+    "match_details": {
+      "key_matches": [
+        "ci/cd",
+        "java"
+      ],
+      "missing_skills": [
+        "aws",
+        "docker",
+        "github actions",
+        "javascript",
+        "jenkins",
+        "kafka",
+        "kubernetes",
+        "mysql",
+        "postgresql"
+      ]
+    },
+    "key_matches": [
+      "ci/cd",
+      "java"
+    ],
+    "missing_skills": [
+      "aws",
+      "docker",
+      "github actions",
+      "javascript",
+      "jenkins",
+      "kafka",
+      "kubernetes",
+      "mysql",
+      "postgresql"
     ],
     "application_status": null
   },
